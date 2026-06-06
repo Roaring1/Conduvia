@@ -4,7 +4,7 @@ Conduvia’s crafting tree is a tour of how humanity actually makes things. Here
 the real process behind each major leap on the climb — the “why this is real” in
 one place. Simplifications are noted; the chemistry is honest.
 
-!!! note inline end "~85% honest"
+!!! note inline end "Honest by design"
     Quantities and times are compressed for play. The *mechanisms* are real.
 
 ## Heat & carbon

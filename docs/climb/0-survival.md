@@ -54,10 +54,11 @@ In that order, roughly. Try not to lose track of the first one while solving the
 
 | Action | Key |
 |---|---|
-| Quest Log | **`** (backtick) |
-| Inventory | **E** |
+| Quest Log | **J** |
+| Inventory | **Tab** |
 | Interact / Pick up | **F** |
-| Menu / Back | **Backspace** |
+| Sort Inventory | **G** |
+| Menu | **P** |
 | Recipes for item | **R** (hover item) |
 | Uses for item | **U** (hover item) |
 | Drop one | **Q** |
@@ -359,7 +360,7 @@ Make a straw bedroll, find somewhere reasonably sheltered, and put it down.
 
 
 <div class="qb-hint" markdown>
-**Tip** · **To sleep:** place the bedroll, walk up to it, and press **E** to interact.
+**Tip** · **To sleep:** place the bedroll, walk up to it, and press **F** to interact.
 You'll get a rest prompt. Sleeping restores stamina and skips to morning.
 </div>
 
@@ -379,7 +380,7 @@ You'll get a rest prompt. Sleeping restores stamina and skips to morning.
 - <span class="task-kind task-craft">craft</span> Craft a straw bedroll (2× thatch bundle + plant fibres, at camp marker). <span class="task-opt">optional</span>
     <br>needs: :ci[thatch_bundle|2] :ci[plant_fibers|1]
     <br>yields: :ci[bedroll_straw|1]
-- <span class="task-kind task-place">place</span> Place your bedroll somewhere sheltered, then press E to sleep. <span class="task-opt">optional</span>
+- <span class="task-kind task-place">place</span> Place your bedroll somewhere sheltered, then press F to sleep. <span class="task-opt">optional</span>
     <br>yields: :ci[bedroll_straw|1]
 </div>
 <details class="quest-lore" markdown>

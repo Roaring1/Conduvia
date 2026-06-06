@@ -46,6 +46,8 @@ Without the blast furnace chain, the ore processing line, the solid-state fab --
 </div>
 </section>
 
+## Launch & Orbital Infrastructure
+
 <section class="quest-card qtype-main" markdown>
 <header class="quest-card__head">
 <span class="qbadge qbadge-main">Win-path</span>
@@ -194,6 +196,8 @@ Build a solar power satellite with large arrays in orbit that beams energy down 
 </div>
 </section>
 
+## Milestone & Trade-In
+
 <section class="quest-card qtype-checkpoint" markdown>
 <header class="quest-card__head">
 <span class="qbadge qbadge-checkpoint">Checkpoint</span>
@@ -222,6 +226,8 @@ Exchange Tier VI tech tokens for Tier VII. Repeatable.
 <p class="quest-rewards costs">Costs: :ci[tech_VI|5]</p>
 <p class="quest-rewards">Rewards: :ci[tech_VII|1]</p>
 </section>
+
+## Spaceflight Materials
 
 <section class="quest-card qtype-main" markdown>
 <header class="quest-card__head">

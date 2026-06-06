@@ -65,11 +65,11 @@ simple arc-furnace alloying step.
 
 `2 steel + ferrochrome + ferronickel + burnt lime → 2 stainless + slag`
 
-!!! note "Ferroalloys are the next chains"
-    The AOD step consumes **ferrochrome** and **ferronickel**. They're wired and
-    reachable today as placeholders, but proper chromite→ferrochrome and
-    laterite/sulfide→ferronickel chains are flagged as upcoming work — exactly the
-    honest "what's missing" signal the audit is meant to surface.
+!!! note "Ferroalloys have their own chains"
+    The AOD step consumes **ferrochrome** and **ferronickel**. Both now have
+    honest, furnace-deep upstreams — proper chromite→ferrochrome and
+    laterite/sulfide→ferronickel chains — documented in the
+    [Ferroalloys field guide](ferroalloys.md).
 
 ## Byproduct & cross-chain loops
 

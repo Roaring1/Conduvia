@@ -2,7 +2,7 @@
 
 You wake up with nothing. Here’s how to not die, in order. Every step here is the
 opening of the [Survival chapter](../climb/0-survival.md) — open your Quest Log
-(++grave++) and it’ll track each one for you.
+(++j++) and it’ll track each one for you.
 
 ## 1. Get cordage
 

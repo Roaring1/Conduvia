@@ -46,6 +46,10 @@ extra_css:
   - assets/css/tiers.css
   - assets/css/conduvia.css
 
+extra_javascript:
+  - assets/js/mathjax-config.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 hooks:
   - hooks/shortcodes.py
 
@@ -68,6 +72,8 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.keys
   - pymdownx.smartsymbols
+  - pymdownx.arithmatex:
+      generic: true
   - toc:
       permalink: true
       toc_depth: 3

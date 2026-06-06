@@ -27,6 +27,8 @@ Introduces Tier 5 as the moment your heavy-electric plant learns solid-state ele
 </div>
 </section>
 
+## Electronics & Automation
+
 <section class="quest-card qtype-main" markdown>
 <header class="quest-card__head">
 <span class="qbadge qbadge-main">Win-path</span>
@@ -166,6 +168,8 @@ Add a digital overview panel and simple HMI screens that collect status from PLC
 <p class="quest-rewards">Rewards: :ci[instrument_ammeter_panel|2] :ci[instrument_voltmeter_panel|2]</p>
 </section>
 
+## Milestone & Trade-In
+
 <section class="quest-card qtype-checkpoint" markdown>
 <header class="quest-card__head">
 <span class="qbadge qbadge-checkpoint">Checkpoint</span>
@@ -194,6 +198,8 @@ Exchange Tier V tech tokens for Tier VI. Repeatable.
 <p class="quest-rewards costs">Costs: :ci[tech_V|5]</p>
 <p class="quest-rewards">Rewards: :ci[tech_VI|1]</p>
 </section>
+
+## Pure Silicon, Wafers & Composites
 
 <section class="quest-card qtype-main" markdown>
 <header class="quest-card__head">

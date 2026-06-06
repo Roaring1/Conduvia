@@ -5,7 +5,7 @@ The copper field guide's main line is the **sulfide route**: crush → float →
 furnace at all. The weathered, brightly coloured **oxide cap** above a sulfide
 orebody is leached with acid and won back with electricity — the **SX-EW** route.
 It only became possible in Conduvia once the **sulfuric-acid** chain existed,
-because the whole thing runs on H₂SO₂₄… and hands most of it back at the end.
+because the whole thing runs on H₂SO₄… and hands most of it back at the end.
 
 !!! abstract "Why a second copper route?"
     **Sulfide (smelting):** high-grade ore → furnace → SO₂ → (feeds the acid plant). Pyrometallurgy.
@@ -17,7 +17,7 @@ because the whole thing runs on H₂SO₂₄… and hands most of it back at the
 This is the satisfying part. Route C is not just an acid *consumer* — it's a
 nearly closed loop:
 
-- **Leach** spends concentrated H₂SO₂₄ to dissolve the copper.
+- **Leach** spends concentrated H₂SO₄ to dissolve the copper.
 - **Solvent extraction** spits the acid back out as the copper-stripped **raffinate** (dilute acid), which is recirculated onto the heap.
 - **Electrowinning** *regenerates* concentrated acid at the anode: `2 CuSO₄ + 2 H₂O → 2 Cu + O₂ + 2 H₂SO₄`.
 

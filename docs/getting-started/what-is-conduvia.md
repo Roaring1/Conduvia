@@ -26,7 +26,7 @@ electricity. You can’t make that electricity at scale without steel machines.
 You can’t make steel without coke-grade heat. Each rung literally stands on the
 one below it. That’s why the climb feels earned.
 
-!!! note "~85% honest"
+!!! note "Honest by design"
     Conduvia compresses time and fudges a few quantities so a session is fun, but
     the *processes* are faithful. Where something is simplified, the guide says so.
 

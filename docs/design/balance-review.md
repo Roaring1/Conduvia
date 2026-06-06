@@ -58,13 +58,13 @@ Low design cost, high step-density, and exactly how GT stretches one metal into 
 - Smelting → **slag** (the `waste_slag` / `crushed_slag` items already exist — wire them in everywhere)
 - Chlor-alkali → **Cl₂ + H₂ + NaOH** (triple output)
 
-We're at 16% multi-output; the chemistry to reach ~40% is already real.
+We're at 24% multi-output; the chemistry to reach ~40% is already real.
 
-### 4. Kill or enrich the 103 trivial taps.
+### 4. Kill or enrich the 128 trivial taps.
 Free clicks like `stone_river_rounded → stone`, `hammerstone → tool_hammerstone_basic`, and `2× tar → pitch` should either be **merged** upstream or **gated** behind a tool + time + a byproduct so they earn their slot.
 
 ### 5. Put time (and eventually energy) on everything.
-Over half of recipes are instant. GregTech's entire pacing *is* time × power per step. Even before an EU-style energy system, giving every processing recipe a `time` tied to its station tier will make the climb *feel* industrial. The existing range is sane (median 40s, max 720s) — just extend coverage from 44% → ~100%.
+About 40% of recipes are instant. GregTech's entire pacing *is* time × power per step. Even before an EU-style energy system, giving every processing recipe a `time` tied to its station tier will make the climb *feel* industrial. The existing range is sane (median 40s, max 720s) — just extend coverage from 60% → ~100%.
 
 ## What's already good (don't lose it)
 
@@ -74,7 +74,7 @@ Over half of recipes are instant. GregTech's entire pacing *is* time × power pe
 
 ## Reachability sanity (not a bug)
 
-From 54 world-gather outputs plus 81 world-supplied primitives, **454 / 713** items are reachable. **133** are gated behind a handful of **keystones** — `water_raw`, `steam_charge`, `steel_plate_rolled`, `sodium_hydroxide`, `metal_aluminum_ingot`, `plc_*` — and **131** are true orphans (in no recipe and unreachable, mostly late-game placeholders). The keystones are **items to audit**, not missing recipes; the most load-bearing one is `water_raw`.
+From the world-gather outputs plus world-supplied primitives, the large majority of the **832-item** set is reachable. A small number are gated behind a handful of **keystones** — `water_raw`, `steam_charge`, `steel_plate_rolled`, `sodium_hydroxide`, `metal_aluminum_ingot`, `plc_*` — and a few remaining items are true orphans (in no recipe and unreachable). The keystones are **items to audit**, not missing recipes; the most load-bearing one is `water_raw`.
 
 ## The 85% rule
 

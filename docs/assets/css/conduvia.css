@@ -213,6 +213,17 @@
 .ci.icon-only { padding: 0; border: 0; background: none; }
 .ci.icon-only .ci-glyph { width: 1.3em; height: 1.3em; }
 
+/* Item chips are clickable links to their catalogue entry. Keep the chip
+   styling; suppress the default link underline/colour and add a quiet hover. */
+.md-typeset a.ci-link, .md-typeset a.ci-link:hover { text-decoration: none; color: inherit; }
+.md-typeset a.ci-link { display: inline-block; }
+.md-typeset a.ci-link:hover .ci { border-color: var(--md-accent-fg-color, #b08d57); background: var(--md-code-bg-color, #f3efe7); }
+.md-typeset a.ci-link:focus-visible .ci { outline: 2px solid var(--md-accent-fg-color, #b08d57); outline-offset: 1px; }
+/* Station references link to the station catalogue box. */
+.md-typeset a.stn-link, .md-typeset a.stn-link:hover { color: inherit; text-decoration: none; }
+.md-typeset a.stn-link:hover { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; }
+.recipe-card .rc-stn a.stn-link { color: inherit; }
+
 /* ===========================================================================
    STATIONS
    ======================================================================== */
@@ -295,3 +306,58 @@
 .md-typeset .mermaid { background: var(--md-code-bg-color); border: 1px solid var(--md-default-fg-color--lightest); border-radius: 8px; padding: .5rem .4rem; margin: .4rem 0 1.4rem; overflow-x: auto; }
 .md-typeset .mermaid img.mmd-ico { image-rendering: pixelated; width: 26px; height: 26px; vertical-align: middle; display: inline-block; margin-right: 3px; }
 .md-typeset .mermaid .node foreignObject div { font-size: 13px !important; line-height: 1.15; white-space: nowrap; }
+
+/* ===========================================================================
+   READING ERGONOMICS / WIDE-SCREEN LAYOUT  (F19 / F48 / F67)
+   The base theme kept Material's ~61rem content cap with a single 480px
+   media query, so the data-dense catalogue wasted most of a wide / second
+   monitor and the long tables had no scanning aids. This layer lifts the
+   width cap, keeps long-form prose at a comfortable measure, and makes the
+   big catalogue tables easier to read.
+   ======================================================================== */
+
+/* Lift Material's ~61rem cap so catalogue grids/tables use the full width of
+   a wide or second monitor. */
+.md-grid { max-width: 84rem; }
+@media (min-width: 1600px) { .md-grid { max-width: 100rem; } }
+@media (min-width: 2200px) { .md-grid { max-width: 116rem; } }
+
+/* Keep running prose at a readable measure even inside the now-wider column,
+   while letting full-width components (grids, tables, hero, gates) span it. */
+.md-typeset p, .md-typeset > ul, .md-typeset > ol, .md-typeset blockquote {
+  max-width: 78ch;
+}
+.md-typeset .recipe-grid, .md-typeset .station-grid, .md-typeset .item-tier-grid,
+.md-typeset .start-cards, .md-typeset .tier-gate, .md-typeset .hero,
+.md-typeset table, .md-typeset .md-typeset__table,
+.md-typeset > ul.recipe-grid, .md-typeset > ul.station-grid {
+  max-width: none;
+}
+
+/* Big catalogue tables: denser rows, zebra striping and a sticky header so the
+   column labels stay visible while scrolling long item lists. */
+.md-typeset table:not([class]) { width: 100%; }
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td { padding: .34rem .55rem; line-height: 1.4; }
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background: rgba(125, 110, 85, .055);
+}
+.md-typeset table:not([class]) thead th {
+  position: sticky; top: 0; z-index: 3;
+  background: var(--md-default-bg-color);
+  box-shadow: inset 0 -1px 0 var(--rule);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, .04);
+}
+
+/* Comfortable body measure / spacing for the long climb + guide prose. */
+.md-typeset { line-height: 1.62; }
+
+/* Real tablet/narrow breakpoint (previously only 480px existed): collapse the
+   multi-column tile grids so cards don't get crushed. */
+@media (max-width: 820px) {
+  .recipe-grid, .station-grid, .item-tier-grid, .start-cards {
+    grid-template-columns: 1fr;
+  }
+}

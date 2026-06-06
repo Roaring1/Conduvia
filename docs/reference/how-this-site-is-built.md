@@ -1,7 +1,17 @@
 # How this site is built
 
-This manual is **mostly generated from Conduvia’s own source data**, so it can’t
-drift far from what the game actually does.
+This manual is **mostly generated from Conduvia’s own source data, then hand-tuned**.
+The generator gives it a structure that tracks the game; the hand-tuning adds the
+extra detail (chemistry formulae, prose, diagrams) that the raw data doesn’t carry.
+
+!!! warning "The committed `data/*.json` can lag the live game"
+    The published site reflects the current world (**832 items · 685 recipes ·
+    153 stations**). The JSON snapshot checked into `data/` can be older than
+    that, and the pages here include hand-added detail (e.g. the **Formula**
+    column on item tables) that `gen_pages.py` does not emit. Treat the generator
+    as a scaffolder, not the literal source of every page — re-running it against
+    a stale snapshot would *revert* content, not refresh it. Always re-extract
+    from the live game code first (see **Regenerating** below).
 
 ## Pipeline
 
@@ -31,8 +41,11 @@ Game Lua sources
 ## What’s hand-written
 
 The onboarding (**Getting Started**) and these **Reference** pages are written by
-hand — they’re explanation, not data. Everything under **The Climb**,
-**Field Guides**, **Stations**, and **Items & Ores** is generated.
+hand — they’re explanation, not data. The pages under **The Climb**,
+**Field Guides**, **Stations**, and **Items & Ores** are *scaffolded* by the
+generator and then hand-augmented — the field-guide chemistry, the item-table
+**Formula** column, and the narrative notes are added on top of the generated
+structure and are not produced by `gen_pages.py` alone.
 
 ## Regenerating
 

@@ -1,6 +1,6 @@
 # Recipes
 
-Every recipe in Conduvia — **685 in total** — pulled straight from the live recipe database. Each chain leads with a **flow map** (what connects to what), then the individual recipe cards with inputs, outputs, station, time and byproducts.
+Every recipe in Conduvia — **685 in total** — pulled straight from the live recipe database. Most processing chains lead with a **flow map** (what connects to what), followed by the individual recipe cards with inputs, outputs, station, time and byproducts. Tier-0 gathering and a few simple chains skip the map and go straight to the cards.
 
 <p class="chapter-stats">685 recipes · 60 gathered from the world · 167 with byproducts · 27 chains</p>
 
