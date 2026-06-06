@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+<!-- Conduvia: preconnect to Google Fonts for Inter + JetBrains Mono.
+     The site is fully legible without them (CSS fallback stacks), but when the
+     builder has internet these load the intended humanist + technical pairing. -->
+{% block extrahead %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="theme-color" content="#2d2a24">
+{% endblock %}
+
+{% block announce %}
+  This manual is generated from Conduvia’s own game data. If the game changes, regenerate it.
+{% endblock %}

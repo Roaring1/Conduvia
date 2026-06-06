@@ -1,0 +1,153 @@
+site_name: Conduvia — Player Field Manual
+site_description: >-
+  How to play Conduvia: a survival-to-orbit game where every recipe mirrors a
+  real industrial process. Quests, the tech climb, stations, and the full item
+  catalogue — generated straight from the game's own data.
+site_url: https://roaring1.github.io/Conduvia/
+repo_url: https://github.com/Roaring1/Conduvia
+repo_name: Roaring1/Conduvia
+edit_uri: ""
+copyright: "Conduvia — a field manual for rebuilding the world."
+
+# Deterministic relative asset paths for the icon hook.
+use_directory_urls: true
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to blueprint mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to paper mode
+
+extra_css:
+  - assets/css/tiers.css
+  - assets/css/conduvia.css
+
+hooks:
+  - hooks/shortcodes.py
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - def_list
+  - tables
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - What is Conduvia?: getting-started/what-is-conduvia.md
+      - Your first hour: getting-started/your-first-hour.md
+      - Crafting & stations: getting-started/crafting-and-stations.md
+      - Win-path vs branches: getting-started/win-path-vs-branches.md
+      - Controls: getting-started/controls.md
+  - The Climb:
+      - climb/index.md
+      - 0 · Survival: climb/0-survival.md
+      - 1 · Stone: climb/1-stone.md
+      - 2 · Metal Ages: climb/2-metal_ages.md
+      - 3 · Steam: climb/3-steam.md
+      - 4 · Steel & DC: climb/4-steel.md
+      - 5 · Electric: climb/5-electric.md
+      - 6 · Solid State: climb/6-solidstate.md
+      - 7 · Space: climb/7-space.md
+  - Field Guides:
+      - Ore & material guide: field-guide/ore-field-guide.md
+      - Copper — full chain: field-guide/copper.md
+      - Copper Route C — oxide SX-EW: field-guide/copper-oxide-sx-ew.md
+      - Sulfuric acid — keystone reagent: field-guide/sulfuric-acid.md
+      - Iron & steel — backbone chain: field-guide/iron-steel.md
+      - Ferroalloys — ferrochrome & ferronickel: field-guide/ferroalloys.md
+      - Aluminum — Bayer & Hall-Héroult: field-guide/aluminum.md
+      - Chlor-alkali — caustic, chlorine & hydrogen: field-guide/chlor-alkali.md
+      - Titanium — chloride route & Hunter reduction: field-guide/titanium.md
+      - Industrial gases — air separation & Haber-Bosch: field-guide/air-ammonia.md
+      - Zirconium — nuclear metal & hafnium separation: field-guide/zirconium.md
+      - Silicon — sand to 9N wafer (Siemens & Czochralski): field-guide/silicon.md
+      - Tungsten — the metal you cannot melt (APT & powder metallurgy): field-guide/tungsten.md
+      - Cells & canisters — what the wall can survive: field-guide/cells.md
+      - Natural gas & helium — sour gas, sulfur, helium & SMR hydrogen: field-guide/natural-gas.md
+      - Uranium — the full nuclear fuel cycle (enrichment, Zircaloy & Hf rods): field-guide/uranium.md
+      - Niobium & tantalum — the inseparable twins (SX split, FeNb & Ta capacitor): field-guide/niobium.md
+      - Nickel (sulfide route) — matte smelting & SO₂-to-acid: field-guide/nickel-sulfide.md
+      - Magnesium — Pidgeon silicothermic & electrolytic routes: field-guide/magnesium.md
+      - Cobalt — cobaltite refining & the WC-Co binder fix: field-guide/cobalt.md
+      - Zinc — sphalerite electrolytic (RLE) & thermal retort routes: field-guide/zinc.md
+      - Lead — galena smelting, Parkes desilvering & silver dore: field-guide/lead.md
+      - Lithium — spodumene to battery salts: field-guide/lithium.md
+      - Rare earths — separation to an NdFeB magnet: field-guide/rare-earths.md
+      - Potash — sylvite to MOP, SOP & caustic potash: field-guide/potash.md
+      - Gypsum — plaster, drywall, acid & cement: field-guide/gypsum.md
+      - Flint — knapping, fire-steel & potters' flint: field-guide/flint.md
+      - Obsidian — volcanic glass to a surgical blade: field-guide/obsidian.md
+      - Geology timeline: field-guide/geology-timeline.md
+      - Tokens & rewards: field-guide/rewards.md
+  - Stations: stations/index.md
+  - Recipes:
+      - recipes/index.md
+      - Tier 0 — Survival & gathering: recipes/survival.md
+      - Tier 1 — Stone & materials: recipes/stone.md
+      - Tier 2 — Metal Ages: recipes/metal-ages.md
+      - Tier 3–4 — Steam & Steel: recipes/steam-steel.md
+      - Tier 5 — Electric & chemistry: recipes/electric.md
+      - Fabrication & components: recipes/fabrication.md
+  - Items & Ores:
+      - items/index.md
+      - Tier 0 — Survival: items/tier-0-survival.md
+      - Tier 0 — Wildlife: items/tier-0-wildlife-hunting.md
+      - Tier 1 — Stone: items/tier-1-stone.md
+      - Tier 2 — Metal Ages: items/tier-2-metal-ages.md
+      - Tier 3 — Steam: items/tier-3-steam.md
+      - Tier 4 — Steel & DC: items/tier-4-steel-dc.md
+      - Tier 5 — Electric: items/tier-5-electric-chemistry.md
+      - Tier 6 — Solid State: items/tier-6-solid-state.md
+      - Tier 7 — Space: items/tier-7-space.md
+      - Ores & raw materials: items/ores-raw-materials.md
+      - Loot & rewards: items/loot-and-rewards.md
+  - Reference:
+      - Card & badge legend: reference/legend.md
+      - Real-process glossary: reference/glossary.md
+      - How this site is built: reference/how-this-site-is-built.md
+  - Design Notes:
+      - Recipe balance review: design/balance-review.md
+      - Missing-chains roadmap: design/missing-chains.md
+      - TODO / Backlog: design/todo.md

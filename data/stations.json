@@ -1,0 +1,1390 @@
+{
+ "workbench": {
+  "id": "workbench",
+  "displayName": "Workbench",
+  "uiModule": "Workbench3x3",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "workbench"
+ },
+ "carving_bench": {
+  "id": "carving_bench",
+  "displayName": "Carving Bench",
+  "uiModule": "Workbench3x3",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "carving_bench"
+ },
+ "camp_marker_basic": {
+  "id": "camp_marker_basic",
+  "displayName": "Camp Marker",
+  "uiModule": "CampMarkerUI",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null
+ },
+ "bedroll_straw": {
+  "id": "bedroll_straw",
+  "displayName": "Straw Bedroll",
+  "uiModule": "BedrollSleepUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null
+ },
+ "bedroll_basic": {
+  "id": "bedroll_basic",
+  "displayName": "Basic Bedroll",
+  "uiModule": "BedrollSleepUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null
+ },
+ "campfire_survival": {
+  "id": "campfire_survival",
+  "displayName": "Survival Campfire",
+  "uiModule": "CampfireUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "campfire_survival"
+ },
+ "fire_ring_stones": {
+  "id": "fire_ring_stones",
+  "displayName": "Stone Fire Ring",
+  "uiModule": "CampfireUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "campfire_survival"
+ },
+ "drying_rack_survival": {
+  "id": "drying_rack_survival",
+  "displayName": "Drying Rack",
+  "uiModule": "DryingRackUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "drying_rack_survival"
+ },
+ "mortar_stone": {
+  "id": "mortar_stone",
+  "displayName": "Stone Mortar",
+  "uiModule": "GrindingUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "mortar_stone"
+ },
+ "pestle_stone": {
+  "id": "pestle_stone",
+  "displayName": "Stone Pestle",
+  "uiModule": "GrindingUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "mortar_stone"
+ },
+ "quern_saddle": {
+  "id": "quern_saddle",
+  "displayName": "Saddle Quern",
+  "uiModule": "GrindingUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "quern_saddle"
+ },
+ "butchering_block_basic": {
+  "id": "butchering_block_basic",
+  "displayName": "Butchering Block",
+  "uiModule": "ButcheringUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "butchering_block_basic"
+ },
+ "charcoal_clamp_earth_mound_kiln": {
+  "id": "charcoal_clamp_earth_mound_kiln",
+  "displayName": "Charcoal Clamp",
+  "uiModule": "StationFuelUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "charcoal_clamp_earth_mound_kiln"
+ },
+ "earthen_kiln_updraft": {
+  "id": "earthen_kiln_updraft",
+  "displayName": "Earthen Kiln",
+  "uiModule": "StationFuelUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "earthen_kiln_updraft"
+ },
+ "charcoal_retort_kiln": {
+  "id": "charcoal_retort_kiln",
+  "displayName": "Charcoal Retort Kiln",
+  "uiModule": "BloomeryUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "charcoal_retort_kiln"
+ },
+ "storage_crate_bark": {
+  "id": "storage_crate_bark",
+  "displayName": "Bark Storage Crate",
+  "uiModule": "Station3x9",
+  "containers": {
+   "input": {
+    "size": 27
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "storage_chest_wood": {
+  "id": "storage_chest_wood",
+  "displayName": "Wooden Chest",
+  "uiModule": "Station3x9",
+  "containers": {
+   "input": {
+    "size": 27
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "pit_storage_cache": {
+  "id": "pit_storage_cache",
+  "displayName": "Pit Storage Cache",
+  "uiModule": "StoragePitUI",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "chute_wood": {
+  "id": "chute_wood",
+  "displayName": "Wooden Chute",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 0
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Gravity-fed timber chute that bridges two touching stations, automatically passing items from the upstream output into the downstream input. No player action required once placed.",
+  "hint": "Align between two stations' output and input faces. Items flow downhill."
+ },
+ "storage_firewood_rack": {
+  "id": "storage_firewood_rack",
+  "displayName": "Firewood Rack",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Off-ground rack that keeps split firewood dry and aerated so it seasons faster. Stack fuel here to avoid rot.",
+  "hint": "Shift-click firewood from inventory to store it quickly."
+ },
+ "storage_food_pit": {
+  "id": "storage_food_pit",
+  "displayName": "Food Storage Pit",
+  "uiModule": "StoragePitUI",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "waste_midden_basic": {
+  "id": "waste_midden_basic",
+  "displayName": "Waste Midden",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Designated camp waste area. Organic scraps left here break down and don't attract scavengers.",
+  "hint": "Drop offal, failed experiments, and bone meal here."
+ },
+ "snare_simple": {
+  "id": "snare_simple",
+  "displayName": "Simple Snare",
+  "uiModule": "TrapUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null
+ },
+ "fishing_trap_weir": {
+  "id": "fishing_trap_weir",
+  "displayName": "Fishing Weir",
+  "uiModule": "TrapUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null
+ },
+ "clay_pot": {
+  "id": "clay_pot",
+  "displayName": "Clay Pot",
+  "uiModule": "VesselUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "clay_pot"
+ },
+ "earthenware_vessel": {
+  "id": "earthenware_vessel",
+  "displayName": "Earthenware Vessel",
+  "uiModule": "VesselUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "earthenware_vessel"
+ },
+ "debris_shelter_lean_to": {
+  "id": "debris_shelter_lean_to",
+  "displayName": "Lean-To Shelter",
+  "uiModule": "BedrollSleepUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null
+ },
+ "debris_shelter_frame": {
+  "id": "debris_shelter_frame",
+  "displayName": "Shelter Frame",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Structural timber frame for a debris or thatched shelter. Stack branches and thatching against it to complete the walls.",
+  "hint": "Combine with thatch items to add wall coverage."
+ },
+ "wattle_screen": {
+  "id": "wattle_screen",
+  "displayName": "Wattle Screen",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Woven wattle panel of interlaced hazel rods. Acts as a windbreak, privacy screen, or pen divider.",
+  "hint": "Place adjacent to animal pens or exposed camp edges."
+ },
+ "lever_press": {
+  "id": "lever_press",
+  "displayName": "Lever Press",
+  "uiModule": "GrindingUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "lever_press"
+ },
+ "bellows": {
+  "id": "bellows",
+  "displayName": "Bellows",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Hand bellows that force air into a forge or kiln, raising combustion temperature. Place next to a forge hearth and it will boost the heat rate.",
+  "hint": "Pair with forge_hearth or clay_bloomery_furnace."
+ },
+ "stamp_mill_manual_trip_hammer": {
+  "id": "stamp_mill_manual_trip_hammer",
+  "displayName": "Trip Hammer",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "stamp_mill_manual_trip_hammer"
+ },
+ "lathe_workshop": {
+  "id": "lathe_workshop",
+  "displayName": "Engine Lathe",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 2
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "lathe_workshop"
+ },
+ "arc_furnace_electric": {
+  "id": "arc_furnace_electric",
+  "displayName": "Electric Arc Furnace",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "arc_furnace_electric"
+ },
+ "assembler_workshop": {
+  "id": "assembler_workshop",
+  "displayName": "Assembly Cell",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "assembler_workshop"
+ },
+ "anvil_stone": {
+  "id": "anvil_stone",
+  "displayName": "Stone Anvil",
+  "uiModule": "AnvilUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "anvil_stone"
+ },
+ "roasting_pit": {
+  "id": "roasting_pit",
+  "displayName": "Roasting Pit",
+  "uiModule": "ForgeUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "roasting_pit"
+ },
+ "forge_hearth": {
+  "id": "forge_hearth",
+  "displayName": "Forge Hearth",
+  "uiModule": "ForgeUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "forge_hearth"
+ },
+ "clay_bloomery_furnace": {
+  "id": "clay_bloomery_furnace",
+  "displayName": "Clay Bloomery",
+  "uiModule": "BloomeryUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "clay_bloomery_furnace"
+ },
+ "iron_anvil_block": {
+  "id": "iron_anvil_block",
+  "displayName": "Iron Anvil",
+  "uiModule": "AnvilUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "iron_anvil_block"
+ },
+ "clay_casting_pit": {
+  "id": "clay_casting_pit",
+  "displayName": "Clay Casting Pit",
+  "uiModule": "CastingUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "clay_casting_pit"
+ },
+ "clay_crucible_small": {
+  "id": "clay_crucible_small",
+  "displayName": "Clay Crucible",
+  "uiModule": "CastingUI",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "clay_crucible_small"
+ },
+ "coke_oven_beehive": {
+  "id": "coke_oven_beehive",
+  "displayName": "Beehive Coke Oven",
+  "uiModule": "StationFuelUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "coke_oven_beehive"
+ },
+ "blast_furnace_small": {
+  "id": "blast_furnace_small",
+  "displayName": "Blast Furnace",
+  "uiModule": "BlastFurnaceUI",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "blast_furnace_small"
+ },
+ "hot_blast_stove": {
+  "id": "hot_blast_stove",
+  "displayName": "Hot Blast Stove",
+  "uiModule": "StationFuelUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "hot_blast_stove"
+ },
+ "waterwheel_overshot": {
+  "id": "waterwheel_overshot",
+  "displayName": "Overshot Waterwheel",
+  "uiModule": null,
+  "containers": {
+   "input": {
+    "size": 0
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "steam_engine_simple": {
+  "id": "steam_engine_simple",
+  "displayName": "Simple Steam Engine",
+  "uiModule": null,
+  "containers": {
+   "input": {
+    "size": 0
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "boiler_shell_riveted": {
+  "id": "boiler_shell_riveted",
+  "displayName": "Riveted Boiler",
+  "uiModule": "StationFuelUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "boiler_shell_riveted"
+ },
+ "flyball_governor": {
+  "id": "flyball_governor",
+  "displayName": "Flyball Governor",
+  "uiModule": null,
+  "containers": {
+   "input": {
+    "size": 0
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "line_shaft_wrought": {
+  "id": "line_shaft_wrought",
+  "displayName": "Wrought Line Shaft",
+  "uiModule": null,
+  "containers": {
+   "input": {
+    "size": 0
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "rolling_mill_steam": {
+  "id": "rolling_mill_steam",
+  "displayName": "Steam Rolling Mill",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "rolling_mill_steam"
+ },
+ "machine_shop_steam": {
+  "id": "machine_shop_steam",
+  "displayName": "Steam Machine Shop",
+  "uiModule": "MachineShopUI",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "machine_shop_steam"
+ },
+ "open_hearth_furnace_basic": {
+  "id": "open_hearth_furnace_basic",
+  "displayName": "Open Hearth Furnace",
+  "uiModule": "ForgeUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   },
+   "fuel": {
+    "size": 3
+   }
+  },
+  "craftStationId": "open_hearth_furnace_basic"
+ },
+ "bessemer_converter_basic": {
+  "id": "bessemer_converter_basic",
+  "displayName": "Bessemer Converter",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "bessemer_converter_basic"
+ },
+ "flywheel": {
+  "id": "flywheel",
+  "displayName": "Flywheel",
+  "uiModule": null,
+  "containers": {
+   "input": {
+    "size": 0
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "firebox_cast_iron": {
+  "id": "firebox_cast_iron",
+  "displayName": "Cast Iron Firebox",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Crafting component. The combustion chamber for a boiler_shell_riveted assembly. Craft this at the clay_casting_pit first, then use it as an ingredient when building the boiler.",
+  "hint": "Ingredient for boiler_shell_riveted."
+ },
+ "steam_cylinder_cast_iron": {
+  "id": "steam_cylinder_cast_iron",
+  "displayName": "Steam Cylinder",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Crafting component. The main working cylinder bored at the machine_shop_steam and used when assembling a steam_engine_simple.",
+  "hint": "Ingredient for steam_engine_simple."
+ },
+ "belt_pulley_iron": {
+  "id": "belt_pulley_iron",
+  "displayName": "Iron Belt Pulley",
+  "uiModule": null,
+  "containers": {
+   "input": {
+    "size": 0
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null
+ },
+ "condenser_jet": {
+  "id": "condenser_jet",
+  "displayName": "Jet Condenser",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Crafting component. Condenses exhaust steam back to water. Used in the boiler_shell_riveted assembly to close the water cycle and improve efficiency.",
+  "hint": "Ingredient for boiler_shell_riveted."
+ },
+ "cooling_tank_wooden": {
+  "id": "cooling_tank_wooden",
+  "displayName": "Wooden Cooling Tank",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Crafting component. Water reservoir for the condenser. Used in the boiler_shell_riveted assembly. Place near the boiler as part of the steam plant visual layout.",
+  "hint": "Ingredient for boiler_shell_riveted."
+ },
+ "feedwater_pump_simple": {
+  "id": "feedwater_pump_simple",
+  "displayName": "Feedwater Pump",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Crafting component. Ram pump that returns condensed water to the boiler. Used in the boiler_shell_riveted assembly.",
+  "hint": "Ingredient for boiler_shell_riveted."
+ },
+ "beam_frame_wrought": {
+  "id": "beam_frame_wrought",
+  "displayName": "Wrought Beam Frame",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 0
+   }
+  },
+  "craftStationId": null,
+  "body": "Crafting component. The pivoted structural beam of a Watt-type engine. Used when assembling a steam_engine_simple from its component parts.",
+  "hint": "Ingredient for steam_engine_simple."
+ },
+ "steam_drill": {
+  "id": "steam_drill",
+  "displayName": "Steam Drill",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Steam-powered percussive rock drill. Drives a hardened steel bit into rock faster than hand drilling, used for blast hole preparation.",
+  "hint": "Requires a pressurised steam supply and a hardened drill bit."
+ },
+ "wire_drawing_bench": {
+  "id": "wire_drawing_bench",
+  "displayName": "Wire Drawing Bench",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "wire_drawing_bench"
+ },
+ "glass_bench": {
+  "id": "glass_bench",
+  "displayName": "Glass Bench",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "glass_bench"
+ },
+ "machine_shop_electric": {
+  "id": "machine_shop_electric",
+  "displayName": "Electric Machine Shop",
+  "uiModule": "MachineShopUI",
+  "containers": {
+   "input": {
+    "size": 9
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "machine_shop_electric"
+ },
+ "dynamo_dc_workshop": {
+  "id": "dynamo_dc_workshop",
+  "displayName": "DC Workshop Dynamo",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "dynamo_dc_workshop"
+ },
+ "electric_motor_small_dc": {
+  "id": "electric_motor_small_dc",
+  "displayName": "Small DC Motor",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Small direct-current motor. Converts DC electrical current back into shaft rotation for driving light machinery.",
+  "hint": "Requires a DC electrical supply."
+ },
+ "generator_ac_small": {
+  "id": "generator_ac_small",
+  "displayName": "Small AC Generator",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "generator_ac_small"
+ },
+ "generator_ac_three_phase": {
+  "id": "generator_ac_three_phase",
+  "displayName": "Three-Phase AC Generator",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "generator_ac_three_phase"
+ },
+ "transformer_step_up": {
+  "id": "transformer_step_up",
+  "displayName": "Step-Up Transformer",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "transformer_step_up"
+ },
+ "transformer_step_down": {
+  "id": "transformer_step_down",
+  "displayName": "Step-Down Transformer",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "transformer_step_down"
+ },
+ "switchboard_panel_wooden": {
+  "id": "switchboard_panel_wooden",
+  "displayName": "Wooden Switchboard",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Wooden framed switchboard with knife switches, fuses, and ammeters. Routes AC circuits from the generator to individual loads.",
+  "hint": "Open to manage circuit connections and read live current."
+ },
+ "network_ac_district": {
+  "id": "network_ac_district",
+  "displayName": "AC District Network",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "District AC power distribution node. Aggregates and routes electricity from multiple generators to an area grid.",
+  "hint": "Not interactable -- monitors network state."
+ },
+ "motor_ac_induction_small": {
+  "id": "motor_ac_induction_small",
+  "displayName": "AC Induction Motor",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Small AC induction motor. No brushes or commutator -- simply plug into an AC supply and it runs at near-synchronous speed.",
+  "hint": "Requires AC supply at correct frequency."
+ },
+ "rectifier_mercury_arc": {
+  "id": "rectifier_mercury_arc",
+  "displayName": "Mercury Arc Rectifier",
+  "uiModule": "IndustrialUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": "rectifier_mercury_arc"
+ },
+ "vacuum_pump_lab": {
+  "id": "vacuum_pump_lab",
+  "displayName": "Lab Vacuum Pump",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Laboratory-grade reciprocating vacuum pump. Creates sub-atmospheric pressure for filtration, distillation, and tube-sealing processes.",
+  "hint": "Requires a mechanical power input."
+ },
+ "panel_mimic_ac_grid": {
+  "id": "panel_mimic_ac_grid",
+  "displayName": "AC Grid Mimic Panel",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Mimic panel that displays the live state of the AC grid -- generator outputs, bus voltages, switch positions, and fault indicators.",
+  "hint": "Read-only monitoring -- no interaction needed."
+ },
+ "lamp_fixture_industrial": {
+  "id": "lamp_fixture_industrial",
+  "displayName": "Industrial Lamp Fixture",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Industrial pendant lamp fixture housing an incandescent or arc lamp. Distributes task lighting over a workbench area.",
+  "hint": "Requires an electrical supply on the circuit."
+ },
+ "incandescent_lamp_carbon": {
+  "id": "incandescent_lamp_carbon",
+  "displayName": "Carbon Incandescent Lamp",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Early carbon-filament incandescent lamp. Fragile, warm amber glow, relatively short life. Consumes a small constant current.",
+  "hint": "Screw into a lamp fixture; replace when burnt out."
+ },
+ "wood_pole_power": {
+  "id": "wood_pole_power",
+  "displayName": "Power Pole",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Treated timber power pole for routing overhead electrical wires. The simplest distribution infrastructure.",
+  "hint": "Run wire segments between pole tops."
+ },
+ "station_fluid_handler": {
+  "id": "station_fluid_handler",
+  "displayName": "Fluid Handler",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "A general-purpose pipe junction, valve assembly, and flow meter. Manages and routes fluid between production machines.",
+  "hint": "Inspect to see current flow rate and fluid type."
+ },
+ "station_gas_compressor": {
+  "id": "station_gas_compressor",
+  "displayName": "Gas Compressor",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "Reciprocating gas compressor for pressurising gas streams. Requires mechanical shaft power input.",
+  "hint": "Outputs compressed gas to downstream processes."
+ },
+ "station_vent_stack": {
+  "id": "station_vent_stack",
+  "displayName": "Vent Stack",
+  "uiModule": "InfoStationUI",
+  "containers": {
+   "input": {
+    "size": 1
+   },
+   "output": {
+    "size": 2
+   }
+  },
+  "craftStationId": null,
+  "body": "A brick and iron vent stack that exhausts combustion gases from kilns, furnaces, and boilers above working height.",
+  "hint": "Connect to a furnace or kiln flue port."
+ },
+ "froth_flotation_cell": {
+  "id": "froth_flotation_cell",
+  "displayName": "Froth Flotation Cell",
+  "uiModule": "ProcessingUI",
+  "containers": {
+   "input": {
+    "size": 6
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "froth_flotation_cell"
+ },
+ "reverberatory_furnace": {
+  "id": "reverberatory_furnace",
+  "displayName": "Reverberatory Furnace",
+  "uiModule": "SmeltingUI",
+  "containers": {
+   "input": {
+    "size": 6
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "reverberatory_furnace"
+ },
+ "copper_converter": {
+  "id": "copper_converter",
+  "displayName": "Copper Converter (Peirce-Smith)",
+  "uiModule": "SmeltingUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "copper_converter"
+ },
+ "fire_refining_furnace": {
+  "id": "fire_refining_furnace",
+  "displayName": "Fire-Refining Furnace",
+  "uiModule": "SmeltingUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "fire_refining_furnace"
+ },
+ "electrolytic_refining_cell": {
+  "id": "electrolytic_refining_cell",
+  "displayName": "Electrolytic Refining Cell",
+  "uiModule": "ElectrolysisUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "electrolytic_refining_cell"
+ },
+ "sulfur_burner": {
+  "id": "sulfur_burner",
+  "displayName": "Sulfur Burner / Pyrite Roaster",
+  "uiModule": "SmeltingUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "sulfur_burner"
+ },
+ "lead_chamber": {
+  "id": "lead_chamber",
+  "displayName": "Lead Chamber (NOx)",
+  "uiModule": "ProcessingUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "lead_chamber"
+ },
+ "contact_converter": {
+  "id": "contact_converter",
+  "displayName": "Contact Converter (V2O5 beds, DCDA)",
+  "uiModule": "ProcessingUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "contact_converter"
+ },
+ "absorption_tower": {
+  "id": "absorption_tower",
+  "displayName": "Oleum Absorption Tower",
+  "uiModule": "ProcessingUI",
+  "containers": {
+   "input": {
+    "size": 4
+   },
+   "output": {
+    "size": 3
+   }
+  },
+  "craftStationId": "absorption_tower"
+ }
+}

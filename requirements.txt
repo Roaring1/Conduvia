@@ -1,0 +1,3 @@
+# Conduvia player guide — build dependencies.
+# Material pulls in mkdocs + pymdown-extensions automatically.
+mkdocs-material>=9.5

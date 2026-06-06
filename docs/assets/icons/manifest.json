@@ -1,0 +1,4797 @@
+{
+"raw_ore_bauxite": {
+"name": "raw bauxite ore",
+"cat": "Material",
+"file": "raw_ore_bauxite.png"
+},
+"crushed_ore_bauxite": {
+"name": "crushed bauxite",
+"cat": "Material",
+"file": "crushed_ore_bauxite.png"
+},
+"liquor_sodium_aluminate": {
+"name": "sodium aluminate liquor",
+"cat": "Material",
+"file": "liquor_sodium_aluminate.png"
+},
+"hydrate_gibbsite": {
+"name": "aluminum hydroxide (gibbsite)",
+"cat": "Material",
+"file": "hydrate_gibbsite.png"
+},
+"intermediate_alumina": {
+"name": "alumina",
+"cat": "Material",
+"file": "intermediate_alumina.png"
+},
+"anode_carbon": {
+"name": "prebaked carbon anode",
+"cat": "Material",
+"file": "anode_carbon.png"
+},
+"cryolite": {
+"name": "cryolite",
+"cat": "Material",
+"file": "cryolite.png"
+},
+"metal_aluminum_ingot": {
+"name": "aluminum ingot",
+"cat": "Material",
+"file": "metal_aluminum_ingot.png"
+},
+"sodium_hydroxide": {
+"name": "sodium hydroxide",
+"cat": "Chemistry",
+"file": "sodium_hydroxide.png"
+},
+"waste_red_mud": {
+"name": "red mud",
+"cat": "Material",
+"file": "waste_red_mud.png"
+},
+"coke_fuel": {
+"name": "coke fuel",
+"cat": "Material",
+"file": "coke_fuel.png"
+},
+"gas_co2": {
+"name": "carbon dioxide gas",
+"cat": "Chemistry",
+"file": "gas_co2.png"
+},
+"stone_dust": {
+"name": "stone dust",
+"cat": "Material",
+"file": "stone_dust.png"
+},
+"wicker_basket": {
+"name": "wicker basket",
+"cat": "Tool",
+"file": "wicker_basket.png"
+},
+"wooden_cage": {
+"name": "wooden cage",
+"cat": "Tool",
+"file": "wooden_cage.png"
+},
+"wicker_basket_rabbit": {
+"name": "wicker basket (Rabbit)",
+"cat": "Tool",
+"file": "wicker_basket_rabbit.png"
+},
+"wicker_basket_bird": {
+"name": "wicker basket (Bird)",
+"cat": "Tool",
+"file": "wicker_basket_bird.png"
+},
+"wicker_basket_owl": {
+"name": "wicker basket (Owl)",
+"cat": "Tool",
+"file": "wicker_basket_owl.png"
+},
+"wooden_cage_cow": {
+"name": "wooden cage (Cow)",
+"cat": "Tool",
+"file": "wooden_cage_cow.png"
+},
+"wooden_cage_sheep": {
+"name": "wooden cage (Sheep)",
+"cat": "Tool",
+"file": "wooden_cage_sheep.png"
+},
+"wooden_cage_deer": {
+"name": "wooden cage (Deer)",
+"cat": "Tool",
+"file": "wooden_cage_deer.png"
+},
+"wooden_cage_redfox": {
+"name": "wooden cage (Red Fox)",
+"cat": "Tool",
+"file": "wooden_cage_redfox.png"
+},
+"rope_lasso": {
+"name": "rope lasso",
+"cat": "Tool",
+"file": "rope_lasso.png"
+},
+"wolf_lure": {
+"name": "wolf lure",
+"cat": "Item",
+"file": "wolf_lure.png"
+},
+"bear_lure": {
+"name": "bear lure",
+"cat": "Item",
+"file": "bear_lure.png"
+},
+"cell_metal": {
+"name": "metal cell",
+"cat": "Container",
+"file": "cell_metal.png"
+},
+"cell_glass": {
+"name": "glass cell",
+"cat": "Container",
+"file": "cell_glass.png"
+},
+"cell_metal_water_raw": {
+"name": "metal cell (water)",
+"cat": "Container",
+"file": "cell_metal_water_raw.png"
+},
+"cell_metal_acid_sulfuric": {
+"name": "metal cell (sulfuric acid)",
+"cat": "Container",
+"file": "cell_metal_acid_sulfuric.png"
+},
+"cell_metal_sodium_hydroxide": {
+"name": "metal cell (sodium hydroxide)",
+"cat": "Container",
+"file": "cell_metal_sodium_hydroxide.png"
+},
+"cell_glass_water_raw": {
+"name": "glass cell (water)",
+"cat": "Container",
+"file": "cell_glass_water_raw.png"
+},
+"stainless_steel_sheet": {
+"name": "stainless steel sheet",
+"cat": "Material",
+"file": "stainless_steel_sheet.png"
+},
+"glass_tube": {
+"name": "borosilicate glass tube",
+"cat": "Material",
+"file": "glass_tube.png"
+},
+"raw_ore_halite": {
+"name": "raw halite ore",
+"cat": "Material",
+"file": "raw_ore_halite.png"
+},
+"brine_solution": {
+"name": "brine solution",
+"cat": "Chemistry",
+"file": "brine_solution.png"
+},
+"brine_purified": {
+"name": "purified brine",
+"cat": "Chemistry",
+"file": "brine_purified.png"
+},
+"caustic_dilute": {
+"name": "dilute cell caustic",
+"cat": "Chemistry",
+"file": "caustic_dilute.png"
+},
+"gas_chlorine": {
+"name": "chlorine gas",
+"cat": "Chemistry",
+"file": "gas_chlorine.png"
+},
+"gas_hydrogen": {
+"name": "hydrogen gas",
+"cat": "Chemistry",
+"file": "gas_hydrogen.png"
+},
+"water_raw": {
+"name": "raw water",
+"cat": "Material",
+"file": "water_raw.png"
+},
+"waste_tailings": {
+"name": "tailings",
+"cat": "Material",
+"file": "waste_tailings.png"
+},
+"raw_ore_cobaltite": {
+"name": "raw cobaltite ore",
+"cat": "Material",
+"file": "raw_ore_cobaltite.png"
+},
+"cobalt_oxide_roasted": {
+"name": "roasted cobalt oxide",
+"cat": "Material",
+"file": "cobalt_oxide_roasted.png"
+},
+"arsenic_trioxide": {
+"name": "arsenic trioxide (toxic)",
+"cat": "Chemistry",
+"file": "arsenic_trioxide.png"
+},
+"cobalt_sulfate_solution": {
+"name": "cobalt sulfate liquor",
+"cat": "Material",
+"file": "cobalt_sulfate_solution.png"
+},
+"cobalt_purified_solution": {
+"name": "purified cobalt solution",
+"cat": "Material",
+"file": "cobalt_purified_solution.png"
+},
+"cobalt_cathode": {
+"name": "cobalt cathode",
+"cat": "Material",
+"file": "cobalt_cathode.png"
+},
+"crushed_ore_chalcopyrite": {
+"name": "crushed chalcopyrite",
+"cat": "Material",
+"file": "crushed_ore_chalcopyrite.png"
+},
+"ground_ore_chalcopyrite": {
+"name": "ground chalcopyrite",
+"cat": "Material",
+"file": "ground_ore_chalcopyrite.png"
+},
+"calcine_chalcopyrite": {
+"name": "roasted chalcopyrite calcine",
+"cat": "Material",
+"file": "calcine_chalcopyrite.png"
+},
+"copper_matte": {
+"name": "copper matte",
+"cat": "Material",
+"file": "copper_matte.png"
+},
+"copper_anode": {
+"name": "copper anode",
+"cat": "Material",
+"file": "copper_anode.png"
+},
+"copper_plate": {
+"name": "copper plate",
+"cat": "Material",
+"file": "copper_plate.png"
+},
+"copper_foil": {
+"name": "copper foil",
+"cat": "Material",
+"file": "copper_foil.png"
+},
+"copper_rod": {
+"name": "copper rod",
+"cat": "Material",
+"file": "copper_rod.png"
+},
+"copper_dust": {
+"name": "copper dust",
+"cat": "Material",
+"file": "copper_dust.png"
+},
+"tailings": {
+"name": "tailings",
+"cat": "Material",
+"file": "tailings.png"
+},
+"gas_so2": {
+"name": "sulfur dioxide gas",
+"cat": "Gas",
+"file": "gas_so2.png"
+},
+"anode_slime": {
+"name": "anode slime",
+"cat": "Material",
+"file": "anode_slime.png"
+},
+"copper_blister": {
+"name": "blister copper",
+"cat": "Material",
+"file": "copper_blister.png"
+},
+"copper_cathode": {
+"name": "copper cathode",
+"cat": "Material",
+"file": "copper_cathode.png"
+},
+"raw_ore_copper_oxide": {
+"name": "oxidized copper ore",
+"cat": "Material",
+"file": "raw_ore_copper_oxide.png"
+},
+"crushed_ore_copper_oxide": {
+"name": "crushed oxide copper ore",
+"cat": "Material",
+"file": "crushed_ore_copper_oxide.png"
+},
+"copper_pls": {
+"name": "pregnant leach solution (PLS)",
+"cat": "Material",
+"file": "copper_pls.png"
+},
+"copper_rich_electrolyte": {
+"name": "rich copper electrolyte",
+"cat": "Material",
+"file": "copper_rich_electrolyte.png"
+},
+"acid_sulfuric": {
+"name": "sulfuric acid",
+"cat": "Chemistry",
+"file": "acid_sulfuric.png"
+},
+"acid_sulfuric_dilute": {
+"name": "chamber acid (dilute H2SO4)",
+"cat": "Chemistry",
+"file": "acid_sulfuric_dilute.png"
+},
+"gas_oxygen": {
+"name": "oxygen gas",
+"cat": "Chemistry",
+"file": "gas_oxygen.png"
+},
+"flax_seed": {
+"name": "flax seed",
+"cat": "Material",
+"file": "flax_seed.png"
+},
+"turnip_seed": {
+"name": "turnip seed",
+"cat": "Material",
+"file": "turnip_seed.png"
+},
+"carrot_seed": {
+"name": "carrot seed",
+"cat": "Material",
+"file": "carrot_seed.png"
+},
+"flax": {
+"name": "flax stalks",
+"cat": "Material",
+"file": "flax.png"
+},
+"turnip": {
+"name": "turnip",
+"cat": "Food",
+"file": "turnip.png"
+},
+"raw_ore_chromite": {
+"name": "raw chromite ore",
+"cat": "Material",
+"file": "raw_ore_chromite.png"
+},
+"crushed_ore_chromite": {
+"name": "crushed chromite ore",
+"cat": "Material",
+"file": "crushed_ore_chromite.png"
+},
+"pellet_chromite": {
+"name": "indurated chromite pellet",
+"cat": "Material",
+"file": "pellet_chromite.png"
+},
+"ferrochrome": {
+"name": "ferrochrome",
+"cat": "Material",
+"file": "ferrochrome.png"
+},
+"raw_ore_nickel_laterite": {
+"name": "nickel laterite (saprolite)",
+"cat": "Material",
+"file": "raw_ore_nickel_laterite.png"
+},
+"nickel_laterite_calcine": {
+"name": "reduced laterite calcine",
+"cat": "Material",
+"file": "nickel_laterite_calcine.png"
+},
+"ferronickel": {
+"name": "ferronickel",
+"cat": "Material",
+"file": "ferronickel.png"
+},
+"burned_lime_quicklime": {
+"name": "burned lime (quicklime)",
+"cat": "Material",
+"file": "burned_lime_quicklime.png"
+},
+"slag": {
+"name": "slag",
+"cat": "Material",
+"file": "slag.png"
+},
+"raw_ore_flint": {
+"name": "raw flint",
+"cat": "Material",
+"file": "raw_ore_flint.png"
+},
+"flint_flake": {
+"name": "flint flake",
+"cat": "Component",
+"file": "flint_flake.png"
+},
+"flint_blade_knapped": {
+"name": "knapped flint blade",
+"cat": "Tool",
+"file": "flint_blade_knapped.png"
+},
+"flint_arrowhead": {
+"name": "flint arrowhead",
+"cat": "Component",
+"file": "flint_arrowhead.png"
+},
+"fire_steel_striker": {
+"name": "flint-and-steel striker",
+"cat": "Tool",
+"file": "fire_steel_striker.png"
+},
+"flint_calcined_silica": {
+"name": "calcined potters\u2019 flint",
+"cat": "Material",
+"file": "flint_calcined_silica.png"
+},
+"stone_flakes": {
+"name": "stone flakes",
+"cat": "Material",
+"file": "stone_flakes.png"
+},
+"air_raw": {
+"name": "compressed air",
+"cat": "Chemistry",
+"file": "air_raw.png"
+},
+"liquid_air": {
+"name": "liquid air",
+"cat": "Chemistry",
+"file": "liquid_air.png"
+},
+"gas_nitrogen": {
+"name": "nitrogen gas",
+"cat": "Chemistry",
+"file": "gas_nitrogen.png"
+},
+"gas_argon": {
+"name": "argon gas",
+"cat": "Chemistry",
+"file": "gas_argon.png"
+},
+"gas_ammonia": {
+"name": "ammonia gas",
+"cat": "Chemistry",
+"file": "gas_ammonia.png"
+},
+"cylinder_gas_basic": {
+"name": "basic gas cylinder",
+"cat": "Container",
+"file": "cylinder_gas_basic.png"
+},
+"steel_ingot": {
+"name": "steel ingot",
+"cat": "Material",
+"file": "steel_ingot.png"
+},
+"raw_ore_gypsum": {
+"name": "raw gypsum ore",
+"cat": "Material",
+"file": "raw_ore_gypsum.png"
+},
+"waste_gypsum_refined": {
+"name": "refined gypsum",
+"cat": "Material",
+"file": "waste_gypsum_refined.png"
+},
+"plaster_of_paris": {
+"name": "plaster of Paris",
+"cat": "Material",
+"file": "plaster_of_paris.png"
+},
+"gypsum_board": {
+"name": "gypsum board (drywall)",
+"cat": "Component",
+"file": "gypsum_board.png"
+},
+"cement_clinker": {
+"name": "cement clinker",
+"cat": "Material",
+"file": "cement_clinker.png"
+},
+"portland_cement": {
+"name": "Portland cement",
+"cat": "Component",
+"file": "portland_cement.png"
+},
+"sinter_iron": {
+"name": "iron ore sinter",
+"cat": "Material",
+"file": "sinter_iron.png"
+},
+"pellet_iron_oxide": {
+"name": "iron ore pellets",
+"cat": "Material",
+"file": "pellet_iron_oxide.png"
+},
+"iron_dri_sponge": {
+"name": "sponge iron (DRI)",
+"cat": "Material",
+"file": "iron_dri_sponge.png"
+},
+"scrap_steel": {
+"name": "steel scrap",
+"cat": "Material",
+"file": "scrap_steel.png"
+},
+"ore_iron_concentrate": {
+"name": "iron ore concentrate",
+"cat": "Material",
+"file": "ore_iron_concentrate.png"
+},
+"metal_iron_ingot": {
+"name": "iron ingot",
+"cat": "Material",
+"file": "metal_iron_ingot.png"
+},
+"pig_iron_ingot": {
+"name": "pig iron ingot",
+"cat": "Material",
+"file": "pig_iron_ingot.png"
+},
+"stainless_steel_ingot": {
+"name": "stainless steel ingot",
+"cat": "Material",
+"file": "stainless_steel_ingot.png"
+},
+"ore": {
+"name": "ore rock",
+"cat": "Material",
+"file": "ore.png"
+},
+"ore_copper_rock": {
+"name": "copper ore rock",
+"cat": "Material",
+"file": "ore_copper_rock.png"
+},
+"ore_iron_rock": {
+"name": "iron ore rock",
+"cat": "Material",
+"file": "ore_iron_rock.png"
+},
+"ore_tin_rock": {
+"name": "tin ore rock",
+"cat": "Material",
+"file": "ore_tin_rock.png"
+},
+"raw_ore_sylvite": {
+"name": "raw sylvite ore",
+"cat": "Material",
+"file": "raw_ore_sylvite.png"
+},
+"raw_ore_chalcopyrite": {
+"name": "raw chalcopyrite ore",
+"cat": "Material",
+"file": "raw_ore_chalcopyrite.png"
+},
+"raw_ore_galena": {
+"name": "raw galena ore",
+"cat": "Material",
+"file": "raw_ore_galena.png"
+},
+"raw_ore_sphalerite": {
+"name": "raw sphalerite ore",
+"cat": "Material",
+"file": "raw_ore_sphalerite.png"
+},
+"raw_ore_pyrite": {
+"name": "raw pyrite ore",
+"cat": "Material",
+"file": "raw_ore_pyrite.png"
+},
+"raw_ore_hematite": {
+"name": "raw hematite ore",
+"cat": "Material",
+"file": "raw_ore_hematite.png"
+},
+"raw_ore_magnetite": {
+"name": "raw magnetite ore",
+"cat": "Material",
+"file": "raw_ore_magnetite.png"
+},
+"raw_ore_limestone": {
+"name": "raw limestone ore",
+"cat": "Material",
+"file": "raw_ore_limestone.png"
+},
+"raw_ore_silica": {
+"name": "raw silica ore",
+"cat": "Material",
+"file": "raw_ore_silica.png"
+},
+"raw_ore_obsidian": {
+"name": "raw obsidian",
+"cat": "Material",
+"file": "raw_ore_obsidian.png"
+},
+"raw_ore_native_copper": {
+"name": "raw native copper",
+"cat": "Material",
+"file": "raw_ore_native_copper.png"
+},
+"raw_ore_bog_iron": {
+"name": "raw bog iron",
+"cat": "Material",
+"file": "raw_ore_bog_iron.png"
+},
+"raw_ore_cassiterite": {
+"name": "raw cassiterite ore",
+"cat": "Material",
+"file": "raw_ore_cassiterite.png"
+},
+"raw_ore_spodumene": {
+"name": "raw spodumene ore",
+"cat": "Material",
+"file": "raw_ore_spodumene.png"
+},
+"raw_ore_ree": {
+"name": "raw rare earth ore",
+"cat": "Material",
+"file": "raw_ore_ree.png"
+},
+"raw_ore_uraninite": {
+"name": "raw uraninite ore",
+"cat": "Material",
+"file": "raw_ore_uraninite.png"
+},
+"raw_ore_ilmenite": {
+"name": "raw ilmenite ore",
+"cat": "Material",
+"file": "raw_ore_ilmenite.png"
+},
+"raw_ore_pentlandite": {
+"name": "raw pentlandite ore",
+"cat": "Material",
+"file": "raw_ore_pentlandite.png"
+},
+"raw_ore_fluorite": {
+"name": "raw fluorite ore",
+"cat": "Material",
+"file": "raw_ore_fluorite.png"
+},
+"raw_ore_wolframite": {
+"name": "raw wolframite ore",
+"cat": "Material",
+"file": "raw_ore_wolframite.png"
+},
+"raw_ore_columbite": {
+"name": "raw columbite ore",
+"cat": "Material",
+"file": "raw_ore_columbite.png"
+},
+"raw_ore_zircon": {
+"name": "raw zircon ore",
+"cat": "Material",
+"file": "raw_ore_zircon.png"
+},
+"concentrate_chalcopyrite": {
+"name": "chalcopyrite concentrate",
+"cat": "Material",
+"file": "concentrate_chalcopyrite.png"
+},
+"concentrate_galena": {
+"name": "galena concentrate",
+"cat": "Material",
+"file": "concentrate_galena.png"
+},
+"concentrate_sphalerite": {
+"name": "sphalerite concentrate",
+"cat": "Material",
+"file": "concentrate_sphalerite.png"
+},
+"concentrate_pyrite": {
+"name": "pyrite concentrate",
+"cat": "Material",
+"file": "concentrate_pyrite.png"
+},
+"concentrate_ree": {
+"name": "rare earth concentrate",
+"cat": "Material",
+"file": "concentrate_ree.png"
+},
+"metal_copper_cathode": {
+"name": "copper cathode",
+"cat": "Material",
+"file": "metal_copper_cathode.png"
+},
+"metal_zinc_ingot": {
+"name": "zinc ingot",
+"cat": "Material",
+"file": "metal_zinc_ingot.png"
+},
+"metal_aluminum_sheet": {
+"name": "aluminum sheet",
+"cat": "Material",
+"file": "metal_aluminum_sheet.png"
+},
+"alloy_aluminum_aerospace": {
+"name": "aerospace aluminum alloy",
+"cat": "Material",
+"file": "alloy_aluminum_aerospace.png"
+},
+"metal_lead_ingot": {
+"name": "lead ingot",
+"cat": "Material",
+"file": "metal_lead_ingot.png"
+},
+"waste_slag": {
+"name": "slag",
+"cat": "Material",
+"file": "waste_slag.png"
+},
+"iron_ore_crushed": {
+"name": "crushed iron ore",
+"cat": "Material",
+"file": "iron_ore_crushed.png"
+},
+"wrought_iron_billet": {
+"name": "wrought iron billet",
+"cat": "Material",
+"file": "wrought_iron_billet.png"
+},
+"bloomery_slag": {
+"name": "bloomery slag",
+"cat": "Material",
+"file": "bloomery_slag.png"
+},
+"hammer_scale": {
+"name": "hammer scale",
+"cat": "Material",
+"file": "hammer_scale.png"
+},
+"wood_ash": {
+"name": "wood ash",
+"cat": "Material",
+"file": "wood_ash.png"
+},
+"lead_sinter_oxide": {
+"name": "lead oxide sinter",
+"cat": "Material",
+"file": "lead_sinter_oxide.png"
+},
+"lead_bullion": {
+"name": "crude lead bullion",
+"cat": "Material",
+"file": "lead_bullion.png"
+},
+"lead_softened": {
+"name": "softened lead",
+"cat": "Material",
+"file": "lead_softened.png"
+},
+"silver_zinc_crust": {
+"name": "silver-zinc crust",
+"cat": "Material",
+"file": "silver_zinc_crust.png"
+},
+"silver_dore": {
+"name": "silver dore",
+"cat": "Material",
+"file": "silver_dore.png"
+},
+"litharge_pbo": {
+"name": "litharge (PbO)",
+"cat": "Material",
+"file": "litharge_pbo.png"
+},
+"spodumene_beta": {
+"name": "beta-spodumene",
+"cat": "Material",
+"file": "spodumene_beta.png"
+},
+"lithium_sulfate_crude": {
+"name": "crude lithium sulfate",
+"cat": "Material",
+"file": "lithium_sulfate_crude.png"
+},
+"lithium_sulfate_solution": {
+"name": "lithium sulfate liquor",
+"cat": "Material",
+"file": "lithium_sulfate_solution.png"
+},
+"lithium_hydroxide": {
+"name": "lithium hydroxide monohydrate",
+"cat": "Chemistry",
+"file": "lithium_hydroxide.png"
+},
+"lithium_carbonate": {
+"name": "lithium carbonate (battery grade)",
+"cat": "Chemistry",
+"file": "lithium_carbonate.png"
+},
+"salt_sodium_sulfate": {
+"name": "sodium sulfate",
+"cat": "Chemistry",
+"file": "salt_sodium_sulfate.png"
+},
+"raw_ore_dolomite": {
+"name": "dolomite",
+"cat": "Material",
+"file": "raw_ore_dolomite.png"
+},
+"dolime_calcined": {
+"name": "calcined dolime (MgO\u00b7CaO)",
+"cat": "Material",
+"file": "dolime_calcined.png"
+},
+"ferrosilicon": {
+"name": "ferrosilicon (FeSi)",
+"cat": "Metal",
+"file": "ferrosilicon.png"
+},
+"magnesium_crown": {
+"name": "magnesium crown (crude)",
+"cat": "Material",
+"file": "magnesium_crown.png"
+},
+"dicalcium_silicate_slag": {
+"name": "dicalcium silicate slag",
+"cat": "Material",
+"file": "dicalcium_silicate_slag.png"
+},
+"magnesium_hydroxide": {
+"name": "magnesium hydroxide",
+"cat": "Material",
+"file": "magnesium_hydroxide.png"
+},
+"magnesium_chloride_anhydrous": {
+"name": "anhydrous magnesium chloride",
+"cat": "Material",
+"file": "magnesium_chloride_anhydrous.png"
+},
+"magnesium_ingot": {
+"name": "magnesium ingot",
+"cat": "Material",
+"file": "magnesium_ingot.png"
+},
+"natural_gas_raw": {
+"name": "raw natural gas",
+"cat": "Chemistry",
+"file": "natural_gas_raw.png"
+},
+"gas_methane": {
+"name": "methane gas",
+"cat": "Chemistry",
+"file": "gas_methane.png"
+},
+"gas_hydrogen_sulfide": {
+"name": "hydrogen sulfide gas",
+"cat": "Chemistry",
+"file": "gas_hydrogen_sulfide.png"
+},
+"sulfur_recovered": {
+"name": "recovered sulfur",
+"cat": "Chemistry",
+"file": "sulfur_recovered.png"
+},
+"crude_helium": {
+"name": "crude helium",
+"cat": "Chemistry",
+"file": "crude_helium.png"
+},
+"gas_helium": {
+"name": "helium gas",
+"cat": "Chemistry",
+"file": "gas_helium.png"
+},
+"cylinder_helium": {
+"name": "helium cylinder",
+"cat": "Container",
+"file": "cylinder_helium.png"
+},
+"gas_syngas": {
+"name": "synthesis gas",
+"cat": "Chemistry",
+"file": "gas_syngas.png"
+},
+"nickel_concentrate": {
+"name": "nickel concentrate",
+"cat": "Material",
+"file": "nickel_concentrate.png"
+},
+"nickel_matte": {
+"name": "nickel furnace matte",
+"cat": "Material",
+"file": "nickel_matte.png"
+},
+"nickel_converter_matte": {
+"name": "nickel converter matte (Ni3S2)",
+"cat": "Material",
+"file": "nickel_converter_matte.png"
+},
+"nickel_oxide_sinter": {
+"name": "nickel oxide sinter",
+"cat": "Material",
+"file": "nickel_oxide_sinter.png"
+},
+"nickel_cathode": {
+"name": "nickel cathode",
+"cat": "Material",
+"file": "nickel_cathode.png"
+},
+"crude_nb_ta_fluoride": {
+"name": "crude Nb/Ta fluoride liquor",
+"cat": "Material",
+"file": "crude_nb_ta_fluoride.png"
+},
+"niobium_fluoride": {
+"name": "niobium fluoride raffinate",
+"cat": "Material",
+"file": "niobium_fluoride.png"
+},
+"tantalum_fluoride": {
+"name": "tantalum fluoride extract",
+"cat": "Material",
+"file": "tantalum_fluoride.png"
+},
+"niobium_oxide": {
+"name": "niobium pentoxide (Nb2O5)",
+"cat": "Material",
+"file": "niobium_oxide.png"
+},
+"tantalum_pentoxide": {
+"name": "tantalum pentoxide (Ta2O5)",
+"cat": "Material",
+"file": "tantalum_pentoxide.png"
+},
+"ferroniobium": {
+"name": "ferroniobium",
+"cat": "Metal",
+"file": "ferroniobium.png"
+},
+"tantalum_powder": {
+"name": "capacitor-grade tantalum powder",
+"cat": "Material",
+"file": "tantalum_powder.png"
+},
+"tantalum_capacitor": {
+"name": "tantalum capacitor",
+"cat": "Component",
+"file": "tantalum_capacitor.png"
+},
+"obsidian_flake": {
+"name": "obsidian flake",
+"cat": "Component",
+"file": "obsidian_flake.png"
+},
+"obsidian_blade_pressure": {
+"name": "pressure-flaked obsidian blade",
+"cat": "Tool",
+"file": "obsidian_blade_pressure.png"
+},
+"obsidian_arrowhead": {
+"name": "obsidian dart point",
+"cat": "Component",
+"file": "obsidian_arrowhead.png"
+},
+"obsidian_scalpel": {
+"name": "obsidian scalpel",
+"cat": "Tool",
+"file": "obsidian_scalpel.png"
+},
+"bronze_axe_head": {
+"name": "bronze axe head",
+"cat": "Component",
+"file": "bronze_axe_head.png"
+},
+"bronze_pick_head": {
+"name": "bronze pick head",
+"cat": "Component",
+"file": "bronze_pick_head.png"
+},
+"bronze_shovel_blade": {
+"name": "bronze shovel blade",
+"cat": "Component",
+"file": "bronze_shovel_blade.png"
+},
+"wood_haft": {
+"name": "wood haft",
+"cat": "Component",
+"file": "wood_haft.png"
+},
+"stone_axe_head": {
+"name": "stone axe head",
+"cat": "Component",
+"file": "stone_axe_head.png"
+},
+"stone_adze_head": {
+"name": "stone adze head",
+"cat": "Component",
+"file": "stone_adze_head.png"
+},
+"stone_hoe_blade": {
+"name": "stone hoe blade",
+"cat": "Component",
+"file": "stone_hoe_blade.png"
+},
+"stripped_log": {
+"name": "stripped log",
+"cat": "Component",
+"file": "stripped_log.png"
+},
+"potash_muriate": {
+"name": "muriate of potash (KCl)",
+"cat": "Chemistry",
+"file": "potash_muriate.png"
+},
+"potash_sulfate": {
+"name": "sulfate of potash (K2SO4)",
+"cat": "Chemistry",
+"file": "potash_sulfate.png"
+},
+"potassium_hydroxide": {
+"name": "caustic potash (KOH)",
+"cat": "Chemistry",
+"file": "potassium_hydroxide.png"
+},
+"salt": {
+"name": "salt lick",
+"cat": "Material",
+"file": "salt.png"
+},
+"ree_sulfate_mixed": {
+"name": "mixed rare-earth sulfate",
+"cat": "Material",
+"file": "ree_sulfate_mixed.png"
+},
+"thorium_residue": {
+"name": "thorium residue (radioactive)",
+"cat": "Nuclear",
+"file": "thorium_residue.png"
+},
+"neodymium_oxide": {
+"name": "neodymium oxide",
+"cat": "Material",
+"file": "neodymium_oxide.png"
+},
+"cerium_oxide": {
+"name": "cerium oxide",
+"cat": "Chemistry",
+"file": "cerium_oxide.png"
+},
+"ree_raffinate_mixed": {
+"name": "mixed REE raffinate",
+"cat": "Material",
+"file": "ree_raffinate_mixed.png"
+},
+"neodymium_metal": {
+"name": "neodymium metal",
+"cat": "Material",
+"file": "neodymium_metal.png"
+},
+"raw_ore_borax": {
+"name": "borax",
+"cat": "Material",
+"file": "raw_ore_borax.png"
+},
+"boron_oxide": {
+"name": "boric oxide (B2O3)",
+"cat": "Chemistry",
+"file": "boron_oxide.png"
+},
+"nd_magnet_sintered": {
+"name": "sintered NdFeB magnet",
+"cat": "Component",
+"file": "nd_magnet_sintered.png"
+},
+"silicon_mg_grade": {
+"name": "metallurgical-grade silicon",
+"cat": "Material",
+"file": "silicon_mg_grade.png"
+},
+"trichlorosilane": {
+"name": "trichlorosilane",
+"cat": "Chemistry",
+"file": "trichlorosilane.png"
+},
+"silicon_tetrachloride": {
+"name": "silicon tetrachloride",
+"cat": "Material",
+"file": "silicon_tetrachloride.png"
+},
+"polysilicon_9n": {
+"name": "electronic-grade polysilicon",
+"cat": "Material",
+"file": "polysilicon_9n.png"
+},
+"silicon_ingot_czochralski": {
+"name": "Czochralski silicon ingot",
+"cat": "Material",
+"file": "silicon_ingot_czochralski.png"
+},
+"silicon_wafer_raw": {
+"name": "raw silicon wafer",
+"cat": "Electronics",
+"file": "silicon_wafer_raw.png"
+},
+"silicon_wafer_polished": {
+"name": "polished silicon wafer",
+"cat": "Electronics",
+"file": "silicon_wafer_polished.png"
+},
+"gas_so3": {
+"name": "sulfur trioxide gas",
+"cat": "Gas",
+"file": "gas_so3.png"
+},
+"oleum": {
+"name": "oleum (fuming sulfuric acid)",
+"cat": "Chemistry",
+"file": "oleum.png"
+},
+"adze": {
+"name": "adze",
+"cat": "Tool",
+"file": "adze.png"
+},
+"animal_glue": {
+"name": "animal glue",
+"cat": "Material",
+"file": "animal_glue.png"
+},
+"basket_coiled": {
+"name": "basket (coiled)",
+"cat": "Container",
+"file": "basket_coiled.png"
+},
+"bellows": {
+"name": "bellows",
+"cat": "Machine",
+"file": "bellows.png"
+},
+"block_and_tackle": {
+"name": "block-and-tackle",
+"cat": "Mechanism",
+"file": "block_and_tackle.png"
+},
+"bow_drill": {
+"name": "bow drill",
+"cat": "Tool",
+"file": "bow_drill.png"
+},
+"bow_saw_frame": {
+"name": "bow saw frame",
+"cat": "Tool",
+"file": "bow_saw_frame.png"
+},
+"cam_wooden": {
+"name": "cam (wooden)",
+"cat": "Component",
+"file": "cam_wooden.png"
+},
+"capstan": {
+"name": "capstan",
+"cat": "Machine",
+"file": "capstan.png"
+},
+"carving_bench": {
+"name": "carving bench",
+"cat": "Station",
+"file": "carving_bench.png"
+},
+"charcoal_drum_kiln": {
+"name": "charcoal drum kiln",
+"cat": "Station",
+"file": "charcoal_drum_kiln.png"
+},
+"charcoal_retort_kiln": {
+"name": "charcoal retort kiln",
+"cat": "Station",
+"file": "charcoal_retort_kiln.png"
+},
+"chisel": {
+"name": "chisel",
+"cat": "Tool",
+"file": "chisel.png"
+},
+"cobblestone": {
+"name": "cobblestone",
+"cat": "Material",
+"file": "cobblestone.png"
+},
+"clay_tuyere": {
+"name": "clay tuyere",
+"cat": "Component",
+"file": "clay_tuyere.png"
+},
+"coarse_screen": {
+"name": "coarse screen",
+"cat": "Structure",
+"file": "coarse_screen.png"
+},
+"counterweight": {
+"name": "counterweight",
+"cat": "Component",
+"file": "counterweight.png"
+},
+"drawknife": {
+"name": "drawknife",
+"cat": "Tool",
+"file": "drawknife.png"
+},
+"potters_wheel_kick": {
+"name": "potter's wheel (kick)",
+"cat": "Machine",
+"file": "potters_wheel_kick.png"
+},
+"fire_pit": {
+"name": "fire pit",
+"cat": "Station",
+"file": "fire_pit.png"
+},
+"flywheel": {
+"name": "flywheel",
+"cat": "Component",
+"file": "flywheel.png"
+},
+"gold_pan": {
+"name": "gold pan",
+"cat": "Tool",
+"file": "gold_pan.png"
+},
+"grease_tallow": {
+"name": "grease (tallow)",
+"cat": "Material",
+"file": "grease_tallow.png"
+},
+"grog_crushed_ceramic_temper": {
+"name": "grog (crushed ceramic temper)",
+"cat": "Material",
+"file": "grog_crushed_ceramic_temper.png"
+},
+"hemp_fiber": {
+"name": "hemp fiber",
+"cat": "Material",
+"file": "hemp_fiber.png"
+},
+"holdfast": {
+"name": "holdfast",
+"cat": "Component",
+"file": "holdfast.png"
+},
+"hoe": {
+"name": "hoe",
+"cat": "Tool",
+"file": "hoe.png"
+},
+"kiln_vent_baffle": {
+"name": "kiln vent baffle",
+"cat": "Component",
+"file": "kiln_vent_baffle.png"
+},
+"lever_pry_bar": {
+"name": "lever (pry bar)",
+"cat": "Tool",
+"file": "lever_pry_bar.png"
+},
+"lever_press": {
+"name": "lever press",
+"cat": "Machine",
+"file": "lever_press.png"
+},
+"mallet": {
+"name": "mallet",
+"cat": "Tool",
+"file": "mallet.png"
+},
+"measuring_cord": {
+"name": "measuring cord",
+"cat": "Tool",
+"file": "measuring_cord.png"
+},
+"pitch": {
+"name": "pitch",
+"cat": "Material",
+"file": "pitch.png"
+},
+"plumb_bob": {
+"name": "plumb bob",
+"cat": "Tool",
+"file": "plumb_bob.png"
+},
+"plain_bearing_wood": {
+"name": "plain bearing (wood)",
+"cat": "Component",
+"file": "plain_bearing_wood.png"
+},
+"post_mill_windmill": {
+"name": "post mill (windmill)",
+"cat": "Power Assist",
+"file": "post_mill_windmill.png"
+},
+"pulley": {
+"name": "pulley",
+"cat": "Component",
+"file": "pulley.png"
+},
+"quern_rotary": {
+"name": "quern (rotary)",
+"cat": "Machine",
+"file": "quern_rotary.png"
+},
+"riffle_insert_sluice": {
+"name": "riffle insert (sluice)",
+"cat": "Component",
+"file": "riffle_insert_sluice.png"
+},
+"rocker_box": {
+"name": "rocker box",
+"cat": "Machine",
+"file": "rocker_box.png"
+},
+"rope_walk_jig": {
+"name": "rope-walk jig",
+"cat": "Station",
+"file": "rope_walk_jig.png"
+},
+"sail_cloth": {
+"name": "sail cloth",
+"cat": "Material",
+"file": "sail_cloth.png"
+},
+"screw_jack_wooden": {
+"name": "screw jack (wooden)",
+"cat": "Mechanism",
+"file": "screw_jack_wooden.png"
+},
+"sheave": {
+"name": "sheave",
+"cat": "Component",
+"file": "sheave.png"
+},
+"sieve": {
+"name": "sieve",
+"cat": "Structure",
+"file": "sieve.png"
+},
+"sluice_box": {
+"name": "sluice box",
+"cat": "Machine",
+"file": "sluice_box.png"
+},
+"sluice_trough": {
+"name": "sluice trough",
+"cat": "Structure",
+"file": "sluice_trough.png"
+},
+"chute_wood": {
+"name": "wooden chute",
+"cat": "Component",
+"file": "chute_wood.png"
+},
+"spindle_drill": {
+"name": "spindle drill",
+"cat": "Tool",
+"file": "spindle_drill.png"
+},
+"stamp_mill_manual_trip_hammer": {
+"name": "stamp mill (manual trip hammer)",
+"cat": "Machine",
+"file": "stamp_mill_manual_trip_hammer.png"
+},
+"tailings_box": {
+"name": "tailings box",
+"cat": "Structure",
+"file": "tailings_box.png"
+},
+"tailpole_windmill_yaw": {
+"name": "tailpole (windmill yaw)",
+"cat": "Component",
+"file": "tailpole_windmill_yaw.png"
+},
+"tar": {
+"name": "tar",
+"cat": "Material",
+"file": "tar.png"
+},
+"temper_sand_or_grog": {
+"name": "temper (sand or grog)",
+"cat": "Material",
+"file": "temper_sand_or_grog.png"
+},
+"tappet": {
+"name": "tappet",
+"cat": "Component",
+"file": "tappet.png"
+},
+"tinder": {
+"name": "tinder",
+"cat": "Material",
+"file": "tinder.png"
+},
+"treadle": {
+"name": "treadle",
+"cat": "Mechanism",
+"file": "treadle.png"
+},
+"water_level": {
+"name": "water level",
+"cat": "Tool",
+"file": "water_level.png"
+},
+"waterwheel_overshot": {
+"name": "waterwheel (overshot)",
+"cat": "Power Assist",
+"file": "waterwheel_overshot.png"
+},
+"waterwheel_undershot": {
+"name": "waterwheel (undershot)",
+"cat": "Power Assist",
+"file": "waterwheel_undershot.png"
+},
+"wedge": {
+"name": "wedge",
+"cat": "Tool",
+"file": "wedge.png"
+},
+"wheel_and_axle": {
+"name": "wheel-and-axle",
+"cat": "Mechanism",
+"file": "wheel_and_axle.png"
+},
+"windlass": {
+"name": "windlass",
+"cat": "Machine",
+"file": "windlass.png"
+},
+"wooden_dowel": {
+"name": "wooden dowel",
+"cat": "Component",
+"file": "wooden_dowel.png"
+},
+"wooden_gear_peg_toothed": {
+"name": "wooden gear (peg-toothed)",
+"cat": "Component",
+"file": "wooden_gear_peg_toothed.png"
+},
+"wooden_peg": {
+"name": "wooden peg",
+"cat": "Component",
+"file": "wooden_peg.png"
+},
+"wooden_tub": {
+"name": "wooden tub",
+"cat": "Structure",
+"file": "wooden_tub.png"
+},
+"timber_beam_rough": {
+"name": "rough timber beam",
+"cat": "Material",
+"file": "timber_beam_rough.png"
+},
+"board_plank_rough": {
+"name": "rough board plank",
+"cat": "Material",
+"file": "board_plank_rough.png"
+},
+"shaft_wood_round": {
+"name": "wooden shaft (round)",
+"cat": "Component",
+"file": "shaft_wood_round.png"
+},
+"tool_stone_knife_hafted": {
+"name": "hafted stone knife",
+"cat": "Tool",
+"file": "tool_stone_knife_hafted.png"
+},
+"item_questbook": {
+"name": "quest book",
+"cat": "Tool",
+"file": "item_questbook.png"
+},
+"lootbag_curated_first_camp": {
+"name": "First Camp Gift",
+"cat": "Tool",
+"file": "lootbag_curated_first_camp.png"
+},
+"lootbag_tier_I": {
+"name": "Survival Satchel",
+"cat": "Tool",
+"file": "lootbag_tier_I.png"
+},
+"lootbag_tier_II": {
+"name": "Pioneer's Pouch",
+"cat": "Tool",
+"file": "lootbag_tier_II.png"
+},
+"lootbag_tier_III": {
+"name": "Engineer's Kit",
+"cat": "Tool",
+"file": "lootbag_tier_III.png"
+},
+"lootbag_tier_IV": {
+"name": "Steelworker's Crate",
+"cat": "Tool",
+"file": "lootbag_tier_IV.png"
+},
+"lootbag_tier_V": {
+"name": "Electrician's Locker",
+"cat": "Tool",
+"file": "lootbag_tier_V.png"
+},
+"lootbag_tier_VI": {
+"name": "Solid-State Cache",
+"cat": "Tool",
+"file": "lootbag_tier_VI.png"
+},
+"lootbag_tier_VII": {
+"name": "Orbital Crate",
+"cat": "Tool",
+"file": "lootbag_tier_VII.png"
+},
+"lootbag_curated_iron_age": {
+"name": "Iron Age Head Start",
+"cat": "Tool",
+"file": "lootbag_curated_iron_age.png"
+},
+"forest_twigs_fine": {
+"name": "fine forest twigs",
+"cat": "Material",
+"file": "forest_twigs_fine.png"
+},
+"forest_stick_scatter": {
+"name": "forest stick scatter",
+"cat": "Material",
+"file": "forest_stick_scatter.png"
+},
+"stone_river_rounded": {
+"name": "rounded river stone",
+"cat": "Material",
+"file": "stone_river_rounded.png"
+},
+"plant_fibers": {
+"name": "plant fibers",
+"cat": "Material",
+"file": "plant_fibers.png"
+},
+"rope": {
+"name": "rope",
+"cat": "Material",
+"file": "rope.png"
+},
+"tool_stone_flake": {
+"name": "stone flake",
+"cat": "Tool",
+"file": "tool_stone_flake.png"
+},
+"camp_marker_basic": {
+"name": "camp marker (simple)",
+"cat": "Station",
+"file": "camp_marker_basic.png"
+},
+"scarecrow_basic": {
+"name": "scarecrow (rag-and-stick)",
+"cat": "Station",
+"file": "scarecrow_basic.png"
+},
+"forest_bark_strip": {
+"name": "curled bark strip",
+"cat": "Material",
+"file": "forest_bark_strip.png"
+},
+"forest_bark_slabs": {
+"name": "bark slabs",
+"cat": "Material",
+"file": "forest_bark_slabs.png"
+},
+"bark_bucket": {
+"name": "bark bucket",
+"cat": "Item",
+"file": "bark_bucket.png"
+},
+"bark_bucket_water": {
+"name": "water-filled bark bucket",
+"cat": "Item",
+"file": "bark_bucket_water.png"
+},
+"bark_bucket_water_treated": {
+"name": "treated water (bark bucket)",
+"cat": "Item",
+"file": "bark_bucket_water_treated.png"
+},
+"tinder_dry_fibers": {
+"name": "dry fiber tinder",
+"cat": "Material",
+"file": "tinder_dry_fibers.png"
+},
+"stick_kindling_dry": {
+"name": "dry kindling sticks",
+"cat": "Material",
+"file": "stick_kindling_dry.png"
+},
+"stick_dry_small": {
+"name": "small dry sticks",
+"cat": "Material",
+"file": "stick_dry_small.png"
+},
+"fire_drill_kit": {
+"name": "fire drill kit",
+"cat": "Tool",
+"file": "fire_drill_kit.png"
+},
+"fire_ring_stones": {
+"name": "stone fire ring",
+"cat": "Structure",
+"file": "fire_ring_stones.png"
+},
+"campfire_survival": {
+"name": "survival campfire",
+"cat": "Station",
+"file": "campfire_survival.png"
+},
+"drying_rack_survival": {
+"name": "drying rack (survival)",
+"cat": "Station",
+"file": "drying_rack_survival.png"
+},
+"butchering_block_basic": {
+"name": "butchering block (basic)",
+"cat": "Station",
+"file": "butchering_block_basic.png"
+},
+"foraged_berries": {
+"name": "foraged berries",
+"cat": "Material",
+"file": "foraged_berries.png"
+},
+"food_berries_safe": {
+"name": "safe berries",
+"cat": "Material",
+"file": "food_berries_safe.png"
+},
+"food_nuts_safe": {
+"name": "safe nuts",
+"cat": "Material",
+"file": "food_nuts_safe.png"
+},
+"food_cooked_simple": {
+"name": "simple cooked food",
+"cat": "Material",
+"file": "food_cooked_simple.png"
+},
+"thatch_bundle": {
+"name": "bundle of thatch",
+"cat": "Material",
+"file": "thatch_bundle.png"
+},
+"bedroll_straw": {
+"name": "straw bedroll",
+"cat": "Station",
+"file": "bedroll_straw.png"
+},
+"cloak_ragged": {
+"name": "ragged cloak",
+"cat": "Armor",
+"file": "cloak_ragged.png"
+},
+"hood_ragged": {
+"name": "ragged hood",
+"cat": "Armor",
+"file": "hood_ragged.png"
+},
+"wraps_ragged": {
+"name": "ragged leg wraps",
+"cat": "Armor",
+"file": "wraps_ragged.png"
+},
+"footwraps_ragged": {
+"name": "ragged footwraps",
+"cat": "Armor",
+"file": "footwraps_ragged.png"
+},
+"hammerstone": {
+"name": "hammerstone",
+"cat": "Material",
+"file": "hammerstone.png"
+},
+"stone": {
+"name": "fieldstone",
+"cat": "Material",
+"file": "stone.png"
+},
+"forest_twigs_mixed": {
+"name": "mixed forest twigs",
+"cat": "Material",
+"file": "forest_twigs_mixed.png"
+},
+"log_small_dry": {
+"name": "small dry log",
+"cat": "Material",
+"file": "log_small_dry.png"
+},
+"log_medium_dry": {
+"name": "medium dry log",
+"cat": "Material",
+"file": "log_medium_dry.png"
+},
+"log_oak": {
+"name": "fresh oak log",
+"cat": "Material",
+"file": "log_oak.png"
+},
+"log_birch": {
+"name": "fresh birch log",
+"cat": "Material",
+"file": "log_birch.png"
+},
+"log_pine": {
+"name": "fresh pine log",
+"cat": "Material",
+"file": "log_pine.png"
+},
+"log_maple": {
+"name": "fresh maple log",
+"cat": "Material",
+"file": "log_maple.png"
+},
+"maple_sap": {
+"name": "maple sap",
+"cat": "Material",
+"file": "maple_sap.png"
+},
+"log_beech": {
+"name": "fresh beech log",
+"cat": "Material",
+"file": "log_beech.png"
+},
+"log_ash": {
+"name": "fresh ash log",
+"cat": "Material",
+"file": "log_ash.png"
+},
+"log_hardwood": {
+"name": "fresh hardwood log",
+"cat": "Material",
+"file": "log_hardwood.png"
+},
+"log_spruce": {
+"name": "fresh spruce log",
+"cat": "Material",
+"file": "log_spruce.png"
+},
+"log_larch": {
+"name": "fresh larch log",
+"cat": "Material",
+"file": "log_larch.png"
+},
+"log_fir": {
+"name": "fresh fir log",
+"cat": "Material",
+"file": "log_fir.png"
+},
+"log_willow": {
+"name": "fresh willow log",
+"cat": "Material",
+"file": "log_willow.png"
+},
+"log_alder": {
+"name": "fresh alder log",
+"cat": "Material",
+"file": "log_alder.png"
+},
+"log_oak_dry": {
+"name": "dry oak log",
+"cat": "Material",
+"file": "log_oak_dry.png"
+},
+"log_birch_dry": {
+"name": "dry birch log",
+"cat": "Material",
+"file": "log_birch_dry.png"
+},
+"log_pine_dry": {
+"name": "dry pine log",
+"cat": "Material",
+"file": "log_pine_dry.png"
+},
+"log_maple_dry": {
+"name": "dry maple log",
+"cat": "Material",
+"file": "log_maple_dry.png"
+},
+"log_beech_dry": {
+"name": "dry beech log",
+"cat": "Material",
+"file": "log_beech_dry.png"
+},
+"log_ash_dry": {
+"name": "dry ash log",
+"cat": "Material",
+"file": "log_ash_dry.png"
+},
+"log_hardwood_dry": {
+"name": "dry hardwood log",
+"cat": "Material",
+"file": "log_hardwood_dry.png"
+},
+"log_spruce_dry": {
+"name": "dry spruce log",
+"cat": "Material",
+"file": "log_spruce_dry.png"
+},
+"log_larch_dry": {
+"name": "dry larch log",
+"cat": "Material",
+"file": "log_larch_dry.png"
+},
+"log_fir_dry": {
+"name": "dry fir log",
+"cat": "Material",
+"file": "log_fir_dry.png"
+},
+"log_willow_dry": {
+"name": "dry willow log",
+"cat": "Material",
+"file": "log_willow_dry.png"
+},
+"log_alder_dry": {
+"name": "dry alder log",
+"cat": "Material",
+"file": "log_alder_dry.png"
+},
+"pine_resin": {
+"name": "pine resin",
+"cat": "Material",
+"file": "pine_resin.png"
+},
+"spruce_resin": {
+"name": "spruce resin",
+"cat": "Material",
+"file": "spruce_resin.png"
+},
+"fir_cone": {
+"name": "fir cone",
+"cat": "Material",
+"file": "fir_cone.png"
+},
+"alder_cone": {
+"name": "alder catkin cone",
+"cat": "Material",
+"file": "alder_cone.png"
+},
+"hazel_rod": {
+"name": "hazel rod",
+"cat": "Material",
+"file": "hazel_rod.png"
+},
+"juniper_berry": {
+"name": "juniper berry",
+"cat": "Food",
+"file": "juniper_berry.png"
+},
+"rowan_berry": {
+"name": "rowan berry",
+"cat": "Food",
+"file": "rowan_berry.png"
+},
+"blueberry": {
+"name": "blueberry",
+"cat": "Food",
+"file": "blueberry.png"
+},
+"blackberry": {
+"name": "blackberry",
+"cat": "Food",
+"file": "blackberry.png"
+},
+"hawthorn_berry": {
+"name": "hawthorn berry",
+"cat": "Food",
+"file": "hawthorn_berry.png"
+},
+"sea_buckthorn_berry": {
+"name": "sea buckthorn berry",
+"cat": "Food",
+"file": "sea_buckthorn_berry.png"
+},
+"hazelnut": {
+"name": "hazelnut",
+"cat": "Food",
+"file": "hazelnut.png"
+},
+"branch_bundle": {
+"name": "branch bundle",
+"cat": "Material",
+"file": "branch_bundle.png"
+},
+"wood": {
+"name": "construction wood",
+"cat": "Material",
+"file": "wood.png"
+},
+"willow": {
+"name": "willow wands",
+"cat": "Material",
+"file": "willow.png"
+},
+"reeds": {
+"name": "cut reeds",
+"cat": "Material",
+"file": "reeds.png"
+},
+"dirt": {
+"name": "loose dirt",
+"cat": "Material",
+"file": "dirt.png"
+},
+"bandage_cloth": {
+"name": "cloth bandage",
+"cat": "Consumable",
+"file": "bandage_cloth.png"
+},
+"salve_herbal": {
+"name": "herbal salve",
+"cat": "Consumable",
+"file": "salve_herbal.png"
+},
+"packed_earth_block": {
+"name": "packed earth block",
+"cat": "Material",
+"file": "packed_earth_block.png"
+},
+"trophy_bird_hunter": {
+"name": "trophy: bird hunter",
+"cat": "Station",
+"file": "trophy_bird_hunter.png"
+},
+"trophy_lumberjack": {
+"name": "trophy: lumberjack",
+"cat": "Station",
+"file": "trophy_lumberjack.png"
+},
+"trophy_miner": {
+"name": "trophy: miner",
+"cat": "Station",
+"file": "trophy_miner.png"
+},
+"trophy_first_iron": {
+"name": "trophy: iron-smelt",
+"cat": "Station",
+"file": "trophy_first_iron.png"
+},
+"trophy_deerstalker": {
+"name": "trophy: deerstalker",
+"cat": "Station",
+"file": "trophy_deerstalker.png"
+},
+"trophy_master_farmer": {
+"name": "trophy: master farmer",
+"cat": "Station",
+"file": "trophy_master_farmer.png"
+},
+"trophy_builder": {
+"name": "trophy: builder",
+"cat": "Station",
+"file": "trophy_builder.png"
+},
+"trophy_wolfbane": {
+"name": "trophy: wolfbane",
+"cat": "Station",
+"file": "trophy_wolfbane.png"
+},
+"trophy_wanderer": {
+"name": "trophy: wanderer",
+"cat": "Station",
+"file": "trophy_wanderer.png"
+},
+"clay": {
+"name": "raw clay",
+"cat": "Material",
+"file": "clay.png"
+},
+"hide": {
+"name": "raw animal hide",
+"cat": "Material",
+"file": "hide.png"
+},
+"grain": {
+"name": "wild grain",
+"cat": "Material",
+"file": "grain.png"
+},
+"resin": {
+"name": "tree resin",
+"cat": "Material",
+"file": "resin.png"
+},
+"kindling": {
+"name": "kindling bundle",
+"cat": "Material",
+"file": "kindling.png"
+},
+"mud": {
+"name": "wet mud",
+"cat": "Material",
+"file": "mud.png"
+},
+"sand": {
+"name": "loose sand",
+"cat": "Material",
+"file": "sand.png"
+},
+"stone_knife_flake": {
+"name": "stone knife flake",
+"cat": "Material",
+"file": "stone_knife_flake.png"
+},
+"tool_hammerstone_basic": {
+"name": "hammerstone (hafted)",
+"cat": "Tool",
+"file": "tool_hammerstone_basic.png"
+},
+"stone_axe_ground": {
+"name": "ground stone axe",
+"cat": "Tool",
+"file": "stone_axe_ground.png"
+},
+"shovel": {
+"name": "crude shovel",
+"cat": "Tool",
+"file": "shovel.png"
+},
+"tool_stone_pick_basic": {
+"name": "stone pick (lashed)",
+"cat": "Tool",
+"file": "tool_stone_pick_basic.png"
+},
+"shovel_bone": {
+"name": "bone shovel",
+"cat": "Tool",
+"file": "shovel_bone.png"
+},
+"rawhide_cord": {
+"name": "rawhide cord",
+"cat": "Material",
+"file": "rawhide_cord.png"
+},
+"charcoal": {
+"name": "charcoal",
+"cat": "Material",
+"file": "charcoal.png"
+},
+"clay_pot": {
+"name": "clay pot (greenware)",
+"cat": "Item",
+"file": "clay_pot.png"
+},
+"earthenware_vessel": {
+"name": "earthenware vessel",
+"cat": "Item",
+"file": "earthenware_vessel.png"
+},
+"earthenware_brick": {
+"name": "earthenware brick",
+"cat": "Material",
+"file": "earthenware_brick.png"
+},
+"meal_ground_grain": {
+"name": "ground grain meal",
+"cat": "Material",
+"file": "meal_ground_grain.png"
+},
+"flour": {
+"name": "flour",
+"cat": "Material",
+"file": "flour.png"
+},
+"debris_shelter_frame": {
+"name": "debris shelter frame",
+"cat": "Structure",
+"file": "debris_shelter_frame.png"
+},
+"debris_shelter_lean_to": {
+"name": "debris lean-to shelter",
+"cat": "Station",
+"file": "debris_shelter_lean_to.png"
+},
+"bedroll_basic": {
+"name": "basic bedroll",
+"cat": "Station",
+"file": "bedroll_basic.png"
+},
+"waterskin_rawhide": {
+"name": "rawhide waterskin",
+"cat": "Item",
+"file": "waterskin_rawhide.png"
+},
+"waterskin_rawhide_filled": {
+"name": "water-filled rawhide waterskin",
+"cat": "Item",
+"file": "waterskin_rawhide_filled.png"
+},
+"clay_pot_water": {
+"name": "clay pot (water)",
+"cat": "Item",
+"file": "clay_pot_water.png"
+},
+"torch_resin_pine": {
+"name": "pine resin torch",
+"cat": "Item",
+"file": "torch_resin_pine.png"
+},
+"snare_simple": {
+"name": "simple snare",
+"cat": "Item",
+"file": "snare_simple.png"
+},
+"fishing_trap_weir": {
+"name": "wicker fish trap",
+"cat": "Item",
+"file": "fishing_trap_weir.png"
+},
+"mortar_stone": {
+"name": "stone mortar",
+"cat": "Station",
+"file": "mortar_stone.png"
+},
+"pestle_stone": {
+"name": "stone pestle",
+"cat": "Tool",
+"file": "pestle_stone.png"
+},
+"quern_saddle": {
+"name": "saddle quern",
+"cat": "Station",
+"file": "quern_saddle.png"
+},
+"charcoal_clamp_earth_mound_kiln": {
+"name": "earth-mound charcoal clamp",
+"cat": "Station",
+"file": "charcoal_clamp_earth_mound_kiln.png"
+},
+"earthen_kiln_updraft": {
+"name": "earthen updraft kiln",
+"cat": "Station",
+"file": "earthen_kiln_updraft.png"
+},
+"wattle_screen": {
+"name": "wattle screen",
+"cat": "Structure",
+"file": "wattle_screen.png"
+},
+"pit_storage_cache": {
+"name": "pit storage cache",
+"cat": "Station",
+"file": "pit_storage_cache.png"
+},
+"storage_firewood_rack": {
+"name": "firewood storage rack",
+"cat": "Station",
+"file": "storage_firewood_rack.png"
+},
+"storage_food_pit": {
+"name": "food storage pit",
+"cat": "Station",
+"file": "storage_food_pit.png"
+},
+"storage_crate_bark": {
+"name": "bark storage crate",
+"cat": "Station",
+"file": "storage_crate_bark.png"
+},
+"storage_chest_wood": {
+"name": "wooden chest",
+"cat": "Station",
+"file": "storage_chest_wood.png"
+},
+"waste_midden_basic": {
+"name": "camp waste midden",
+"cat": "Structure",
+"file": "waste_midden_basic.png"
+},
+"workbench": {
+"name": "workbench",
+"cat": "Station",
+"file": "workbench.png"
+},
+"basalt": {
+"name": "basalt",
+"cat": "Material",
+"file": "basalt.png"
+},
+"granite": {
+"name": "granite",
+"cat": "Material",
+"file": "granite.png"
+},
+"limestone": {
+"name": "limestone",
+"cat": "Material",
+"file": "limestone.png"
+},
+"limestone_rock": {
+"name": "limestone nodule",
+"cat": "Material",
+"file": "limestone_rock.png"
+},
+"marble": {
+"name": "marble",
+"cat": "Material",
+"file": "marble.png"
+},
+"rock_salt": {
+"name": "rock salt",
+"cat": "Material",
+"file": "rock_salt.png"
+},
+"sandstone": {
+"name": "sandstone",
+"cat": "Material",
+"file": "sandstone.png"
+},
+"slate": {
+"name": "slate",
+"cat": "Material",
+"file": "slate.png"
+},
+"water": {
+"name": "water",
+"cat": "Material",
+"file": "water.png"
+},
+"ice": {
+"name": "ice block",
+"cat": "Material",
+"file": "ice.png"
+},
+"snow": {
+"name": "loose snow",
+"cat": "Material",
+"file": "snow.png"
+},
+"forest_leaf_scatter": {
+"name": "scattered leaves",
+"cat": "Material",
+"file": "forest_leaf_scatter.png"
+},
+"forest_leaf_mat_packed": {
+"name": "packed leaf mat",
+"cat": "Material",
+"file": "forest_leaf_mat_packed.png"
+},
+"forest_moss_tuft_small": {
+"name": "small moss tuft",
+"cat": "Material",
+"file": "forest_moss_tuft_small.png"
+},
+"forest_moss_mat": {
+"name": "moss mat",
+"cat": "Material",
+"file": "forest_moss_mat.png"
+},
+"forest_needles_light": {
+"name": "light conifer needles",
+"cat": "Material",
+"file": "forest_needles_light.png"
+},
+"forest_needles_deep": {
+"name": "deep conifer needles",
+"cat": "Material",
+"file": "forest_needles_deep.png"
+},
+"forest_cones_whole": {
+"name": "whole cones",
+"cat": "Material",
+"file": "forest_cones_whole.png"
+},
+"forest_cone_scales": {
+"name": "cone scales",
+"cat": "Material",
+"file": "forest_cone_scales.png"
+},
+"forest_nut_shell_fragments": {
+"name": "nut shell fragments",
+"cat": "Material",
+"file": "forest_nut_shell_fragments.png"
+},
+"forest_humus_clod": {
+"name": "humus clod",
+"cat": "Material",
+"file": "forest_humus_clod.png"
+},
+"forest_fern_fronds_young": {
+"name": "young fern fronds",
+"cat": "Material",
+"file": "forest_fern_fronds_young.png"
+},
+"forest_flower_heads_dry": {
+"name": "dry flower heads",
+"cat": "Material",
+"file": "forest_flower_heads_dry.png"
+},
+"forest_branch_chunk_small": {
+"name": "small branch chunk",
+"cat": "Material",
+"file": "forest_branch_chunk_small.png"
+},
+"forest_branch_chunk_rotten": {
+"name": "rotten branch chunk",
+"cat": "Material",
+"file": "forest_branch_chunk_rotten.png"
+},
+"forest_seed_mix_dry": {
+"name": "dry forest seed mix",
+"cat": "Material",
+"file": "forest_seed_mix_dry.png"
+},
+"log_small_green": {
+"name": "small green log",
+"cat": "Material",
+"file": "log_small_green.png"
+},
+"meat_venison_raw": {
+"name": "raw venison",
+"cat": "Food",
+"file": "meat_venison_raw.png"
+},
+"meat_venison_cooked": {
+"name": "cooked venison",
+"cat": "Food",
+"file": "meat_venison_cooked.png"
+},
+"meat_beef_raw": {
+"name": "raw beef",
+"cat": "Food",
+"file": "meat_beef_raw.png"
+},
+"meat_beef_cooked": {
+"name": "cooked beef",
+"cat": "Food",
+"file": "meat_beef_cooked.png"
+},
+"meat_mutton_raw": {
+"name": "raw mutton",
+"cat": "Food",
+"file": "meat_mutton_raw.png"
+},
+"meat_mutton_cooked": {
+"name": "cooked mutton",
+"cat": "Food",
+"file": "meat_mutton_cooked.png"
+},
+"meat_pork_raw": {
+"name": "raw pork",
+"cat": "Food",
+"file": "meat_pork_raw.png"
+},
+"meat_pork_cooked": {
+"name": "cooked pork",
+"cat": "Food",
+"file": "meat_pork_cooked.png"
+},
+"meat_poultry_raw": {
+"name": "raw poultry",
+"cat": "Food",
+"file": "meat_poultry_raw.png"
+},
+"meat_poultry_cooked": {
+"name": "cooked poultry",
+"cat": "Food",
+"file": "meat_poultry_cooked.png"
+},
+"meat_rabbit_raw": {
+"name": "raw rabbit meat",
+"cat": "Food",
+"file": "meat_rabbit_raw.png"
+},
+"meat_rabbit_cooked": {
+"name": "cooked rabbit",
+"cat": "Food",
+"file": "meat_rabbit_cooked.png"
+},
+"meat_squirrel_raw": {
+"name": "raw squirrel meat",
+"cat": "Food",
+"file": "meat_squirrel_raw.png"
+},
+"meat_squirrel_cooked": {
+"name": "cooked squirrel",
+"cat": "Food",
+"file": "meat_squirrel_cooked.png"
+},
+"meat_raccoon_raw": {
+"name": "raw raccoon meat",
+"cat": "Food",
+"file": "meat_raccoon_raw.png"
+},
+"meat_raccoon_cooked": {
+"name": "cooked raccoon",
+"cat": "Food",
+"file": "meat_raccoon_cooked.png"
+},
+"meat_fox_raw": {
+"name": "raw fox meat",
+"cat": "Food",
+"file": "meat_fox_raw.png"
+},
+"meat_fox_cooked": {
+"name": "cooked fox",
+"cat": "Food",
+"file": "meat_fox_cooked.png"
+},
+"meat_wolf_raw": {
+"name": "raw wolf meat",
+"cat": "Food",
+"file": "meat_wolf_raw.png"
+},
+"meat_wolf_cooked": {
+"name": "cooked wolf",
+"cat": "Food",
+"file": "meat_wolf_cooked.png"
+},
+"meat_bear_raw": {
+"name": "raw bear meat",
+"cat": "Food",
+"file": "meat_bear_raw.png"
+},
+"meat_bear_cooked": {
+"name": "cooked bear",
+"cat": "Food",
+"file": "meat_bear_cooked.png"
+},
+"hide_fine_raw": {
+"name": "fine raw hide",
+"cat": "Material",
+"file": "hide_fine_raw.png"
+},
+"hide_light_raw": {
+"name": "light raw hide",
+"cat": "Material",
+"file": "hide_light_raw.png"
+},
+"hide_thick_raw": {
+"name": "thick raw hide",
+"cat": "Material",
+"file": "hide_thick_raw.png"
+},
+"fat_raw": {
+"name": "raw animal fat",
+"cat": "Material",
+"file": "fat_raw.png"
+},
+"bone_large": {
+"name": "large bone",
+"cat": "Material",
+"file": "bone_large.png"
+},
+"bone_small": {
+"name": "small bone",
+"cat": "Material",
+"file": "bone_small.png"
+},
+"antler_pair": {
+"name": "antler pair",
+"cat": "Material",
+"file": "antler_pair.png"
+},
+"tusk": {
+"name": "tusk",
+"cat": "Material",
+"file": "tusk.png"
+},
+"fang": {
+"name": "fang",
+"cat": "Material",
+"file": "fang.png"
+},
+"claw": {
+"name": "claw",
+"cat": "Material",
+"file": "claw.png"
+},
+"feather_small": {
+"name": "small feathers",
+"cat": "Material",
+"file": "feather_small.png"
+},
+"pelt_fox": {
+"name": "fox pelt",
+"cat": "Material",
+"file": "pelt_fox.png"
+},
+"pelt_wolf": {
+"name": "wolf pelt",
+"cat": "Material",
+"file": "pelt_wolf.png"
+},
+"meat_camel_raw": {
+"name": "raw camel meat",
+"cat": "Food",
+"file": "meat_camel_raw.png"
+},
+"meat_vulture_raw": {
+"name": "raw vulture meat",
+"cat": "Food",
+"file": "meat_vulture_raw.png"
+},
+"meat_lizard_raw": {
+"name": "raw lizard meat",
+"cat": "Food",
+"file": "meat_lizard_raw.png"
+},
+"meat_seal_raw": {
+"name": "raw seal meat",
+"cat": "Food",
+"file": "meat_seal_raw.png"
+},
+"meat_turtle_raw": {
+"name": "raw turtle meat",
+"cat": "Food",
+"file": "meat_turtle_raw.png"
+},
+"crab_meat_raw": {
+"name": "raw crab meat",
+"cat": "Food",
+"file": "crab_meat_raw.png"
+},
+"shell_fragment": {
+"name": "shell fragment",
+"cat": "Material",
+"file": "shell_fragment.png"
+},
+"chitin": {
+"name": "chitin plate",
+"cat": "Material",
+"file": "chitin.png"
+},
+"venom_gland": {
+"name": "venom gland",
+"cat": "Material",
+"file": "venom_gland.png"
+},
+"antler": {
+"name": "antler",
+"cat": "Material",
+"file": "antler.png"
+},
+"feather_dark": {
+"name": "dark feathers",
+"cat": "Material",
+"file": "feather_dark.png"
+},
+"feather_white": {
+"name": "white feathers",
+"cat": "Material",
+"file": "feather_white.png"
+},
+"pelt_white": {
+"name": "white fur pelt",
+"cat": "Material",
+"file": "pelt_white.png"
+},
+"cactus_fruit": {
+"name": "cactus fruit",
+"cat": "Food",
+"file": "cactus_fruit.png"
+},
+"coconut": {
+"name": "coconut",
+"cat": "Food",
+"file": "coconut.png"
+},
+"deadwood": {
+"name": "deadwood",
+"cat": "Material",
+"file": "deadwood.png"
+},
+"cactus_water": {
+"name": "cactus water",
+"cat": "Food",
+"file": "cactus_water.png"
+},
+"coconut_flesh": {
+"name": "coconut flesh",
+"cat": "Food",
+"file": "coconut_flesh.png"
+},
+"venom_coating": {
+"name": "venom coating",
+"cat": "Material",
+"file": "venom_coating.png"
+},
+"arrow_fletching": {
+"name": "arrow fletching",
+"cat": "Material",
+"file": "arrow_fletching.png"
+},
+"down_insulation": {
+"name": "feather down",
+"cat": "Material",
+"file": "down_insulation.png"
+},
+"antler_needle": {
+"name": "antler needle",
+"cat": "Material",
+"file": "antler_needle.png"
+},
+"chitin_plating": {
+"name": "chitin plating",
+"cat": "Material",
+"file": "chitin_plating.png"
+},
+"shell_lime": {
+"name": "burnt shell lime",
+"cat": "Material",
+"file": "shell_lime.png"
+},
+"fur_white_cured": {
+"name": "cured white fur",
+"cat": "Material",
+"file": "fur_white_cured.png"
+},
+"meat_camel_cooked": {
+"name": "grilled camel",
+"cat": "Food",
+"file": "meat_camel_cooked.png"
+},
+"meat_vulture_cooked": {
+"name": "roasted vulture",
+"cat": "Food",
+"file": "meat_vulture_cooked.png"
+},
+"meat_lizard_cooked": {
+"name": "roasted lizard",
+"cat": "Food",
+"file": "meat_lizard_cooked.png"
+},
+"meat_seal_cooked": {
+"name": "cooked seal",
+"cat": "Food",
+"file": "meat_seal_cooked.png"
+},
+"meat_turtle_cooked": {
+"name": "cooked turtle",
+"cat": "Food",
+"file": "meat_turtle_cooked.png"
+},
+"crab_meat_cooked": {
+"name": "cooked crab meat",
+"cat": "Food",
+"file": "crab_meat_cooked.png"
+},
+"carcass_cow": {
+"name": "cow carcass",
+"cat": "Material",
+"file": "carcass_cow.png"
+},
+"carcass_sheep": {
+"name": "sheep carcass",
+"cat": "Material",
+"file": "carcass_sheep.png"
+},
+"carcass_deer": {
+"name": "deer carcass",
+"cat": "Material",
+"file": "carcass_deer.png"
+},
+"carcass_bird": {
+"name": "game bird carcass",
+"cat": "Material",
+"file": "carcass_bird.png"
+},
+"carcass_rabbit": {
+"name": "rabbit carcass",
+"cat": "Material",
+"file": "carcass_rabbit.png"
+},
+"carcass_squirrel": {
+"name": "squirrel carcass",
+"cat": "Material",
+"file": "carcass_squirrel.png"
+},
+"carcass_raccoon": {
+"name": "raccoon carcass",
+"cat": "Material",
+"file": "carcass_raccoon.png"
+},
+"carcass_owl": {
+"name": "owl carcass",
+"cat": "Material",
+"file": "carcass_owl.png"
+},
+"carcass_fox": {
+"name": "red fox carcass",
+"cat": "Material",
+"file": "carcass_fox.png"
+},
+"carcass_wolf": {
+"name": "wolf carcass",
+"cat": "Material",
+"file": "carcass_wolf.png"
+},
+"carcass_bear": {
+"name": "black bear carcass",
+"cat": "Material",
+"file": "carcass_bear.png"
+},
+"carcass_boar": {
+"name": "wild boar carcass",
+"cat": "Material",
+"file": "carcass_boar.png"
+},
+"meat_red_raw": {
+"name": "raw red meat",
+"cat": "Food",
+"file": "meat_red_raw.png"
+},
+"meat_white_raw": {
+"name": "raw white meat",
+"cat": "Food",
+"file": "meat_white_raw.png"
+},
+"fat_raw_mixed": {
+"name": "raw mixed animal fat",
+"cat": "Material",
+"file": "fat_raw_mixed.png"
+},
+"fat_rendered_tallow": {
+"name": "rendered tallow",
+"cat": "Material",
+"file": "fat_rendered_tallow.png"
+},
+"bone_raw_large": {
+"name": "large raw bone",
+"cat": "Material",
+"file": "bone_raw_large.png"
+},
+"bone_raw_small": {
+"name": "small raw bone",
+"cat": "Material",
+"file": "bone_raw_small.png"
+},
+"bone_meal_ground": {
+"name": "ground bone meal",
+"cat": "Material",
+"file": "bone_meal_ground.png"
+},
+"hide_cow_raw": {
+"name": "raw cow hide",
+"cat": "Material",
+"file": "hide_cow_raw.png"
+},
+"hide_deer_raw": {
+"name": "raw deer hide",
+"cat": "Material",
+"file": "hide_deer_raw.png"
+},
+"pelt_sheep_raw": {
+"name": "raw sheep pelt",
+"cat": "Material",
+"file": "pelt_sheep_raw.png"
+},
+"leather_heavy_tanned": {
+"name": "heavy tanned leather",
+"cat": "Material",
+"file": "leather_heavy_tanned.png"
+},
+"leather_light_tanned": {
+"name": "light tanned leather",
+"cat": "Material",
+"file": "leather_light_tanned.png"
+},
+"pelt_fur_prepared": {
+"name": "prepared fur pelt",
+"cat": "Material",
+"file": "pelt_fur_prepared.png"
+},
+"offal_edible_mixed": {
+"name": "mixed edible offal",
+"cat": "Food",
+"file": "offal_edible_mixed.png"
+},
+"offal_inedible_mixed": {
+"name": "inedible offal",
+"cat": "Material",
+"file": "offal_inedible_mixed.png"
+},
+"blood_animal_fresh": {
+"name": "fresh animal blood",
+"cat": "Material",
+"file": "blood_animal_fresh.png"
+},
+"blood_meal_dried": {
+"name": "dried blood meal",
+"cat": "Material",
+"file": "blood_meal_dried.png"
+},
+"giblets_bird_mixed": {
+"name": "mixed bird giblets",
+"cat": "Food",
+"file": "giblets_bird_mixed.png"
+},
+"feather_bundle_large": {
+"name": "large feather bundle",
+"cat": "Material",
+"file": "feather_bundle_large.png"
+},
+"feather_down_fill": {
+"name": "down fill feathers",
+"cat": "Material",
+"file": "feather_down_fill.png"
+},
+"wool_fleece_raw": {
+"name": "raw wool fleece",
+"cat": "Material",
+"file": "wool_fleece_raw.png"
+},
+"sinew_bundle_dried": {
+"name": "dried sinew bundle",
+"cat": "Material",
+"file": "sinew_bundle_dried.png"
+},
+"horn_cattle_raw": {
+"name": "raw cattle horn",
+"cat": "Material",
+"file": "horn_cattle_raw.png"
+},
+"antler_deer_raw": {
+"name": "raw deer antler",
+"cat": "Material",
+"file": "antler_deer_raw.png"
+},
+"hoof_keratin_chunk": {
+"name": "hoof keratin chunk",
+"cat": "Material",
+"file": "hoof_keratin_chunk.png"
+},
+"gelatin_animal_raw": {
+"name": "raw animal gelatin",
+"cat": "Material",
+"file": "gelatin_animal_raw.png"
+},
+"cooked_meat_skewer": {
+"name": "cooked meat skewer",
+"cat": "Food",
+"file": "cooked_meat_skewer.png"
+},
+"food_meat_cooked_simple": {
+"name": "cooked meat (generic)",
+"cat": "Food",
+"file": "food_meat_cooked_simple.png"
+},
+"milk_raw": {
+"name": "raw milk",
+"cat": "Food",
+"file": "milk_raw.png"
+},
+"wool_raw": {
+"name": "raw wool",
+"cat": "Material",
+"file": "wool_raw.png"
+},
+"acorn": {
+"name": "acorn",
+"cat": "Food",
+"file": "acorn.png"
+},
+"berry_bundle": {
+"name": "berry bundle",
+"cat": "Food",
+"file": "berry_bundle.png"
+},
+"carrot": {
+"name": "wild carrot",
+"cat": "Food",
+"file": "carrot.png"
+},
+"clover": {
+"name": "clover bundle",
+"cat": "Food",
+"file": "clover.png"
+},
+"feed_bundle": {
+"name": "forage feed bundle",
+"cat": "Material",
+"file": "feed_bundle.png"
+},
+"feed_grain": {
+"name": "feed grain",
+"cat": "Food",
+"file": "feed_grain.png"
+},
+"fish_raw": {
+"name": "raw fish",
+"cat": "Food",
+"file": "fish_raw.png"
+},
+"fishing_rod_basic": {
+"name": "basic fishing rod",
+"cat": "Tool",
+"file": "fishing_rod_basic.png"
+},
+"grass_bundle": {
+"name": "grass bundle",
+"cat": "Material",
+"file": "grass_bundle.png"
+},
+"grub": {
+"name": "grub",
+"cat": "Food",
+"file": "grub.png"
+},
+"honeycomb": {
+"name": "honeycomb",
+"cat": "Food",
+"file": "honeycomb.png"
+},
+"mushroom": {
+"name": "foraged mushroom",
+"cat": "Food",
+"file": "mushroom.png"
+},
+"nut_bundle": {
+"name": "nut bundle",
+"cat": "Food",
+"file": "nut_bundle.png"
+},
+"anvil_stone": {
+"name": "stone anvil block",
+"cat": "Station",
+"file": "anvil_stone.png"
+},
+"roasting_pit": {
+"name": "ore roasting pit",
+"cat": "Station",
+"file": "roasting_pit.png"
+},
+"clay_bloomery_furnace": {
+"name": "clay bloomery furnace",
+"cat": "Station",
+"file": "clay_bloomery_furnace.png"
+},
+"iron_anvil_block": {
+"name": "iron anvil block",
+"cat": "Station",
+"file": "iron_anvil_block.png"
+},
+"forge_hearth": {
+"name": "forge hearth",
+"cat": "Station",
+"file": "forge_hearth.png"
+},
+"copper_nugget_hammered": {
+"name": "hammered copper nugget",
+"cat": "Material",
+"file": "copper_nugget_hammered.png"
+},
+"crucible_clay": {
+"name": "clay crucible",
+"cat": "Material",
+"file": "crucible_clay.png"
+},
+"stone_mold_ingot": {
+"name": "stone ingot mold",
+"cat": "Material",
+"file": "stone_mold_ingot.png"
+},
+"copper_ingot": {
+"name": "copper ingot",
+"cat": "Material",
+"file": "copper_ingot.png"
+},
+"tin_ingot": {
+"name": "tin ingot",
+"cat": "Material",
+"file": "tin_ingot.png"
+},
+"bronze_ingot": {
+"name": "bronze ingot",
+"cat": "Material",
+"file": "bronze_ingot.png"
+},
+"bronze_pickaxe": {
+"name": "bronze pickaxe",
+"cat": "Tool",
+"file": "bronze_pickaxe.png"
+},
+"roasted_ore_hematite": {
+"name": "roasted hematite",
+"cat": "Material",
+"file": "roasted_ore_hematite.png"
+},
+"roasted_ore_bog_iron": {
+"name": "roasted bog iron",
+"cat": "Material",
+"file": "roasted_ore_bog_iron.png"
+},
+"iron_bloom": {
+"name": "iron bloom",
+"cat": "Material",
+"file": "iron_bloom.png"
+},
+"wrought_iron_bar": {
+"name": "wrought iron bar",
+"cat": "Material",
+"file": "wrought_iron_bar.png"
+},
+"iron_hammer_head": {
+"name": "iron hammer head",
+"cat": "Material",
+"file": "iron_hammer_head.png"
+},
+"tool_iron_hammer": {
+"name": "iron hammer",
+"cat": "Tool",
+"file": "tool_iron_hammer.png"
+},
+"tool_geology_hammer": {
+"name": "geology hammer",
+"cat": "Tool",
+"file": "tool_geology_hammer.png"
+},
+"wrench_simple": {
+"name": "simple wrench",
+"cat": "Tool",
+"file": "wrench_simple.png"
+},
+"crushed_ore_hematite": {
+"name": "crushed hematite",
+"cat": "Material",
+"file": "crushed_ore_hematite.png"
+},
+"crushed_ore_magnetite": {
+"name": "crushed magnetite",
+"cat": "Material",
+"file": "crushed_ore_magnetite.png"
+},
+"crushed_slag": {
+"name": "crushed slag",
+"cat": "Material",
+"file": "crushed_slag.png"
+},
+"iron_tool_blank": {
+"name": "iron tool blank",
+"cat": "Material",
+"file": "iron_tool_blank.png"
+},
+"clay_crucible_small": {
+"name": "small clay crucible",
+"cat": "Item",
+"file": "clay_crucible_small.png"
+},
+"bronze_tool_blank": {
+"name": "bronze tool blank",
+"cat": "Material",
+"file": "bronze_tool_blank.png"
+},
+"bronze_pick": {
+"name": "bronze pick",
+"cat": "Tool",
+"file": "bronze_pick.png"
+},
+"bronze_axe": {
+"name": "bronze axe",
+"cat": "Tool",
+"file": "bronze_axe.png"
+},
+"bronze_shovel": {
+"name": "bronze shovel",
+"cat": "Tool",
+"file": "bronze_shovel.png"
+},
+"iron_strap": {
+"name": "iron strap",
+"cat": "Material",
+"file": "iron_strap.png"
+},
+"boiler_shell_riveted": {
+"name": "riveted boiler shell",
+"cat": "Machine",
+"file": "boiler_shell_riveted.png"
+},
+"steam_charge": {
+"name": "steam charge",
+"cat": "Material",
+"file": "steam_charge.png"
+},
+"firebox_cast_iron": {
+"name": "cast-iron firebox",
+"cat": "Component",
+"file": "firebox_cast_iron.png"
+},
+"steam_cylinder_cast_iron": {
+"name": "steam cylinder (cast iron)",
+"cat": "Component",
+"file": "steam_cylinder_cast_iron.png"
+},
+"steam_piston_rod": {
+"name": "steam piston and rod",
+"cat": "Component",
+"file": "steam_piston_rod.png"
+},
+"steam_engine_simple": {
+"name": "simple beam engine",
+"cat": "Machine",
+"file": "steam_engine_simple.png"
+},
+"flyball_governor": {
+"name": "flyball governor",
+"cat": "Component",
+"file": "flyball_governor.png"
+},
+"line_shaft_wrought": {
+"name": "wrought-iron line shaft",
+"cat": "Mechanism",
+"file": "line_shaft_wrought.png"
+},
+"flat_belt_leather": {
+"name": "leather flat belt",
+"cat": "Material",
+"file": "flat_belt_leather.png"
+},
+"belt_pulley_iron": {
+"name": "cast-iron belt pulley",
+"cat": "Component",
+"file": "belt_pulley_iron.png"
+},
+"steam_pipe_wrought": {
+"name": "wrought-iron steam pipe",
+"cat": "Component",
+"file": "steam_pipe_wrought.png"
+},
+"steam_drill": {
+"name": "steam drill",
+"cat": "Station",
+"file": "steam_drill.png"
+},
+"condenser_jet": {
+"name": "jet condenser",
+"cat": "Machine",
+"file": "condenser_jet.png"
+},
+"cooling_tank_wooden": {
+"name": "wooden cooling tank",
+"cat": "Structure",
+"file": "cooling_tank_wooden.png"
+},
+"feedwater_pump_simple": {
+"name": "simple feedwater pump",
+"cat": "Machine",
+"file": "feedwater_pump_simple.png"
+},
+"clay_casting_pit": {
+"name": "clay casting pit",
+"cat": "Station",
+"file": "clay_casting_pit.png"
+},
+"iron_plate_hand": {
+"name": "hammered iron plate",
+"cat": "Material",
+"file": "iron_plate_hand.png"
+},
+"iron_rod_wrought": {
+"name": "wrought-iron rod",
+"cat": "Material",
+"file": "iron_rod_wrought.png"
+},
+"iron_rivet_hand": {
+"name": "hand-forged iron rivet",
+"cat": "Material",
+"file": "iron_rivet_hand.png"
+},
+"beam_frame_wrought": {
+"name": "beam frame",
+"cat": "Component",
+"file": "beam_frame_wrought.png"
+},
+"crank_iron_forged": {
+"name": "forged iron crank",
+"cat": "Component",
+"file": "crank_iron_forged.png"
+},
+"connecting_rod_wrought": {
+"name": "wrought-iron connecting rod",
+"cat": "Component",
+"file": "connecting_rod_wrought.png"
+},
+"gland_packing_steam": {
+"name": "steam gland packing",
+"cat": "Material",
+"file": "gland_packing_steam.png"
+},
+"safety_valve_weighted": {
+"name": "weighted safety valve",
+"cat": "Component",
+"file": "safety_valve_weighted.png"
+},
+"boiler_lagging_mat": {
+"name": "boiler lagging",
+"cat": "Material",
+"file": "boiler_lagging_mat.png"
+},
+"coal_bituminous": {
+"name": "bituminous coal",
+"cat": "Material",
+"file": "coal_bituminous.png"
+},
+"limestone_flux": {
+"name": "limestone flux",
+"cat": "Material",
+"file": "limestone_flux.png"
+},
+"coke_oven_beehive": {
+"name": "coke oven (beehive)",
+"cat": "Station",
+"file": "coke_oven_beehive.png"
+},
+"fireclay_refractory": {
+"name": "fireclay (refractory)",
+"cat": "Material",
+"file": "fireclay_refractory.png"
+},
+"refractory_brick_fireclay": {
+"name": "fireclay refractory brick",
+"cat": "Material",
+"file": "refractory_brick_fireclay.png"
+},
+"refractory_brick_silica": {
+"name": "silica refractory brick",
+"cat": "Material",
+"file": "refractory_brick_silica.png"
+},
+"blast_furnace_small": {
+"name": "small blast furnace",
+"cat": "Station",
+"file": "blast_furnace_small.png"
+},
+"slag_ironmaking": {
+"name": "blast-furnace slag",
+"cat": "Material",
+"file": "slag_ironmaking.png"
+},
+"hot_blast_stove": {
+"name": "hot-blast stove",
+"cat": "Machine",
+"file": "hot_blast_stove.png"
+},
+"bessemer_converter_basic": {
+"name": "Bessemer converter",
+"cat": "Station",
+"file": "bessemer_converter_basic.png"
+},
+"open_hearth_furnace_basic": {
+"name": "open-hearth furnace",
+"cat": "Station",
+"file": "open_hearth_furnace_basic.png"
+},
+"steel_plate_rolled": {
+"name": "rolled steel plate",
+"cat": "Material",
+"file": "steel_plate_rolled.png"
+},
+"steel_rail": {
+"name": "steel rail",
+"cat": "Material",
+"file": "steel_rail.png"
+},
+"steel_beam": {
+"name": "rolled steel beam",
+"cat": "Material",
+"file": "steel_beam.png"
+},
+"steel_shaft": {
+"name": "turned steel shaft",
+"cat": "Component",
+"file": "steel_shaft.png"
+},
+"copper_ingot_refined": {
+"name": "refined copper ingot",
+"cat": "Material",
+"file": "copper_ingot_refined.png"
+},
+"copper_wire_drawn": {
+"name": "drawn copper wire",
+"cat": "Material",
+"file": "copper_wire_drawn.png"
+},
+"copper_wire_insulated": {
+"name": "insulated copper wire",
+"cat": "Material",
+"file": "copper_wire_insulated.png"
+},
+"porcelain_insulator_pin": {
+"name": "porcelain pin insulator",
+"cat": "Component",
+"file": "porcelain_insulator_pin.png"
+},
+"wood_pole_power": {
+"name": "wooden power pole",
+"cat": "Structure",
+"file": "wood_pole_power.png"
+},
+"switchboard_panel_wooden": {
+"name": "wooden switchboard panel",
+"cat": "Structure",
+"file": "switchboard_panel_wooden.png"
+},
+"knife_switch_heavy": {
+"name": "heavy knife switch",
+"cat": "Component",
+"file": "knife_switch_heavy.png"
+},
+"fuse_rewireable": {
+"name": "rewireable fuse",
+"cat": "Component",
+"file": "fuse_rewireable.png"
+},
+"dynamo_dc_workshop": {
+"name": "DC dynamo (workshop)",
+"cat": "Machine",
+"file": "dynamo_dc_workshop.png"
+},
+"magnet_core_wrought": {
+"name": "wrought-iron magnet core",
+"cat": "Component",
+"file": "magnet_core_wrought.png"
+},
+"incandescent_lamp_carbon": {
+"name": "incandescent lamp (carbon)",
+"cat": "Item",
+"file": "incandescent_lamp_carbon.png"
+},
+"lamp_fixture_industrial": {
+"name": "industrial lamp fixture",
+"cat": "Structure",
+"file": "lamp_fixture_industrial.png"
+},
+"electric_motor_small_dc": {
+"name": "small DC motor",
+"cat": "Machine",
+"file": "electric_motor_small_dc.png"
+},
+"bus_bar_copper": {
+"name": "copper bus bar",
+"cat": "Component",
+"file": "bus_bar_copper.png"
+},
+"rolling_mill_steam": {
+"name": "rolling mill (steam)",
+"cat": "Machine",
+"file": "rolling_mill_steam.png"
+},
+"machine_shop_steam": {
+"name": "machine shop (steam)",
+"cat": "Station",
+"file": "machine_shop_steam.png"
+},
+"wire_drawing_bench": {
+"name": "wire-drawing bench",
+"cat": "Station",
+"file": "wire_drawing_bench.png"
+},
+"glass_bench": {
+"name": "glass bench",
+"cat": "Station",
+"file": "glass_bench.png"
+},
+"machine_shop_electric": {
+"name": "machine shop (electric)",
+"cat": "Station",
+"file": "machine_shop_electric.png"
+},
+"steel_rivet": {
+"name": "steel rivet",
+"cat": "Material",
+"file": "steel_rivet.png"
+},
+"steel_angle_bar": {
+"name": "rolled steel angle",
+"cat": "Material",
+"file": "steel_angle_bar.png"
+},
+"steel_gusset_plate": {
+"name": "steel gusset plate",
+"cat": "Material",
+"file": "steel_gusset_plate.png"
+},
+"carbon_filament_preform": {
+"name": "carbon filament preform",
+"cat": "Material",
+"file": "carbon_filament_preform.png"
+},
+"lamp_socket_porcelain": {
+"name": "porcelain lamp socket",
+"cat": "Component",
+"file": "lamp_socket_porcelain.png"
+},
+"armature_core_laminated": {
+"name": "laminated armature core",
+"cat": "Component",
+"file": "armature_core_laminated.png"
+},
+"commutator_copper_segmented": {
+"name": "segmented copper commutator",
+"cat": "Component",
+"file": "commutator_copper_segmented.png"
+},
+"brush_block_carbon": {
+"name": "carbon brush block",
+"cat": "Component",
+"file": "brush_block_carbon.png"
+},
+"lathe_workshop": {
+"name": "engine lathe (workshop)",
+"cat": "Machine",
+"file": "lathe_workshop.png"
+},
+"coal_tar": {
+"name": "coal tar",
+"cat": "Fluid",
+"file": "coal_tar.png"
+},
+"dc_charge": {
+"name": "DC power charge",
+"cat": "Material",
+"file": "dc_charge.png"
+},
+"ac_charge": {
+"name": "AC power charge",
+"cat": "Material",
+"file": "ac_charge.png"
+},
+"a_frame_gin_pole": {
+"name": "A-frame gin pole",
+"cat": "Structure",
+"file": "a_frame_gin_pole.png"
+},
+"alarm_bell_electric": {
+"name": "electric alarm bell",
+"cat": "Electric",
+"file": "alarm_bell_electric.png"
+},
+"cnc_lathe_basic": {
+"name": "basic CNC lathe",
+"cat": "Machine",
+"file": "cnc_lathe_basic.png"
+},
+"cnc_mill_basic": {
+"name": "basic CNC mill",
+"cat": "Machine",
+"file": "cnc_mill_basic.png"
+},
+"computer_industrial_rugged": {
+"name": "rugged industrial computer",
+"cat": "Automation",
+"file": "computer_industrial_rugged.png"
+},
+"control_valve_steam": {
+"name": "steam control valve",
+"cat": "Process",
+"file": "control_valve_steam.png"
+},
+"controller_regulator_pneumatic": {
+"name": "pneumatic regulator",
+"cat": "Instrumentation",
+"file": "controller_regulator_pneumatic.png"
+},
+"controller_program_cartridge": {
+"name": "controller program cartridge",
+"cat": "Automation",
+"file": "controller_program_cartridge.png"
+},
+"conveyor_powered": {
+"name": "powered conveyor segment",
+"cat": "Logistics",
+"file": "conveyor_powered.png"
+},
+"cooling_tower_pair": {
+"name": "cooling tower pair",
+"cat": "Power",
+"file": "cooling_tower_pair.png"
+},
+"diode_silicon_small": {
+"name": "small silicon diode",
+"cat": "Electronics",
+"file": "diode_silicon_small.png"
+},
+"filament_supply_dc": {
+"name": "lamp filament DC supply",
+"cat": "Electric",
+"file": "filament_supply_dc.png"
+},
+"generator_ac_small": {
+"name": "small AC generator",
+"cat": "Power",
+"file": "generator_ac_small.png"
+},
+"generator_ac_three_phase": {
+"name": "three-phase AC generator",
+"cat": "Power",
+"file": "generator_ac_three_phase.png"
+},
+"ground_station_dish": {
+"name": "ground station dish",
+"cat": "Communications",
+"file": "ground_station_dish.png"
+},
+"instrument_ammeter_panel": {
+"name": "panel ammeter",
+"cat": "Instrumentation",
+"file": "instrument_ammeter_panel.png"
+},
+"instrument_pressure_high": {
+"name": "high-pressure gauge",
+"cat": "Instrumentation",
+"file": "instrument_pressure_high.png"
+},
+"instrument_voltmeter_panel": {
+"name": "panel voltmeter",
+"cat": "Instrumentation",
+"file": "instrument_voltmeter_panel.png"
+},
+"logic_module_and_or": {
+"name": "AND/OR logic module",
+"cat": "Electronics",
+"file": "logic_module_and_or.png"
+},
+"logic_module_flipflop": {
+"name": "flip-flop logic module",
+"cat": "Electronics",
+"file": "logic_module_flipflop.png"
+},
+"logic_module_not": {
+"name": "NOT logic module",
+"cat": "Electronics",
+"file": "logic_module_not.png"
+},
+"motor_ac_induction_small": {
+"name": "small AC induction motor",
+"cat": "Power",
+"file": "motor_ac_induction_small.png"
+},
+"network_ac_district": {
+"name": "AC district network segment",
+"cat": "Power",
+"file": "network_ac_district.png"
+},
+"panel_hmi_basic": {
+"name": "basic HMI panel",
+"cat": "Automation",
+"file": "panel_hmi_basic.png"
+},
+"panel_mimic_ac_grid": {
+"name": "AC grid mimic panel",
+"cat": "Automation",
+"file": "panel_mimic_ac_grid.png"
+},
+"plc_cpu_module": {
+"name": "PLC CPU module",
+"cat": "Automation",
+"file": "plc_cpu_module.png"
+},
+"plc_io_module": {
+"name": "PLC I/O module",
+"cat": "Automation",
+"file": "plc_io_module.png"
+},
+"plc_rack_basic": {
+"name": "basic PLC rack",
+"cat": "Automation",
+"file": "plc_rack_basic.png"
+},
+"rectenna_ground_field": {
+"name": "rectenna ground field",
+"cat": "Power",
+"file": "rectenna_ground_field.png"
+},
+"rectifier_bridge_silicon": {
+"name": "silicon bridge rectifier",
+"cat": "Electronics",
+"file": "rectifier_bridge_silicon.png"
+},
+"rectifier_mercury_arc": {
+"name": "mercury-arc rectifier",
+"cat": "Electronics",
+"file": "rectifier_mercury_arc.png"
+},
+"relay_electromagnetic": {
+"name": "electromagnetic relay",
+"cat": "Electronics",
+"file": "relay_electromagnetic.png"
+},
+"relay_station_hilltop": {
+"name": "hilltop relay station",
+"cat": "Communications",
+"file": "relay_station_hilltop.png"
+},
+"robot_arm_industrial_basic": {
+"name": "basic industrial robot arm",
+"cat": "Automation",
+"file": "robot_arm_industrial_basic.png"
+},
+"safety_cage_industrial": {
+"name": "industrial safety cage",
+"cat": "Safety",
+"file": "safety_cage_industrial.png"
+},
+"sensor_level_tank": {
+"name": "tank level sensor",
+"cat": "Instrumentation",
+"file": "sensor_level_tank.png"
+},
+"sensor_position_limit": {
+"name": "limit position sensor",
+"cat": "Instrumentation",
+"file": "sensor_position_limit.png"
+},
+"sensor_pressure_boiler": {
+"name": "boiler pressure sensor",
+"cat": "Instrumentation",
+"file": "sensor_pressure_boiler.png"
+},
+"sensor_speed_line": {
+"name": "line speed sensor",
+"cat": "Instrumentation",
+"file": "sensor_speed_line.png"
+},
+"switchyard_high_voltage": {
+"name": "high-voltage switchyard",
+"cat": "Power",
+"file": "switchyard_high_voltage.png"
+},
+"tracking_radar_ground": {
+"name": "ground tracking radar",
+"cat": "Communications",
+"file": "tracking_radar_ground.png"
+},
+"transformer_step_down": {
+"name": "step-down transformer",
+"cat": "Power",
+"file": "transformer_step_down.png"
+},
+"transformer_step_up": {
+"name": "step-up transformer",
+"cat": "Power",
+"file": "transformer_step_up.png"
+},
+"transistor_npn_signal": {
+"name": "signal NPN transistor",
+"cat": "Electronics",
+"file": "transistor_npn_signal.png"
+},
+"tube_diode_glass": {
+"name": "glass diode tube",
+"cat": "Electronics",
+"file": "tube_diode_glass.png"
+},
+"tube_triode_glass": {
+"name": "glass triode tube",
+"cat": "Electronics",
+"file": "tube_triode_glass.png"
+},
+"vacuum_pump_lab": {
+"name": "laboratory vacuum pump",
+"cat": "Lab",
+"file": "vacuum_pump_lab.png"
+},
+"arc_furnace_electric": {
+"name": "electric arc furnace",
+"cat": "Machine",
+"file": "arc_furnace_electric.png"
+},
+"assembler_workshop": {
+"name": "assembly cell",
+"cat": "Machine",
+"file": "assembler_workshop.png"
+},
+"sodium_metal": {
+"name": "sodium metal",
+"cat": "Material",
+"file": "sodium_metal.png"
+},
+"acid_hydrofluoric": {
+"name": "hydrofluoric acid",
+"cat": "Chemistry",
+"file": "acid_hydrofluoric.png"
+},
+"carbon_anode": {
+"name": "carbon anode block",
+"cat": "Material",
+"file": "carbon_anode.png"
+},
+"copper_anode_blister": {
+"name": "blister copper anode",
+"cat": "Material",
+"file": "copper_anode_blister.png"
+},
+"bucket_wood": {
+"name": "wooden bucket",
+"cat": "Container",
+"file": "bucket_wood.png"
+},
+"bucket_clay": {
+"name": "clay bucket",
+"cat": "Container",
+"file": "bucket_clay.png"
+},
+"bucket_iron": {
+"name": "iron bucket",
+"cat": "Container",
+"file": "bucket_iron.png"
+},
+"station_fluid_handler": {
+"name": "fluid handler station",
+"cat": "Station",
+"file": "station_fluid_handler.png"
+},
+"station_gas_compressor": {
+"name": "gas compressor station",
+"cat": "Station",
+"file": "station_gas_compressor.png"
+},
+"station_vent_stack": {
+"name": "vent stack",
+"cat": "Station",
+"file": "station_vent_stack.png"
+},
+"peroxide_hydrogen": {
+"name": "hydrogen peroxide",
+"cat": "Chemistry",
+"file": "peroxide_hydrogen.png"
+},
+"ammonium_hydroxide": {
+"name": "ammonium hydroxide",
+"cat": "Chemistry",
+"file": "ammonium_hydroxide.png"
+},
+"bucket_wood_water_raw": {
+"name": "wooden bucket (water)",
+"cat": "Container",
+"file": "bucket_wood_water_raw.png"
+},
+"bucket_clay_water_raw": {
+"name": "clay bucket (water)",
+"cat": "Container",
+"file": "bucket_clay_water_raw.png"
+},
+"bucket_iron_water_raw": {
+"name": "iron bucket (water)",
+"cat": "Container",
+"file": "bucket_iron_water_raw.png"
+},
+"cylinder_hydrogen": {
+"name": "hydrogen cylinder",
+"cat": "Container",
+"file": "cylinder_hydrogen.png"
+},
+"cylinder_oxygen": {
+"name": "oxygen cylinder",
+"cat": "Container",
+"file": "cylinder_oxygen.png"
+},
+"cylinder_nitrogen": {
+"name": "nitrogen cylinder",
+"cat": "Container",
+"file": "cylinder_nitrogen.png"
+},
+"cylinder_ammonia": {
+"name": "ammonia cylinder",
+"cat": "Container",
+"file": "cylinder_ammonia.png"
+},
+"cylinder_gas_basic_empty": {
+"name": "empty gas cylinder",
+"cat": "Container",
+"file": "cylinder_gas_basic_empty.png"
+},
+"mix_neutralization_sulfate": {
+"name": "neutralization mix (sulfate)",
+"cat": "Chemistry",
+"file": "mix_neutralization_sulfate.png"
+},
+"mix_ammonia_solution": {
+"name": "ammonia solution mix",
+"cat": "Chemistry",
+"file": "mix_ammonia_solution.png"
+},
+"token_solid_state_tier_complete": {
+"name": "token: solid-state tier complete",
+"cat": "Token",
+"file": "token_solid_state_tier_complete.png"
+},
+"gas_hcl": {
+"name": "hydrochloric acid gas",
+"cat": "Chemistry",
+"file": "gas_hcl.png"
+},
+"logic_chip": {
+"name": "logic chip",
+"cat": "Electronics",
+"file": "logic_chip.png"
+},
+"acrylonitrile": {
+"name": "acrylonitrile",
+"cat": "Chemistry",
+"file": "acrylonitrile.png"
+},
+"pan_fiber": {
+"name": "PAN precursor fiber",
+"cat": "Material",
+"file": "pan_fiber.png"
+},
+"carbon_fiber": {
+"name": "carbon fiber tow",
+"cat": "Material",
+"file": "carbon_fiber.png"
+},
+"epoxy_resin": {
+"name": "epoxy resin",
+"cat": "Chemistry",
+"file": "epoxy_resin.png"
+},
+"cfrp_panel": {
+"name": "CFRP structural panel",
+"cat": "Material",
+"file": "cfrp_panel.png"
+},
+"attitude_control_array": {
+"name": "attitude control array",
+"cat": "Space",
+"file": "attitude_control_array.png"
+},
+"docking_port_standard": {
+"name": "standard docking port",
+"cat": "Space",
+"file": "docking_port_standard.png"
+},
+"drill_regolith_robotic": {
+"name": "robotic regolith drill",
+"cat": "Space",
+"file": "drill_regolith_robotic.png"
+},
+"fuel_rod_uranium_enriched": {
+"name": "enriched uranium fuel rod",
+"cat": "Nuclear",
+"file": "fuel_rod_uranium_enriched.png"
+},
+"guidance_coil_array": {
+"name": "guidance coil array",
+"cat": "Space",
+"file": "guidance_coil_array.png"
+},
+"hopper_regolith_bulk": {
+"name": "bulk regolith hopper",
+"cat": "Space",
+"file": "hopper_regolith_bulk.png"
+},
+"isru_ice_extractor_demo": {
+"name": "demo ice ISRU extractor",
+"cat": "Space",
+"file": "isru_ice_extractor_demo.png"
+},
+"lander_lunar_robotic": {
+"name": "robotic lunar lander",
+"cat": "Space",
+"file": "lander_lunar_robotic.png"
+},
+"launch_pad_complex_basic": {
+"name": "basic launch pad complex",
+"cat": "Space",
+"file": "launch_pad_complex_basic.png"
+},
+"life_support_loop_basic": {
+"name": "basic life-support loop",
+"cat": "Space",
+"file": "life_support_loop_basic.png"
+},
+"mass_driver_lunar_track": {
+"name": "lunar mass driver track",
+"cat": "Space",
+"file": "mass_driver_lunar_track.png"
+},
+"microwave_beamer_downlink": {
+"name": "microwave power beamer",
+"cat": "Power",
+"file": "microwave_beamer_downlink.png"
+},
+"power_plant_lunar_solar": {
+"name": "lunar solar power plant",
+"cat": "Power",
+"file": "power_plant_lunar_solar.png"
+},
+"propellant_kerosene_refined": {
+"name": "refined kerosene propellant",
+"cat": "Space",
+"file": "propellant_kerosene_refined.png"
+},
+"propellant_lox_distilled": {
+"name": "distilled LOX propellant",
+"cat": "Space",
+"file": "propellant_lox_distilled.png"
+},
+"reactor_nuclear_light_water": {
+"name": "light-water nuclear reactor",
+"cat": "Nuclear",
+"file": "reactor_nuclear_light_water.png"
+},
+"rocket_engine_kerolox_test": {
+"name": "kerolox test rocket engine",
+"cat": "Space",
+"file": "rocket_engine_kerolox_test.png"
+},
+"rocket_stack_orbital_three_stage": {
+"name": "orbital three-stage rocket stack",
+"cat": "Space",
+"file": "rocket_stack_orbital_three_stage.png"
+},
+"sample_return_capsule": {
+"name": "sample return capsule",
+"cat": "Space",
+"file": "sample_return_capsule.png"
+},
+"satellite_comms_basic": {
+"name": "basic comms satellite",
+"cat": "Space",
+"file": "satellite_comms_basic.png"
+},
+"satellite_tech_demo": {
+"name": "technology demonstrator satellite",
+"cat": "Space",
+"file": "satellite_tech_demo.png"
+},
+"sps_solar_array_huge": {
+"name": "huge SPS solar array",
+"cat": "Power",
+"file": "sps_solar_array_huge.png"
+},
+"station_module_core": {
+"name": "station core module",
+"cat": "Space",
+"file": "station_module_core.png"
+},
+"station_module_solar_truss": {
+"name": "station solar truss module",
+"cat": "Space",
+"file": "station_module_solar_truss.png"
+},
+"test_stand_vertical": {
+"name": "vertical engine test stand",
+"cat": "Space",
+"file": "test_stand_vertical.png"
+},
+"fuel_kerosene_synthetic": {
+"name": "synthetic kerosene",
+"cat": "Chemistry",
+"file": "fuel_kerosene_synthetic.png"
+},
+"cell_photovoltaic": {
+"name": "photovoltaic cell",
+"cat": "Electronics",
+"file": "cell_photovoltaic.png"
+},
+"yellowcake_u3o8": {
+"name": "yellowcake",
+"cat": "Nuclear",
+"file": "yellowcake_u3o8.png"
+},
+"uf6_uranium_hexafluoride": {
+"name": "uranium hexafluoride",
+"cat": "Nuclear",
+"file": "uf6_uranium_hexafluoride.png"
+},
+"uf6_enriched_leu": {
+"name": "enriched UF6 (LEU)",
+"cat": "Nuclear",
+"file": "uf6_enriched_leu.png"
+},
+"fuel_pellet_uo2": {
+"name": "uranium dioxide pellet",
+"cat": "Nuclear",
+"file": "fuel_pellet_uo2.png"
+},
+"tank_propellant_aluminum": {
+"name": "aluminum propellant tank",
+"cat": "Space",
+"file": "tank_propellant_aluminum.png"
+},
+"avionics_flight_computer": {
+"name": "flight computer",
+"cat": "Space",
+"file": "avionics_flight_computer.png"
+},
+"titanium_tetrachloride": {
+"name": "titanium tetrachloride",
+"cat": "Chemistry",
+"file": "titanium_tetrachloride.png"
+},
+"titanium_sponge": {
+"name": "titanium sponge",
+"cat": "Material",
+"file": "titanium_sponge.png"
+},
+"titanium_ingot": {
+"name": "titanium ingot",
+"cat": "Material",
+"file": "titanium_ingot.png"
+},
+"alloy_ti_6al_4v": {
+"name": "Ti-6Al-4V titanium alloy",
+"cat": "Material",
+"file": "alloy_ti_6al_4v.png"
+},
+"titanium_plate": {
+"name": "titanium alloy plate",
+"cat": "Material",
+"file": "titanium_plate.png"
+},
+"tungsten_oxide": {
+"name": "tungsten trioxide",
+"cat": "Chemistry",
+"file": "tungsten_oxide.png"
+},
+"tungsten_powder": {
+"name": "tungsten metal powder",
+"cat": "Material",
+"file": "tungsten_powder.png"
+},
+"tungsten_sintered_rod": {
+"name": "sintered tungsten rod",
+"cat": "Material",
+"file": "tungsten_sintered_rod.png"
+},
+"zirconium_tetrachloride": {
+"name": "zirconium tetrachloride",
+"cat": "Chemistry",
+"file": "zirconium_tetrachloride.png"
+},
+"zirconium_sponge": {
+"name": "zirconium sponge",
+"cat": "Material",
+"file": "zirconium_sponge.png"
+},
+"alloy_zircaloy": {
+"name": "zircaloy cladding alloy",
+"cat": "Material",
+"file": "alloy_zircaloy.png"
+},
+"inconel_ingot": {
+"name": "Inconel superalloy ingot",
+"cat": "Material",
+"file": "inconel_ingot.png"
+},
+"synthetic_rutile": {
+"name": "synthetic rutile",
+"cat": "Material",
+"file": "synthetic_rutile.png"
+},
+"titanium_tetrachloride_crude": {
+"name": "crude titanium tetrachloride",
+"cat": "Material",
+"file": "titanium_tetrachloride_crude.png"
+},
+"sodium_tungstate": {
+"name": "sodium tungstate solution",
+"cat": "Chemistry",
+"file": "sodium_tungstate.png"
+},
+"ammonium_paratungstate": {
+"name": "ammonium paratungstate (APT)",
+"cat": "Chemistry",
+"file": "ammonium_paratungstate.png"
+},
+"tungsten_carbide_powder": {
+"name": "tungsten carbide powder",
+"cat": "Material",
+"file": "tungsten_carbide_powder.png"
+},
+"tungsten_carbide_insert": {
+"name": "cemented carbide insert",
+"cat": "Material",
+"file": "tungsten_carbide_insert.png"
+},
+"uranium_pregnant_liquor": {
+"name": "uranium pregnant liquor",
+"cat": "Nuclear",
+"file": "uranium_pregnant_liquor.png"
+},
+"uranium_dioxide_uo2": {
+"name": "uranium dioxide (UO2)",
+"cat": "Nuclear",
+"file": "uranium_dioxide_uo2.png"
+},
+"uranium_tetrafluoride": {
+"name": "uranium tetrafluoride (UF4)",
+"cat": "Nuclear",
+"file": "uranium_tetrafluoride.png"
+},
+"gas_fluorine": {
+"name": "fluorine gas",
+"cat": "Chemistry",
+"file": "gas_fluorine.png"
+},
+"uf6_depleted_tails": {
+"name": "depleted UF6 tails",
+"cat": "Nuclear",
+"file": "uf6_depleted_tails.png"
+},
+"uo2_powder_enriched": {
+"name": "enriched UO2 powder",
+"cat": "Nuclear",
+"file": "uo2_powder_enriched.png"
+},
+"hafnium_tetrachloride": {
+"name": "hafnium tetrachloride",
+"cat": "Material",
+"file": "hafnium_tetrachloride.png"
+},
+"hafnium_sponge": {
+"name": "hafnium sponge",
+"cat": "Material",
+"file": "hafnium_sponge.png"
+},
+"control_rod_hafnium": {
+"name": "hafnium control rod",
+"cat": "Nuclear",
+"file": "control_rod_hafnium.png"
+},
+"zinc_calcine_oxide": {
+"name": "zinc oxide calcine",
+"cat": "Material",
+"file": "zinc_calcine_oxide.png"
+},
+"zinc_sulfate_solution": {
+"name": "zinc sulfate liquor",
+"cat": "Material",
+"file": "zinc_sulfate_solution.png"
+},
+"zirconium_tetrachloride_crude": {
+"name": "crude zirconium tetrachloride",
+"cat": "Material",
+"file": "zirconium_tetrachloride_crude.png"
+},
+"zirconium_ingot": {
+"name": "zirconium ingot",
+"cat": "Material",
+"file": "zirconium_ingot.png"
+},
+"froth_flotation_cell": {
+"name": "Froth Flotation Cell",
+"cat": "Station",
+"file": "froth_flotation_cell.png"
+},
+"reverberatory_furnace": {
+"name": "Reverberatory Furnace",
+"cat": "Station",
+"file": "reverberatory_furnace.png"
+},
+"copper_converter": {
+"name": "Copper Converter (Peirce-Smith)",
+"cat": "Station",
+"file": "copper_converter.png"
+},
+"fire_refining_furnace": {
+"name": "Fire-Refining Furnace",
+"cat": "Station",
+"file": "fire_refining_furnace.png"
+},
+"electrolytic_refining_cell": {
+"name": "Electrolytic Refining Cell",
+"cat": "Station",
+"file": "electrolytic_refining_cell.png"
+},
+"sulfur_burner": {
+"name": "Sulfur Burner / Pyrite Roaster",
+"cat": "Station",
+"file": "sulfur_burner.png"
+},
+"lead_chamber": {
+"name": "Lead Chamber (NOx)",
+"cat": "Station",
+"file": "lead_chamber.png"
+},
+"contact_converter": {
+"name": "Contact Converter (V2O5 beds, DCDA)",
+"cat": "Station",
+"file": "contact_converter.png"
+},
+"absorption_tower": {
+"name": "Oleum Absorption Tower",
+"cat": "Station",
+"file": "absorption_tower.png"
+},
+"magnetic_separator": {
+"name": "Wet Magnetic Separator (LIMS)",
+"cat": "Station",
+"file": "magnetic_separator.png"
+},
+"sinter_strand": {
+"name": "Sinter Strand (Dwight-Lloyd)",
+"cat": "Station",
+"file": "sinter_strand.png"
+},
+"pelletizer_disc": {
+"name": "Pelletizing Disc + Induration Kiln",
+"cat": "Station",
+"file": "pelletizer_disc.png"
+},
+"dri_shaft_furnace": {
+"name": "Direct-Reduction Shaft (coal)",
+"cat": "Station",
+"file": "dri_shaft_furnace.png"
+},
+"basic_oxygen_furnace": {
+"name": "Basic Oxygen Furnace (LD converter)",
+"cat": "Station",
+"file": "basic_oxygen_furnace.png"
+},
+"aod_converter": {
+"name": "AOD Converter (Argon-Oxygen Decarburization)",
+"cat": "Station",
+"file": "aod_converter.png"
+},
+"heap_leach_pad": {
+"name": "Heap Leach Pad (acid irrigation)",
+"cat": "Station",
+"file": "heap_leach_pad.png"
+},
+"sx_mixer_settler": {
+"name": "Solvent-Extraction Mixer-Settler (LIX)",
+"cat": "Station",
+"file": "sx_mixer_settler.png"
+},
+"electrowinning_cell": {
+"name": "Electrowinning Cell (Pb anode / SS cathode)",
+"cat": "Station",
+"file": "electrowinning_cell.png"
+},
+"submerged_arc_furnace": {
+"name": "Submerged-Arc Furnace (SAF)",
+"cat": "Station",
+"file": "submerged_arc_furnace.png"
+},
+"rotary_calciner_kiln": {
+"name": "Rotary Calcining Kiln (RKEF dry/reduce)",
+"cat": "Station",
+"file": "rotary_calciner_kiln.png"
+},
+"bayer_digester": {
+"name": "Bayer Digestion Autoclave",
+"cat": "Station",
+"file": "bayer_digester.png"
+},
+"precipitation_tank": {
+"name": "Gibbsite Precipitation Tank",
+"cat": "Station",
+"file": "precipitation_tank.png"
+},
+"anode_baking_furnace": {
+"name": "Prebake Anode Furnace",
+"cat": "Station",
+"file": "anode_baking_furnace.png"
+},
+"hall_heroult_cell": {
+"name": "Hall-Heroult Reduction Cell (Pot)",
+"cat": "Station",
+"file": "hall_heroult_cell.png"
+},
+"brine_treatment_unit": {
+"name": "Brine Saturation & Softening Unit",
+"cat": "Station",
+"file": "brine_treatment_unit.png"
+},
+"membrane_electrolysis_cell": {
+"name": "Chlor-Alkali Membrane Cell",
+"cat": "Station",
+"file": "membrane_electrolysis_cell.png"
+},
+"caustic_evaporator": {
+"name": "Caustic Concentration Evaporator",
+"cat": "Station",
+"file": "caustic_evaporator.png"
+},
+"fluidized_bed_chlorinator": {
+"name": "Fluidised-Bed Chlorinator",
+"cat": "Station",
+"file": "fluidized_bed_chlorinator.png"
+},
+"ticl4_distillation_column": {
+"name": "TiCl4 Fractional Distillation Column",
+"cat": "Station",
+"file": "ticl4_distillation_column.png"
+},
+"hunter_reduction_retort": {
+"name": "Hunter Reduction Retort (sealed, inert)",
+"cat": "Station",
+"file": "hunter_reduction_retort.png"
+},
+"vacuum_arc_remelt_furnace": {
+"name": "Vacuum Arc Remelting Furnace (VAR)",
+"cat": "Station",
+"file": "vacuum_arc_remelt_furnace.png"
+},
+"air_separation_unit": {
+"name": "Cryogenic Air Separation Unit (ASU)",
+"cat": "Station",
+"file": "air_separation_unit.png"
+},
+"haber_bosch_reactor": {
+"name": "Haber-Bosch Ammonia Converter (iron cat., high P)",
+"cat": "Station",
+"file": "haber_bosch_reactor.png"
+},
+"hf_zr_separation_column": {
+"name": "Hf/Zr Extractive-Distillation & Solvent-Extraction Column",
+"cat": "Station",
+"file": "hf_zr_separation_column.png"
+},
+"siemens_cvd_reactor": {
+"name": "Siemens CVD Reactor (polysilicon deposition)",
+"cat": "Station",
+"file": "siemens_cvd_reactor.png"
+},
+"czochralski_crystal_puller": {
+"name": "Czochralski Crystal Puller",
+"cat": "Station",
+"file": "czochralski_crystal_puller.png"
+},
+"wafer_fab_line": {
+"name": "Wafer Slicing & Polishing Line",
+"cat": "Station",
+"file": "wafer_fab_line.png"
+},
+"caustic_digester_autoclave": {
+"name": "Caustic Digester Autoclave (alkali leach)",
+"cat": "Station",
+"file": "caustic_digester_autoclave.png"
+},
+"apt_crystallizer": {
+"name": "APT Crystalliser (ammonia precipitation)",
+"cat": "Station",
+"file": "apt_crystallizer.png"
+},
+"hydrogen_reduction_furnace": {
+"name": "Hydrogen Reduction Pusher Furnace",
+"cat": "Station",
+"file": "hydrogen_reduction_furnace.png"
+},
+"powder_press_sinter_furnace": {
+"name": "Powder Press & Sinter Furnace",
+"cat": "Station",
+"file": "powder_press_sinter_furnace.png"
+},
+"sheet_metal_press": {
+"name": "Sheet-Metal Forming & Seaming Press",
+"cat": "Station",
+"file": "sheet_metal_press.png"
+},
+"reagent_filling_line": {
+"name": "Reagent Filling & Sealing Line",
+"cat": "Station",
+"file": "reagent_filling_line.png"
+},
+"gas_well_derrick": {
+"name": "Natural-Gas Well & Derrick",
+"cat": "Station",
+"file": "gas_well_derrick.png"
+},
+"amine_gas_treater": {
+"name": "Amine Gas-Sweetening Unit",
+"cat": "Station",
+"file": "amine_gas_treater.png"
+},
+"claus_sulfur_unit": {
+"name": "Claus Sulfur-Recovery Unit",
+"cat": "Station",
+"file": "claus_sulfur_unit.png"
+},
+"cryo_helium_unit": {
+"name": "Cryogenic Helium Recovery (N2 rejection) Unit",
+"cat": "Station",
+"file": "cryo_helium_unit.png"
+},
+"helium_purifier": {
+"name": "Helium PSA Purifier",
+"cat": "Station",
+"file": "helium_purifier.png"
+},
+"steam_reformer": {
+"name": "Steam-Methane Reformer",
+"cat": "Station",
+"file": "steam_reformer.png"
+},
+"yellowcake_precipitator": {
+"name": "Yellowcake Precipitation & Calcining Line",
+"cat": "Station",
+"file": "yellowcake_precipitator.png"
+},
+"fluorine_cell": {
+"name": "Fluorine Electrolysis Cell (HF -> F2)",
+"cat": "Station",
+"file": "fluorine_cell.png"
+},
+"uranium_conversion_reactor": {
+"name": "Uranium Conversion Reactor (UO2/UF4/UF6)",
+"cat": "Station",
+"file": "uranium_conversion_reactor.png"
+},
+"gas_centrifuge_cascade": {
+"name": "Gas-Centrifuge Enrichment Cascade",
+"cat": "Station",
+"file": "gas_centrifuge_cascade.png"
+},
+"fuel_rod_assembly_line": {
+"name": "Nuclear Fuel Assembly Line",
+"cat": "Station",
+"file": "fuel_rod_assembly_line.png"
+},
+"reactor_assembly_bay": {
+"name": "Reactor Assembly Bay",
+"cat": "Station",
+"file": "reactor_assembly_bay.png"
+},
+"fluoride_digestion_reactor": {
+"name": "HF Digestion Reactor (acid-proof, lined)",
+"cat": "Station",
+"file": "fluoride_digestion_reactor.png"
+},
+"aluminothermic_crucible": {
+"name": "Aluminothermic Reduction Crucible",
+"cat": "Station",
+"file": "aluminothermic_crucible.png"
+},
+"flash_smelting_furnace": {
+"name": "Flash Smelting Furnace (autogenous, O2-enriched)",
+"cat": "Station",
+"file": "flash_smelting_furnace.png"
+},
+"pidgeon_retort": {
+"name": "Pidgeon Vacuum Retort (silicothermic)",
+"cat": "Station",
+"file": "pidgeon_retort.png"
+},
+"mg_flux_remelt_furnace": {
+"name": "Flux-Protected Remelt Furnace (Mg)",
+"cat": "Station",
+"file": "mg_flux_remelt_furnace.png"
+},
+"mg_chloride_chlorinator": {
+"name": "Carbo-Chlorination Reactor (MgCl2)",
+"cat": "Station",
+"file": "mg_chloride_chlorinator.png"
+},
+"mg_electrolysis_cell": {
+"name": "Fused-Salt Electrolysis Cell (Mg)",
+"cat": "Station",
+"file": "mg_electrolysis_cell.png"
+},
+"zinc_distillation_retort": {
+"name": "Zinc Distillation Retort (thermal)",
+"cat": "Station",
+"file": "zinc_distillation_retort.png"
+},
+"cupellation_hearth": {
+"name": "Cupellation Hearth (silver assay/refine)",
+"cat": "Station",
+"file": "cupellation_hearth.png"
+},
+"li_acid_roast_kiln": {
+"name": "Sulfation Acid-Roast Kiln",
+"cat": "Station",
+"file": "li_acid_roast_kiln.png"
+},
+"carbonation_reactor": {
+"name": "Carbonation Precipitation Reactor",
+"cat": "Station",
+"file": "carbonation_reactor.png"
+},
+"mannheim_furnace": {
+"name": "Mannheim Muffle Furnace",
+"cat": "Station",
+"file": "mannheim_furnace.png"
+},
+"cement_ball_mill": {
+"name": "Cement Ball Mill",
+"cat": "Station",
+"file": "cement_ball_mill.png"
+},
+"knapping_station": {
+"name": "Knapping Station (anvil stone + billet)",
+"cat": "Station",
+"file": "knapping_station.png"
+},
+"survival_I": {
+"name": "Survival Token I",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_II": {
+"name": "Survival Token II",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_III": {
+"name": "Survival Token III",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_IV": {
+"name": "Survival Token IV",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_V": {
+"name": "Survival Token V",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_VI": {
+"name": "Survival Token VI",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_VII": {
+"name": "Survival Token VII",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_VIII": {
+"name": "Survival Token VIII",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_IX": {
+"name": "Survival Token IX",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"survival_X": {
+"name": "Survival Token X",
+"cat": "Token",
+"file": "token_survival.png"
+},
+"industry_I": {
+"name": "Industry Token I",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_II": {
+"name": "Industry Token II",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_III": {
+"name": "Industry Token III",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_IV": {
+"name": "Industry Token IV",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_V": {
+"name": "Industry Token V",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_VI": {
+"name": "Industry Token VI",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_VII": {
+"name": "Industry Token VII",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_VIII": {
+"name": "Industry Token VIII",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_IX": {
+"name": "Industry Token IX",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"industry_X": {
+"name": "Industry Token X",
+"cat": "Token",
+"file": "token_industry.png"
+},
+"tech_I": {
+"name": "Tech Token I",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_II": {
+"name": "Tech Token II",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_III": {
+"name": "Tech Token III",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_IV": {
+"name": "Tech Token IV",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_V": {
+"name": "Tech Token V",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_VI": {
+"name": "Tech Token VI",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_VII": {
+"name": "Tech Token VII",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_VIII": {
+"name": "Tech Token VIII",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_IX": {
+"name": "Tech Token IX",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"tech_X": {
+"name": "Tech Token X",
+"cat": "Token",
+"file": "token_tech.png"
+},
+"food_I": {
+"name": "Food Token I",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_II": {
+"name": "Food Token II",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_III": {
+"name": "Food Token III",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_IV": {
+"name": "Food Token IV",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_V": {
+"name": "Food Token V",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_VI": {
+"name": "Food Token VI",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_VII": {
+"name": "Food Token VII",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_VIII": {
+"name": "Food Token VIII",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_IX": {
+"name": "Food Token IX",
+"cat": "Token",
+"file": "token_food.png"
+},
+"food_X": {
+"name": "Food Token X",
+"cat": "Token",
+"file": "token_food.png"
+},
+"CO2": {
+"name": "CO2",
+"cat": "Item",
+"file": "CO2.png"
+},
+"Campfire": {
+"name": "Campfire",
+"cat": "Item",
+"file": "Campfire.png"
+},
+"Clay Crucible (Small)": {
+"name": "Clay Crucible (Small)",
+"cat": "Item",
+"file": "Clay Crucible (Small).png"
+},
+"Coke Oven (Beehive)": {
+"name": "Coke Oven (Beehive)",
+"cat": "Item",
+"file": "Coke Oven (Beehive).png"
+},
+"Earthen Kiln (Updraft)": {
+"name": "Earthen Kiln (Updraft)",
+"cat": "Item",
+"file": "Earthen Kiln (Updraft).png"
+},
+"Fluid Handler Station": {
+"name": "Fluid Handler Station",
+"cat": "Item",
+"file": "Fluid Handler Station.png"
+},
+"Hand": {
+"name": "Hand",
+"cat": "Item",
+"file": "Hand.png"
+},
+"Iron Anvil Block": {
+"name": "Iron Anvil Block",
+"cat": "Item",
+"file": "Iron Anvil Block.png"
+},
+"Machine Shop (Electric)": {
+"name": "Machine Shop (Electric)",
+"cat": "Item",
+"file": "Machine Shop (Electric).png"
+},
+"Machine Shop (Steam)": {
+"name": "Machine Shop (Steam)",
+"cat": "Item",
+"file": "Machine Shop (Steam).png"
+},
+"Rolling Mill (Steam)": {
+"name": "Rolling Mill (Steam)",
+"cat": "Item",
+"file": "Rolling Mill (Steam).png"
+},
+"Small Blast Furnace": {
+"name": "Small Blast Furnace",
+"cat": "Item",
+"file": "Small Blast Furnace.png"
+},
+"Stamp Mill (Manual Trip Hammer)": {
+"name": "Stamp Mill (Manual Trip Hammer)",
+"cat": "Item",
+"file": "Stamp Mill (Manual Trip Hammer).png"
+},
+"Wire-Drawing Bench": {
+"name": "Wire-Drawing Bench",
+"cat": "Item",
+"file": "Wire-Drawing Bench.png"
+},
+"ash": {
+"name": "ash",
+"cat": "Item",
+"file": "ash.png"
+},
+"gas": {
+"name": "gas",
+"cat": "Item",
+"file": "gas.png"
+},
+"hand_crafting_2x2": {
+"name": "hand crafting 2x2",
+"cat": "Item",
+"file": "hand_crafting_2x2.png"
+},
+"refining_slag": {
+"name": "refining slag",
+"cat": "Item",
+"file": "refining_slag.png"
+}
+}
