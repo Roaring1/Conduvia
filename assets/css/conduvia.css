@@ -1,0 +1,546 @@
+/* ===========================================================================
+   Conduvia — the engineer's field manual
+   A paper-and-blueprint skin over MkDocs Material. No gradients-for-the-sake-
+   of-gradients, no rounded-everything, no emoji. Type and rule lines do the
+   work. Per-tier accents come from tiers.css.
+   ======================================================================== */
+
+:root {
+  --md-text-font: "Inter", "Source Sans 3", system-ui, -apple-system, sans-serif;
+  --md-code-font: "JetBrains Mono", "IBM Plex Mono", ui-monospace, monospace;
+
+  --paper:        #f4efe6;   /* warm field-manual paper */
+  --paper-2:      #ece5d8;
+  --ink:          #24211c;
+  --ink-soft:     #514a3f;
+  --rule:         #d9cfbd;
+  --rule-strong:  #b9ab92;
+}
+
+/* ---- Material palette overrides (light) -------------------------------- */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color:        var(--paper);
+  --md-default-fg-color:        var(--ink);
+  --md-default-fg-color--light: var(--ink-soft);
+  --md-typeset-color:           var(--ink);
+  --md-primary-fg-color:        #2d2a24;
+  --md-accent-fg-color:         #b5713b;
+  --md-code-bg-color:           #efe7d8;
+  --md-code-fg-color:           #3a342b;
+}
+
+/* ---- Blueprint dark mode ----------------------------------------------- */
+[data-md-color-scheme="slate"] {
+  --paper:   #11161d;
+  --paper-2: #161d26;
+  --ink:     #d7dde6;
+  --ink-soft:#9fb0c3;
+  --rule:    #243140;
+  --rule-strong:#33485e;
+  --md-default-bg-color: var(--paper);
+  --md-default-fg-color: var(--ink);
+  --md-typeset-color:    var(--ink);
+  --md-code-bg-color:    #0d1620;
+  --md-accent-fg-color:  #38c6e0;
+  /* faint blueprint grid */
+  background-image:
+    linear-gradient(rgba(120,160,200,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120,160,200,.05) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+.md-typeset { font-feature-settings: "kern" 1, "liga" 1; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3, .md-grid { letter-spacing: -0.01em; }
+.md-typeset h1 { font-weight: 800; }
+.md-typeset h2 {
+  font-weight: 700; margin-top: 2.2em;
+  padding-bottom: .25em; border-bottom: 2px solid var(--rule-strong);
+}
+.md-typeset h3 { font-weight: 700; }
+
+/* mono everywhere it should be technical */
+.md-typeset code, .md-typeset pre, .slot, .station-box__id code { font-family: var(--md-code-font); }
+
+.md-header { border-bottom: 1px solid var(--rule-strong); }
+
+/* ===========================================================================
+   HERO (home)
+   ======================================================================== */
+.hero {
+  margin: 1.5rem 0 2.5rem; padding: 2.4rem 2rem 2.6rem;
+  border: 1px solid var(--rule-strong);
+  background:
+    repeating-linear-gradient(90deg, transparent 0 38px, rgba(120,120,120,.04) 38px 39px),
+    var(--paper-2);
+  position: relative;
+}
+.hero::before {
+  content: ""; position: absolute; inset: 7px; border: 1px solid var(--rule);
+  pointer-events: none;
+}
+.hero-kicker {
+  font-family: var(--md-code-font); font-size: .72rem; letter-spacing: .42em;
+  color: var(--md-accent-fg-color); margin-bottom: .6rem;
+}
+.hero-title { font-size: 2.4rem; line-height: 1.05; margin: 0 0 .6rem; font-weight: 800; }
+.hero-sub { max-width: 60ch; color: var(--ink-soft); font-size: 1.02rem; }
+.hero-cta { margin-top: 1.4rem; display: flex; gap: .7rem; flex-wrap: wrap; }
+.btn {
+  display: inline-block; padding: .55rem 1.1rem; border: 1px solid var(--rule-strong);
+  color: var(--ink); text-decoration: none; font-weight: 600; font-size: .9rem;
+  background: var(--paper);
+}
+.btn.primary { background: var(--md-accent-fg-color); color: #fff; border-color: transparent; }
+.btn:hover { border-color: var(--md-accent-fg-color); }
+
+/* ===========================================================================
+   START CARDS
+   ======================================================================== */
+.start-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: .9rem; }
+.start-card {
+  display: block; padding: 1rem 1.1rem; border: 1px solid var(--rule-strong);
+  background: var(--paper-2); text-decoration: none; color: var(--ink);
+  transition: transform .08s ease, border-color .08s ease;
+}
+.start-card h3 { margin: 0 0 .35rem; font-size: 1.02rem; }
+.start-card p { margin: 0; color: var(--ink-soft); font-size: .88rem; }
+.start-card:hover { border-color: var(--md-accent-fg-color); transform: translateY(-2px); }
+
+/* ===========================================================================
+   CLIMB LADDER
+   ======================================================================== */
+.climb-ladder { display: grid; gap: .5rem; margin: 1.2rem 0 2rem; }
+.rung {
+  display: grid; grid-template-columns: 3.2rem 1fr; align-items: center; column-gap: 1rem;
+  padding: .7rem 1rem .7rem .9rem; border: 1px solid var(--rule); border-left-width: 5px;
+  background: var(--paper-2); text-decoration: none; color: var(--ink);
+  border-left-color: var(--accent);
+}
+.rung:hover { border-color: var(--accent); box-shadow: inset 0 0 0 9999px rgba(var(--tier-rgb), .05); }
+.rung-n {
+  grid-row: 1 / span 2; font-family: var(--md-code-font); font-weight: 700;
+  font-size: 1.5rem; color: var(--accent);
+  border-right: 1px solid var(--rule); text-align: center;
+}
+.rung-name { font-weight: 700; }
+.rung-blurb { color: var(--ink-soft); font-size: .85rem; }
+
+/* ===========================================================================
+   TIER GATE banner
+   ======================================================================== */
+.tier-gate {
+  display: grid; grid-template-columns: auto 1fr; gap: 1rem; align-items: center;
+  margin: 1.2rem 0 1.6rem; padding: .8rem 1rem;
+  border: 1px solid var(--accent);
+  border-left: 6px solid var(--accent);
+  background: rgba(var(--tier-rgb), .08);
+}
+.tier-gate__num {
+  font-family: var(--md-code-font); font-weight: 800; font-size: 2.2rem; line-height: 1;
+  color: var(--accent); padding-right: 1rem; border-right: 1px solid var(--rule-strong);
+}
+.tier-gate__name { font-weight: 700; font-size: 1.05rem; margin-bottom: .25rem; }
+.tier-gate__flow { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; font-size: .85rem; color: var(--ink-soft); }
+.tg-arrow { color: var(--accent); font-weight: 700; }
+.tg-out { font-weight: 600; color: var(--ink); }
+.chapter-stats { font-family: var(--md-code-font); font-size: .8rem; color: var(--ink-soft); }
+.chapter-nav { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--rule-strong); font-weight: 600; }
+
+/* ===========================================================================
+   QUEST CARD
+   ======================================================================== */
+.quest-card {
+  margin: 1.1rem 0; border: 1px solid var(--rule-strong); background: var(--paper-2);
+  border-left: 5px solid var(--accent);
+}
+.quest-card__head {
+  display: flex; align-items: center; gap: .7rem; flex-wrap: wrap;
+  padding: .7rem .9rem; border-bottom: 1px solid var(--rule);
+  background: rgba(var(--tier-rgb), .06);
+}
+.quest-card__title { margin: 0; font-size: 1.08rem; }
+.quest-card > *:not(.quest-card__head) { padding-left: .9rem; padding-right: .9rem; }
+.quest-card .quest-summary { padding-top: .7rem; }
+.quest-card .quest-lore { margin-bottom: .8rem; }
+.quest-pre { font-size: .8rem; color: var(--ink-soft); margin: .6rem 0 0; }
+.quest-pre em { font-style: normal; font-weight: 600; color: var(--ink); }
+
+.qbadge {
+  font-family: var(--md-code-font); font-size: .66rem; letter-spacing: .12em;
+  text-transform: uppercase; font-weight: 700; padding: .2rem .5rem;
+  border: 1px solid currentColor; white-space: nowrap;
+}
+.qbadge-main       { color: #2f7fd1; }
+.qbadge-checkpoint { color: #b5713b; }
+.qbadge-side       { color: #6f8f4e; }
+.qbadge-info       { color: #8d8a82; }
+.qbadge-exchange   { color: #7d5bd6; }
+
+.quest-tasks { margin: .4rem 0 .8rem; }
+.quest-tasks ul { margin-top: .3rem; }
+.task-kind {
+  font-family: var(--md-code-font); font-size: .62rem; text-transform: uppercase;
+  letter-spacing: .08em; padding: .08rem .4rem; margin-right: .35rem;
+  border: 1px solid var(--rule-strong); color: var(--ink-soft);
+}
+.task-craft { color:#b5713b; border-color:#b5713b; }
+.task-retrieve { color:#2f7fd1; border-color:#2f7fd1; }
+.task-place, .task-build { color:#6f8f4e; border-color:#6f8f4e; }
+.task-opt { font-size: .7rem; color: var(--ink-soft); font-style: italic; }
+.alt { color: var(--ink-soft); font-size: .85em; }
+
+.quest-rewards, .quest-keyitems { font-size: .85rem; margin: .3rem 0; }
+.quest-rewards.costs { color: #6e2e2a; }
+.quest-lore summary { cursor: pointer; font-weight: 600; color: var(--ink-soft); font-size: .85rem; }
+
+/* ===========================================================================
+   ITEM CHIP (:ci[...])
+   ======================================================================== */
+.ci {
+  display: inline-flex; align-items: center; gap: .3rem; vertical-align: baseline;
+  padding: .05rem .35rem .05rem .2rem; border: 1px solid var(--rule);
+  background: var(--paper); border-radius: 2px; line-height: 1.4; font-size: .88em;
+  white-space: nowrap;
+}
+.ci-glyph { position: relative; width: 1.15em; height: 1.15em; display: inline-block; flex: none; }
+.ci-mono {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  font-family: var(--md-code-font); font-size: .56em; font-weight: 700; color: #fff;
+  background: var(--ci-color, #7a6a55); border-radius: 2px;
+}
+.ci-ico { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; image-rendering: pixelated; }
+.ci-count { font-family: var(--md-code-font); font-size: .82em; color: var(--ink-soft); }
+.ci.icon-only { padding: 0; border: 0; background: none; }
+.ci.icon-only .ci-glyph { width: 1.3em; height: 1.3em; }
+
+/* Item chips are clickable links to their catalogue entry. Keep the chip
+   styling; suppress the default link underline/colour and add a quiet hover. */
+.md-typeset a.ci-link, .md-typeset a.ci-link:hover { text-decoration: none; color: inherit; }
+.md-typeset a.ci-link { display: inline-block; }
+.md-typeset a.ci-link:hover .ci { border-color: var(--md-accent-fg-color, #b08d57); background: var(--md-code-bg-color, #f3efe7); }
+.md-typeset a.ci-link:focus-visible .ci { outline: 2px solid var(--md-accent-fg-color, #b08d57); outline-offset: 1px; }
+/* Station references link to the station catalogue box. */
+.md-typeset a.stn-link, .md-typeset a.stn-link:hover { color: inherit; text-decoration: none; }
+.md-typeset a.stn-link:hover { text-decoration: underline; text-decoration-style: dotted; text-underline-offset: 2px; }
+.recipe-card .rc-stn a.stn-link { color: inherit; }
+
+/* ===========================================================================
+   STATIONS
+   ======================================================================== */
+.station-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); gap: .8rem; }
+.station-box { border: 1px solid var(--rule-strong); background: var(--paper-2); padding: .8rem .9rem; }
+.station-box__name { font-weight: 700; }
+.station-box__id code { font-size: .75rem; }
+.station-box__slots { margin: .4rem 0; display: flex; gap: .3rem; flex-wrap: wrap; }
+.slot { font-size: .68rem; padding: .1rem .4rem; border: 1px solid var(--rule-strong); }
+.slot.in { color:#2f7fd1; border-color:#2f7fd1; }
+.slot.out { color:#6f8f4e; border-color:#6f8f4e; }
+.slot.fuel { color:#b5713b; border-color:#b5713b; }
+.slot.none { color: var(--ink-soft); font-style: italic; }
+.station-box__desc { font-size: .88rem; margin-top: .3rem; }
+.station-box__hint { font-size: .8rem; color: var(--ink-soft); margin-top: .4rem; padding-left: .6rem; border-left: 2px solid var(--rule-strong); }
+
+/* ===========================================================================
+   ITEM TIER GRID
+   ======================================================================== */
+.item-tier-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: .7rem; }
+.item-tier {
+  display: flex; flex-direction: column; padding: .8rem .9rem; border: 1px solid var(--rule-strong);
+  border-left: 5px solid var(--accent); background: var(--paper-2); text-decoration: none; color: var(--ink);
+}
+.item-tier:hover { border-color: var(--accent); }
+.item-tier em { font-style: normal; font-family: var(--md-code-font); font-size: .76rem; color: var(--ink-soft); margin-top: .2rem; }
+
+/* ===========================================================================
+   HINT + WHY-THIS-IS-REAL
+   ======================================================================== */
+.qb-hint {
+  border-left: 3px solid var(--md-accent-fg-color); background: rgba(181,113,59,.07);
+  padding: .5rem .8rem; margin: .7rem 0; font-size: .9rem;
+}
+.qb-hint strong { color: var(--md-accent-fg-color); }
+
+/* custom admonition: why this is real */
+.md-typeset .admonition.whyreal, .md-typeset details.whyreal {
+  border-color: #2f7fd1; border-left-width: .3rem;
+}
+.md-typeset .whyreal > .admonition-title, .md-typeset .whyreal > summary {
+  background: rgba(47,127,209,.1);
+}
+.md-typeset .whyreal > .admonition-title::before, .md-typeset .whyreal > summary::before {
+  background-color: #2f7fd1;
+  -webkit-mask-image: var(--md-admonition-icon--note);
+          mask-image: var(--md-admonition-icon--note);
+}
+
+/* tables a touch tighter, technical */
+.md-typeset table:not([class]) { font-size: .84rem; }
+.md-typeset table:not([class]) th { background: var(--paper-2); font-family: var(--md-code-font); font-size: .76rem; text-transform: uppercase; letter-spacing: .04em; }
+
+@media (max-width: 480px) {
+  .hero-title { font-size: 1.8rem; }
+  .tier-gate { grid-template-columns: 1fr; }
+  .tier-gate__num { border-right: 0; }
+}
+
+/* ---- Recipe cards (generated recipes browser) ---- */
+.recipe-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:.7rem;margin:.6rem 0 1.6rem;}
+.recipe-card{border:1px solid var(--md-default-fg-color--lightest);border-left:3px solid #b08d57;border-radius:8px;padding:.55rem .7rem;background:var(--md-code-bg-color);}
+.recipe-card .rc-out{font-weight:600;margin-bottom:.2rem;}
+.recipe-card .rc-flow{display:flex;flex-wrap:wrap;align-items:center;gap:.25rem;margin:.15rem 0;}
+.recipe-card .rc-arrow{opacity:.55;padding:0 .1rem;font-weight:700;}
+.recipe-card .rc-world{font-style:italic;opacity:.85;margin:.15rem 0;font-size:.85rem;}
+.recipe-card .rc-meta{display:flex;flex-wrap:wrap;gap:.45rem;font-size:.72rem;opacity:.85;margin-top:.3rem;}
+.recipe-card .rc-stn{color:#b08d57;font-weight:700;}
+.recipe-card .rc-time{opacity:.7;}
+.recipe-card .rc-bp{color:#2f7fd1;font-weight:700;}
+.recipe-card .rc-note{font-size:.78rem;opacity:.72;margin-top:.25rem;}
+.recipe-card .rc-id{font-size:.62rem;opacity:.38;margin-top:.2rem;}
+.recipe-card .rc-id code{background:none;padding:0;}
+
+/* ---- Atlas icons (item chips + station boxes) ---- */
+.ci .ci-img, .md-typeset .ci img { image-rendering: pixelated; image-rendering: crisp-edges; vertical-align: -3px; width: 18px; height: 18px; }
+.station-box__name img { image-rendering: pixelated; width: 22px; height: 22px; vertical-align: -4px; margin-right: .25rem; }
+
+/* ---- Mermaid recipe flow maps ---- */
+.md-typeset .mermaid { background: var(--md-code-bg-color); border: 1px solid var(--md-default-fg-color--lightest); border-radius: 8px; padding: .5rem .4rem; margin: .4rem 0 1.4rem; overflow-x: auto; }
+.md-typeset .mermaid img.mmd-ico { image-rendering: pixelated; width: 26px; height: 26px; vertical-align: middle; display: inline-block; margin-right: 3px; }
+.md-typeset .mermaid .node foreignObject div { font-size: 13px !important; line-height: 1.15; white-space: nowrap; }
+
+/* ===========================================================================
+   READING ERGONOMICS / WIDE-SCREEN LAYOUT  (F19 / F48 / F67)
+   The base theme kept Material's ~61rem content cap with a single 480px
+   media query, so the data-dense catalogue wasted most of a wide / second
+   monitor and the long tables had no scanning aids. This layer lifts the
+   width cap, keeps long-form prose at a comfortable measure, and makes the
+   big catalogue tables easier to read.
+   ======================================================================== */
+
+/* Lift Material's ~61rem cap so catalogue grids/tables use the full width of
+   a wide or second monitor. */
+.md-grid { max-width: 84rem; }
+@media (min-width: 1600px) { .md-grid { max-width: 100rem; } }
+@media (min-width: 2200px) { .md-grid { max-width: 116rem; } }
+
+/* Keep running prose at a readable measure even inside the now-wider column,
+   while letting full-width components (grids, tables, hero, gates) span it. */
+.md-typeset p, .md-typeset > ul, .md-typeset > ol, .md-typeset blockquote {
+  max-width: 78ch;
+}
+.md-typeset .recipe-grid, .md-typeset .station-grid, .md-typeset .item-tier-grid,
+.md-typeset .start-cards, .md-typeset .tier-gate, .md-typeset .hero,
+.md-typeset table, .md-typeset .md-typeset__table,
+.md-typeset > ul.recipe-grid, .md-typeset > ul.station-grid {
+  max-width: none;
+}
+
+/* Big catalogue tables: denser rows, zebra striping and a sticky header so the
+   column labels stay visible while scrolling long item lists. */
+.md-typeset table:not([class]) { width: 100%; }
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td { padding: .34rem .55rem; line-height: 1.4; }
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background: rgba(125, 110, 85, .055);
+}
+.md-typeset table:not([class]) thead th {
+  position: sticky; top: 0; z-index: 3;
+  background: var(--md-default-bg-color);
+  box-shadow: inset 0 -1px 0 var(--rule);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, .04);
+}
+
+/* Comfortable body measure / spacing for the long climb + guide prose. */
+.md-typeset { line-height: 1.62; }
+
+/* Real tablet/narrow breakpoint (previously only 480px existed): collapse the
+   multi-column tile grids so cards don't get crushed. */
+@media (max-width: 820px) {
+  .recipe-grid, .station-grid, .item-tier-grid, .start-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   Collapsible station groups (recipe pages) + loot bags
+   Added for richer, less-walls-of-text layouts.
+   ============================================================ */
+.md-typeset details.stn-group,
+.md-typeset details.loot-bag{
+  border:1px solid var(--md-default-fg-color--lightest);
+  border-left:3px solid #b08d57;
+  border-radius:10px;
+  margin:.55rem 0;
+  padding:0;
+  background:color-mix(in srgb, var(--md-code-bg-color) 55%, transparent);
+  overflow:hidden;
+}
+.md-typeset details.stn-group > summary,
+.md-typeset details.loot-bag > summary{
+  cursor:pointer;
+  list-style:none;
+  padding:.6rem .85rem;
+  font-weight:700;
+  font-size:.95rem;
+  display:flex;
+  align-items:center;
+  gap:.5rem;
+  background:color-mix(in srgb, #b08d57 12%, transparent);
+  transition:background .15s ease;
+}
+.md-typeset details.stn-group > summary:hover,
+.md-typeset details.loot-bag > summary:hover{
+  background:color-mix(in srgb, #b08d57 22%, transparent);
+}
+.md-typeset details.stn-group > summary::-webkit-details-marker,
+.md-typeset details.loot-bag > summary::-webkit-details-marker{display:none;}
+.md-typeset details.stn-group > summary::before,
+.md-typeset details.loot-bag > summary::before{
+  content:"\25B8";
+  display:inline-block;
+  opacity:.6;
+  transition:transform .15s ease;
+}
+.md-typeset details.stn-group[open] > summary::before,
+.md-typeset details.loot-bag[open] > summary::before{transform:rotate(90deg);}
+.md-typeset details.stn-group > .recipe-grid{margin:.7rem .85rem 1rem;}
+.md-typeset details.loot-bag > *{margin-left:.85rem;margin-right:.85rem;}
+.md-typeset details.loot-bag > table{width:calc(100% - 1.7rem);}
+
+/* per-tier accent stripe reuse via data-tier (matches tiers.css palette) */
+.md-typeset details.loot-bag[data-tier="survival"]{border-left-color:#6f8f4e;}
+.md-typeset details.loot-bag[data-tier="stone"]{border-left-color:#9c6b3f;}
+.md-typeset details.loot-bag[data-tier="metal_ages"]{border-left-color:#b5713b;}
+.md-typeset details.loot-bag[data-tier="steam"],
+.md-typeset details.loot-bag[data-tier="steel"]{border-left-color:#5a626b;}
+.md-typeset details.loot-bag[data-tier="electric"]{border-left-color:#f0a830;}
+.md-typeset details.loot-bag[data-tier="solidstate"]{border-left-color:#7d5bd6;}
+.md-typeset details.loot-bag[data-tier="space"]{border-left-color:#3a3f7a;}
+
+.grp-n{
+  margin-left:auto;
+  font-size:.72rem;
+  font-weight:700;
+  opacity:.8;
+  background:color-mix(in srgb, #b08d57 25%, transparent);
+  border-radius:999px;
+  padding:.05rem .5rem;
+}
+
+/* jump bar of station chips at the top of a recipe page */
+.md-typeset nav.group-jump{
+  display:flex;flex-wrap:wrap;gap:.35rem;
+  margin:.2rem 0 1.1rem;
+}
+.md-typeset nav.group-jump a{
+  font-size:.74rem;
+  text-decoration:none;
+  border:1px solid var(--md-default-fg-color--lightest);
+  border-radius:999px;
+  padding:.12rem .55rem;
+  color:var(--md-default-fg-color--light);
+  background:var(--md-code-bg-color);
+  transition:background .12s ease,color .12s ease;
+}
+.md-typeset nav.group-jump a:hover{background:#b08d57;color:#fff;border-color:#b08d57;}
+.md-typeset nav.group-jump a em{font-style:normal;opacity:.6;margin-left:.25rem;}
+
+/* "how a bag rolls" explainer + per-bag meta line */
+.md-typeset .loot-how{
+  border:1px solid var(--md-default-fg-color--lightest);
+  border-left:3px solid #c79a3a;
+  border-radius:10px;
+  padding:.7rem .95rem;
+  background:color-mix(in srgb, #c79a3a 8%, transparent);
+  margin:.4rem 0 1.2rem;
+}
+.md-typeset .loot-how ul{margin:.3rem 0 0;}
+.md-typeset p.loot-meta{
+  font-size:.82rem;
+  opacity:.85;
+  margin:.1rem 0 .5rem;
+}
+.md-typeset details.loot-bag table{font-size:.82rem;}
+
+/* ============================================================
+   In-depth item "Field notes" (lore from ItemDocs)
+   ============================================================ */
+.md-typeset details.item-doc{
+  border:1px solid var(--md-default-fg-color--lightest);
+  border-left:3px solid #6f8f4e;
+  border-radius:10px;
+  margin:.5rem 0;
+  background:color-mix(in srgb, var(--md-code-bg-color) 50%, transparent);
+  overflow:hidden;
+}
+.md-typeset details.item-doc > summary{
+  cursor:pointer;list-style:none;
+  padding:.5rem .8rem;font-weight:700;
+  display:flex;align-items:center;gap:.5rem;
+  background:color-mix(in srgb, #6f8f4e 12%, transparent);
+}
+.md-typeset details.item-doc > summary:hover{background:color-mix(in srgb, #6f8f4e 22%, transparent);}
+.md-typeset details.item-doc > summary::-webkit-details-marker{display:none;}
+.md-typeset details.item-doc > summary::before{
+  content:"\25B8";opacity:.6;transition:transform .15s ease;display:inline-block;
+}
+.md-typeset details.item-doc[open] > summary::before{transform:rotate(90deg);}
+.md-typeset details.item-doc > *{margin-left:.85rem;margin-right:.85rem;}
+.md-typeset details.item-doc > summary{margin:0;}
+.md-typeset details.item-doc p{font-size:.9rem;}
+
+.md-typeset .whyreal{
+  border-left:3px solid #2f7fd1;
+  background:color-mix(in srgb, #2f7fd1 8%, transparent);
+  border-radius:6px;padding:.45rem .7rem;font-size:.86rem;margin:.4rem 0;
+}
+.md-typeset .teach{
+  border-left:3px solid #c79a3a;
+  background:color-mix(in srgb, #c79a3a 8%, transparent);
+  border-radius:6px;padding:.45rem .7rem;font-size:.86rem;margin:.4rem 0;
+}
+.md-typeset details.item-doc ul{font-size:.84rem;opacity:.9;}
+
+/* ============================================================
+   Ore & Material Field Guide
+   ============================================================ */
+.md-typeset details.ore-hub{
+  border:1px solid var(--md-default-fg-color--lightest);
+  border-left:3px solid #b3742e;border-radius:10px;margin:.6rem 0;overflow:hidden;
+  background:color-mix(in srgb,var(--md-code-bg-color) 40%,transparent);
+}
+.md-typeset details.ore-hub > summary{
+  cursor:pointer;list-style:none;font-weight:800;font-size:1.02rem;
+  padding:.6rem .9rem;display:flex;align-items:center;gap:.5rem;
+  background:color-mix(in srgb,#b3742e 14%,transparent);
+}
+.md-typeset details.ore-hub > summary:hover{background:color-mix(in srgb,#b3742e 24%,transparent);}
+.md-typeset details.ore-hub > summary::-webkit-details-marker{display:none;}
+.md-typeset details.ore-hub > summary::before{
+  content:"\25B8";opacity:.6;transition:transform .15s ease;display:inline-block;
+}
+.md-typeset details.ore-hub[open] > summary::before{transform:rotate(90deg);}
+.md-typeset details.ore-hub > summary em{
+  margin-left:auto;font-style:normal;opacity:.7;font-size:.78rem;
+  background:color-mix(in srgb,#b3742e 22%,transparent);border-radius:10px;padding:0 .5rem;
+}
+.md-typeset details.ore-hub > *{margin-left:.9rem;margin-right:.9rem;}
+.md-typeset details.ore-hub > summary{margin:0;}
+.md-typeset details.ore-hub h3{
+  margin-top:1.1rem;border-top:1px dashed var(--md-default-fg-color--lightest);padding-top:.7rem;
+}
+.md-typeset .ore-spot{
+  border-left:3px solid #5a8f4e;background:color-mix(in srgb,#5a8f4e 8%,transparent);
+  border-radius:6px;padding:.4rem .7rem;font-size:.88rem;margin:.35rem 0;
+}
+.md-typeset details.ore-more{
+  border:1px solid var(--md-default-fg-color--lightest);border-radius:8px;margin:.45rem 0;
+  background:color-mix(in srgb,var(--md-code-bg-color) 30%,transparent);
+}
+.md-typeset details.ore-more > summary{cursor:pointer;font-size:.82rem;opacity:.85;padding:.35rem .65rem;list-style:none;}
+.md-typeset details.ore-more > summary::-webkit-details-marker{display:none;}
+.md-typeset details.ore-more > summary::before{content:"\25B8 ";opacity:.6;}
+.md-typeset details.ore-more[open] > summary::before{content:"\25BE ";}
+.md-typeset details.ore-more > *{margin-left:.65rem;margin-right:.65rem;}
+.md-typeset details.ore-more > summary{margin:0;}

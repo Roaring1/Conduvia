@@ -1,0 +1,4098 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How to play Conduvia: a survival-to-orbit game where every recipe mirrors a real industrial process. Quests, the tech climb, stations, and the full item catalogue — generated straight from the game's own data.">
+      
+      
+      
+        <link rel="canonical" href="https://roaring1.github.io/Conduvia/stations/">
+      
+      
+        <link rel="prev" href="../field-guide/rewards/">
+      
+      
+        <link rel="next" href="../recipes/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Stations - Conduvia — Player Field Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/css/tiers.css">
+    
+      <link rel="stylesheet" href="../assets/css/conduvia.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#stations" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Conduvia — Player Field Manual" class="md-header__button md-logo" aria-label="Conduvia — Player Field Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Conduvia — Player Field Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Stations
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to blueprint mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to blueprint mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to paper mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to paper mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Roaring1/Conduvia" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Roaring1/Conduvia
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Conduvia — Player Field Manual" class="md-nav__button md-logo" aria-label="Conduvia — Player Field Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Conduvia — Player Field Manual
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Roaring1/Conduvia" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Roaring1/Conduvia
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../whats-new/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What's new
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/what-is-conduvia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What is Conduvia?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/your-first-hour/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Your first hour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/crafting-and-stations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting & stations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/win-path-vs-branches/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Win-path vs branches
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/controls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Controls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../climb/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Climb
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    The Climb
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/0-survival/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0 · Survival
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/1-stone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1 · Stone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/2-metal_ages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2 · Metal Ages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/3-steam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3 · Steam
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/4-steel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4 · Steel & DC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/5-electric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5 · Electric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/6-solidstate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6 · Solid State
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../climb/7-space/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7 · Space
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Field Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Field Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/ore-field-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ore & material guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/copper/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copper — full chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/copper-oxide-sx-ew/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Copper Route C — oxide SX-EW
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/sulfuric-acid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sulfuric acid — keystone reagent
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/iron-steel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iron & steel — backbone chain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/ferroalloys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferroalloys — ferrochrome & ferronickel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/aluminum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aluminum — Bayer & Hall-Héroult
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/chlor-alkali/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chlor-alkali — caustic, chlorine & hydrogen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/titanium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Titanium — chloride route & Hunter reduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/air-ammonia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Industrial gases — air separation & Haber-Bosch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/zirconium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zirconium — nuclear metal & hafnium separation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/silicon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Silicon — sand to 9N wafer (Siemens & Czochralski)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/tungsten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tungsten — the metal you cannot melt (APT & powder metallurgy)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/cells/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cells & canisters — what the wall can survive
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/natural-gas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Natural gas & helium — sour gas, sulfur, helium & SMR hydrogen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/uranium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Uranium — the full nuclear fuel cycle (enrichment, Zircaloy & Hf rods)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/niobium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Niobium & tantalum — the inseparable twins (SX split, FeNb & Ta capacitor)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/nickel-sulfide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nickel (sulfide route) — matte smelting & SO₂-to-acid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/magnesium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Magnesium — Pidgeon silicothermic & electrolytic routes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/cobalt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cobalt — cobaltite refining & the WC-Co binder fix
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/zinc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zinc — sphalerite electrolytic (RLE) & thermal retort routes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/lead/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lead — galena smelting, Parkes desilvering & silver dore
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/lithium/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lithium — spodumene to battery salts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/rare-earths/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rare earths — separation to an NdFeB magnet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/potash/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Potash — sylvite to MOP, SOP & caustic potash
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/gypsum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gypsum — plaster, drywall, acid & cement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/flint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flint — knapping, fire-steel & potters' flint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/obsidian/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Obsidian — volcanic glass to a surgical blade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/geology-timeline/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geology timeline
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../field-guide/rewards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tokens & rewards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../recipes/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recipes
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Recipes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipes/survival/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 0 — Survival & gathering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipes/stone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 1 — Stone & materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipes/metal-ages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 2 — Metal Ages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipes/steam-steel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 3–4 — Steam & Steel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipes/electric/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 5 — Electric & chemistry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipes/fabrication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fabrication & components
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../items/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items & Ores
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items & Ores
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-0-survival/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 0 — Survival
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-0-wildlife-hunting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 0 — Wildlife
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-1-stone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 1 — Stone
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-2-metal-ages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 2 — Metal Ages
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-3-steam/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 3 — Steam
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-4-steel-dc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 4 — Steel & DC
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-5-electric-chemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 5 — Electric
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-6-solid-state/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 6 — Solid State
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/tier-7-space/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tier 7 — Space
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/ores-raw-materials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ores & raw materials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../items/loot-and-rewards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot & rewards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reference
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Reference
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference/legend/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Card & badge legend
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Real-process glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference/how-this-site-is-built/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How this site is built
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Notes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design Notes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../design/balance-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recipe balance review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../design/missing-chains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Missing-chains roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../design/todo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TODO / Backlog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="stations">Stations<a class="headerlink" href="#stations" title="Permanent link">&para;</a></h1>
+<p>Stations are the machines and work surfaces you craft <em>at</em>. Each one is modeled on a piece of real-world equipment. Drop a station from your inventory to place it, then open it to queue recipes. Stations marked <strong>passive</strong> have no crafting panel — they work or monitor automatically once placed.</p>
+<div class="station-grid">
+<div class="station-box" id="network_ac_district">
+<div class="station-box__name">AC District Network</div>
+<div class="station-box__id"><code>network_ac_district</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Gathers the power from several generators and spreads it across a whole area — a hub where the wires meet before fanning out to the buildings around it.</p>
+</div>
+<div class="station-box__hint">
+<p>Can't be opened — it just shows the network's state.</p>
+</div>
+</div>
+<div class="station-box" id="panel_mimic_ac_grid">
+<div class="station-box__name">AC Grid Mimic Panel</div>
+<div class="station-box__id"><code>panel_mimic_ac_grid</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>A board that shows your whole power grid at a glance — how much each generator is making, which switches are on or off, and where something has gone wrong. (A status board like this is called a mimic panel.)</p>
+</div>
+<div class="station-box__hint">
+<p>Just for reading — there's nothing to click.</p>
+</div>
+</div>
+<div class="station-box" id="motor_ac_induction_small">
+<div class="station-box__name">AC Induction Motor</div>
+<div class="station-box__id"><code>motor_ac_induction_small</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Plug it into back-and-forth electricity and it just spins — no contacts rubbing or wearing out, so it's tough and nearly maintenance-free. (Back-and-forth current is called AC, and this kind of motor is an induction motor.)</p>
+</div>
+<div class="station-box__hint">
+<p>Needs an AC supply at the right frequency.</p>
+</div>
+</div>
+<div class="station-box" id="air_separation_unit">
+<div class="station-box__name">Air Separation Unit</div>
+<div class="station-box__id"><code>air_separation_unit</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="aluminothermic_crucible">
+<div class="station-box__name">Aluminothermic Crucible</div>
+<div class="station-box__id"><code>aluminothermic_crucible</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="amine_gas_treater">
+<div class="station-box__name">Amine Gas Treater</div>
+<div class="station-box__id"><code>amine_gas_treater</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="anode_baking_furnace">
+<div class="station-box__name">Anode Baking Furnace</div>
+<div class="station-box__id"><code>anode_baking_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="aod_converter">
+<div class="station-box__name">AOD Converter</div>
+<div class="station-box__id"><code>aod_converter</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="apt_crystallizer">
+<div class="station-box__name">APT Crystallizer</div>
+<div class="station-box__id"><code>apt_crystallizer</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="assembler_workshop">
+<div class="station-box__name">Assembly Cell</div>
+<div class="station-box__id"><code>assembler_workshop</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="storage_crate_bark">
+<div class="station-box__name">Bark Storage Crate</div>
+<div class="station-box__id"><code>storage_crate_bark</code></div>
+<div class="station-box__slots"><span class="slot in">in ×27</span></div>
+</div>
+<div class="station-box" id="bedroll_basic">
+<div class="station-box__name">Basic Bedroll</div>
+<div class="station-box__id"><code>bedroll_basic</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="basic_oxygen_furnace">
+<div class="station-box__name">Basic Oxygen Furnace</div>
+<div class="station-box__id"><code>basic_oxygen_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="bayer_digester">
+<div class="station-box__name">Bayer Digester</div>
+<div class="station-box__id"><code>bayer_digester</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="coke_oven_beehive">
+<div class="station-box__name">Beehive Coke Oven</div>
+<div class="station-box__id"><code>coke_oven_beehive</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="bellows">
+<div class="station-box__name">Bellows</div>
+<div class="station-box__id"><code>bellows</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Pump this air bag by hand to blast air into a fire. More air makes the fuel burn hotter — hot enough to work metal a plain fire can't touch. Set it next to a forge and it speeds up the heat.</p>
+</div>
+<div class="station-box__hint">
+<p>Place it next to a Forge Hearth or Clay Bloomery.</p>
+</div>
+</div>
+<div class="station-box" id="bessemer_converter_basic">
+<div class="station-box__name">Bessemer Converter</div>
+<div class="station-box__id"><code>bessemer_converter_basic</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="blast_furnace_small">
+<div class="station-box__name">Blast Furnace</div>
+<div class="station-box__id"><code>blast_furnace_small</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="brine_treatment_unit">
+<div class="station-box__name">Brine Treatment Unit</div>
+<div class="station-box__id"><code>brine_treatment_unit</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="butchering_block_basic">
+<div class="station-box__name">Butchering Block</div>
+<div class="station-box__id"><code>butchering_block_basic</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="camp_marker_basic">
+<div class="station-box__name">Camp Marker</div>
+<div class="station-box__id"><code>camp_marker_basic</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="incandescent_lamp_carbon">
+<div class="station-box__name">Carbon Incandescent Lamp</div>
+<div class="station-box__id"><code>incandescent_lamp_carbon</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Runs a little electricity through a thin carbon thread until it glows warm amber. It's one of the first light bulbs — pretty, but fragile and quick to burn out. (A bulb that lights up by heating a thread like this is called incandescent.)</p>
+</div>
+<div class="station-box__hint">
+<p>Screw it into a lamp fixture; swap it out when it burns out.</p>
+</div>
+</div>
+<div class="station-box" id="carbonation_reactor">
+<div class="station-box__name">Carbonation Reactor</div>
+<div class="station-box__id"><code>carbonation_reactor</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="carving_bench">
+<div class="station-box__name">Carving Bench</div>
+<div class="station-box__id"><code>carving_bench</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="firebox_cast_iron">
+<div class="station-box__name">Cast Iron Firebox</div>
+<div class="station-box__id"><code>firebox_cast_iron</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>A part, not a machine. This is the iron box where the fire burns inside a boiler. Cast it at the Clay Casting Pit first, then use it as one of the pieces when you build the Riveted Boiler.</p>
+</div>
+<div class="station-box__hint">
+<p>A part used to build the Riveted Boiler.</p>
+</div>
+</div>
+<div class="station-box" id="caustic_digester_autoclave">
+<div class="station-box__name">Caustic Digester Autoclave</div>
+<div class="station-box__id"><code>caustic_digester_autoclave</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="caustic_evaporator">
+<div class="station-box__name">Caustic Evaporator</div>
+<div class="station-box__id"><code>caustic_evaporator</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="cement_ball_mill">
+<div class="station-box__name">Cement Ball Mill</div>
+<div class="station-box__id"><code>cement_ball_mill</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="charcoal_clamp_earth_mound_kiln">
+<div class="station-box__name">Charcoal Clamp</div>
+<div class="station-box__id"><code>charcoal_clamp_earth_mound_kiln</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="charcoal_drum_kiln">
+<div class="station-box__name">Charcoal Drum Kiln</div>
+<div class="station-box__id"><code>charcoal_drum_kiln</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="charcoal_retort_kiln">
+<div class="station-box__name">Charcoal Retort Kiln</div>
+<div class="station-box__id"><code>charcoal_retort_kiln</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="claus_sulfur_unit">
+<div class="station-box__name">Claus Sulfur Unit</div>
+<div class="station-box__id"><code>claus_sulfur_unit</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="clay_bloomery_furnace">
+<div class="station-box__name">Clay Bloomery</div>
+<div class="station-box__id"><code>clay_bloomery_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="clay_casting_pit">
+<div class="station-box__name">Clay Casting Pit</div>
+<div class="station-box__id"><code>clay_casting_pit</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="clay_crucible_small">
+<div class="station-box__name">Clay Crucible</div>
+<div class="station-box__id"><code>clay_crucible_small</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="clay_pot">
+<div class="station-box__name">Clay Pot</div>
+<div class="station-box__id"><code>clay_pot</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="contact_converter">
+<div class="station-box__name">Contact Converter (V2O5 beds, DCDA)</div>
+<div class="station-box__id"><code>contact_converter</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="copper_converter">
+<div class="station-box__name">Copper Converter (Peirce-Smith)</div>
+<div class="station-box__id"><code>copper_converter</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="cryo_helium_unit">
+<div class="station-box__name">Cryogenic Helium Unit</div>
+<div class="station-box__id"><code>cryo_helium_unit</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="cupellation_hearth">
+<div class="station-box__name">Cupellation Hearth</div>
+<div class="station-box__id"><code>cupellation_hearth</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="czochralski_crystal_puller">
+<div class="station-box__name">Czochralski Crystal Puller</div>
+<div class="station-box__id"><code>czochralski_crystal_puller</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="dynamo_dc_workshop">
+<div class="station-box__name">DC Workshop Dynamo</div>
+<div class="station-box__id"><code>dynamo_dc_workshop</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="pelletizer_disc">
+<div class="station-box__name">Disc Pelletizer</div>
+<div class="station-box__id"><code>pelletizer_disc</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="dri_shaft_furnace">
+<div class="station-box__name">DRI Shaft Furnace</div>
+<div class="station-box__id"><code>dri_shaft_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="drying_rack_survival">
+<div class="station-box__name">Drying Rack</div>
+<div class="station-box__id"><code>drying_rack_survival</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="earthen_kiln_updraft">
+<div class="station-box__name">Earthen Kiln</div>
+<div class="station-box__id"><code>earthen_kiln_updraft</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="earthenware_vessel">
+<div class="station-box__name">Earthenware Vessel</div>
+<div class="station-box__id"><code>earthenware_vessel</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="arc_furnace_electric">
+<div class="station-box__name">Electric Arc Furnace</div>
+<div class="station-box__id"><code>arc_furnace_electric</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="ball_mill_ore">
+<div class="station-box__name">Electric Ball Mill</div>
+<div class="station-box__id"><code>ball_mill_ore</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="induction_furnace_electric">
+<div class="station-box__name">Electric Induction Furnace</div>
+<div class="station-box__id"><code>induction_furnace_electric</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="jaw_crusher_electric">
+<div class="station-box__name">Electric Jaw Crusher</div>
+<div class="station-box__id"><code>jaw_crusher_electric</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="machine_shop_electric">
+<div class="station-box__name">Electric Machine Shop</div>
+<div class="station-box__id"><code>machine_shop_electric</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="electrolytic_refining_cell">
+<div class="station-box__name">Electrolytic Refining Cell</div>
+<div class="station-box__id"><code>electrolytic_refining_cell</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="electrowinning_cell">
+<div class="station-box__name">Electrowinning Cell</div>
+<div class="station-box__id"><code>electrowinning_cell</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="lathe_workshop">
+<div class="station-box__name">Engine Lathe</div>
+<div class="station-box__id"><code>lathe_workshop</code></div>
+<div class="station-box__slots"><span class="slot in">in ×2</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="feedwater_pump_simple">
+<div class="station-box__name">Feedwater Pump</div>
+<div class="station-box__id"><code>feedwater_pump_simple</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>A part, not a machine. A pump that pushes the recovered water back into the boiler so it never runs dry. Used when building the Riveted Boiler.</p>
+</div>
+<div class="station-box__hint">
+<p>A part used to build the Riveted Boiler.</p>
+</div>
+</div>
+<div class="station-box" id="fire_refining_furnace">
+<div class="station-box__name">Fire-Refining Furnace</div>
+<div class="station-box__id"><code>fire_refining_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="storage_firewood_rack">
+<div class="station-box__name">Firewood Rack</div>
+<div class="station-box__id"><code>storage_firewood_rack</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>Stack split wood on this rack to keep it up off the wet ground. Air moves around it and dries it out faster, so it burns better and doesn't rot.</p>
+</div>
+<div class="station-box__hint">
+<p>Shift-click firewood from your inventory to store it quickly.</p>
+</div>
+</div>
+<div class="station-box" id="fishing_trap_weir">
+<div class="station-box__name">Fishing Weir</div>
+<div class="station-box__id"><code>fishing_trap_weir</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="flash_smelting_furnace">
+<div class="station-box__name">Flash Smelting Furnace</div>
+<div class="station-box__id"><code>flash_smelting_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="station_fluid_handler">
+<div class="station-box__name">Fluid Handler</div>
+<div class="station-box__id"><code>station_fluid_handler</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>A pipe fitting that splits, joins, and steers liquids and gases between machines. A valve sets how much gets through, and a gauge shows what's flowing and how fast.</p>
+</div>
+<div class="station-box__hint">
+<p>Inspect it to see the flow rate and which fluid is moving.</p>
+</div>
+</div>
+<div class="station-box" id="fluidized_bed_chlorinator">
+<div class="station-box__name">Fluidized Bed Chlorinator</div>
+<div class="station-box__id"><code>fluidized_bed_chlorinator</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="fluoride_digestion_reactor">
+<div class="station-box__name">Fluoride Digestion Reactor</div>
+<div class="station-box__id"><code>fluoride_digestion_reactor</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="fluorine_cell">
+<div class="station-box__name">Fluorine Cell</div>
+<div class="station-box__id"><code>fluorine_cell</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="flyball_governor">
+<div class="station-box__name">Flyball Governor</div>
+<div class="station-box__id"><code>flyball_governor</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+</div>
+<div class="station-box" id="flywheel">
+<div class="station-box__name">Flywheel</div>
+<div class="station-box__id"><code>flywheel</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+</div>
+<div class="station-box" id="storage_food_pit">
+<div class="station-box__name">Food Storage Pit</div>
+<div class="station-box__id"><code>storage_food_pit</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span></div>
+</div>
+<div class="station-box" id="forge_hearth">
+<div class="station-box__name">Forge Hearth</div>
+<div class="station-box__id"><code>forge_hearth</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="water_turbine_francis">
+<div class="station-box__name">Francis Water Turbine</div>
+<div class="station-box__id"><code>water_turbine_francis</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×1</span></div>
+<div class="station-box__desc">
+<p>Water under head from a penstock enters the spiral scroll case, spins the enclosed runner, and drains down the draft tube. The shaft delivers steady baseload power to a generator day and night, as long as the water keeps flowing.</p>
+</div>
+<div class="station-box__hint">
+<p>Feed it penstock water; couple its shaft to a generator.</p>
+</div>
+</div>
+<div class="station-box" id="froth_flotation_cell">
+<div class="station-box__name">Froth Flotation Cell</div>
+<div class="station-box__id"><code>froth_flotation_cell</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="fuel_rod_assembly_line">
+<div class="station-box__name">Fuel Rod Assembly Line</div>
+<div class="station-box__id"><code>fuel_rod_assembly_line</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="gas_centrifuge_cascade">
+<div class="station-box__name">Gas Centrifuge Cascade</div>
+<div class="station-box__id"><code>gas_centrifuge_cascade</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="station_gas_compressor">
+<div class="station-box__name">Gas Compressor</div>
+<div class="station-box__id"><code>station_gas_compressor</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Squeezes a gas into a much smaller space, packing it under high pressure so it can be piped onward or stored. A spinning shaft drives the piston that does the squeezing.</p>
+</div>
+<div class="station-box__hint">
+<p>Sends pressurized gas on to the next machine.</p>
+</div>
+</div>
+<div class="station-box" id="genset_gas_engine">
+<div class="station-box__name">Gas Generator Set</div>
+<div class="station-box__id"><code>genset_gas_engine</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×1</span></div>
+<div class="station-box__desc">
+<p>A gas engine bolted to an alternator. Load raw natural gas into the input slot and it burns it to put AC onto the line on demand, venting CO2 to the output. It only supplies power while it is running and fuelled -- your dispatchable backup for when the wind drops and the sun is down.</p>
+</div>
+<div class="station-box__hint">
+<p>Load natural gas to run; it feeds AC to the wired network.</p>
+</div>
+</div>
+<div class="station-box" id="gas_well_derrick">
+<div class="station-box__name">Gas Well Derrick</div>
+<div class="station-box__id"><code>gas_well_derrick</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="gristmill_geared">
+<div class="station-box__name">Geared Gristmill</div>
+<div class="station-box__id"><code>gristmill_geared</code></div>
+<div class="station-box__slots"><span class="slot in">in ×2</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="glass_bench">
+<div class="station-box__name">Glass Bench</div>
+<div class="station-box__id"><code>glass_bench</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="haber_bosch_reactor">
+<div class="station-box__name">Haber-Bosch Reactor</div>
+<div class="station-box__id"><code>haber_bosch_reactor</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="hall_heroult_cell">
+<div class="station-box__name">Hall-Heroult Cell</div>
+<div class="station-box__id"><code>hall_heroult_cell</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="hand_crafting_2x2">
+<div class="station-box__name">Hand Crafting</div>
+<div class="station-box__id"><code>hand_crafting_2x2</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×1</span></div>
+</div>
+<div class="station-box" id="heap_leach_pad">
+<div class="station-box__name">Heap Leach Pad</div>
+<div class="station-box__id"><code>heap_leach_pad</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="helium_purifier">
+<div class="station-box__name">Helium Purifier</div>
+<div class="station-box__id"><code>helium_purifier</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="hf_zr_separation_column">
+<div class="station-box__name">Hf-Zr Separation Column</div>
+<div class="station-box__id"><code>hf_zr_separation_column</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="hot_blast_stove">
+<div class="station-box__name">Hot Blast Stove</div>
+<div class="station-box__id"><code>hot_blast_stove</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Burns the blast furnace's own waste gas to heat a tall stack of firebrick red-hot. Then the draft is switched: cold air is blown through the hot brick and comes out scorching. Feeding the furnace hot air instead of cold lets it run far hotter on much less fuel. This isn't a crafting station -- it's a helper that makes the furnace next to it work better. (It stores heat in brick and hands it back to the air -- a regenerative, or 'Cowper', stove.)</p>
+</div>
+<div class="station-box__hint">
+<p>Place it next to a Blast Furnace to preheat its air blast.</p>
+</div>
+</div>
+<div class="station-box" id="hunter_reduction_retort">
+<div class="station-box__name">Hunter Reduction Retort</div>
+<div class="station-box__id"><code>hunter_reduction_retort</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="hydrogen_reduction_furnace">
+<div class="station-box__name">Hydrogen Reduction Furnace</div>
+<div class="station-box__id"><code>hydrogen_reduction_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="lamp_fixture_industrial">
+<div class="station-box__name">Industrial Lamp Fixture</div>
+<div class="station-box__id"><code>lamp_fixture_industrial</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>A hanging lamp that throws bright light down over a work area so you can see what you're doing after dark. Holds either a glowing-thread bulb or a brighter arc lamp.</p>
+</div>
+<div class="station-box__hint">
+<p>Needs power on the circuit to light up.</p>
+</div>
+</div>
+<div class="station-box" id="iron_anvil_block">
+<div class="station-box__name">Iron Anvil</div>
+<div class="station-box__id"><code>iron_anvil_block</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="belt_pulley_iron">
+<div class="station-box__name">Iron Belt Pulley</div>
+<div class="station-box__id"><code>belt_pulley_iron</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+</div>
+<div class="station-box" id="condenser_jet">
+<div class="station-box__name">Jet Condenser</div>
+<div class="station-box__id"><code>condenser_jet</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>A part, not a machine. It cools the used-up steam leaving an engine and turns it back into water, so that water can be boiled again instead of wasted — which saves fuel. Used when building the Riveted Boiler. (Turning steam back into water is called condensing.)</p>
+</div>
+<div class="station-box__hint">
+<p>A part used to build the Riveted Boiler.</p>
+</div>
+</div>
+<div class="station-box" id="knapping_station">
+<div class="station-box__name">Knapping Station</div>
+<div class="station-box__id"><code>knapping_station</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="vacuum_pump_lab">
+<div class="station-box__name">Lab Vacuum Pump</div>
+<div class="station-box__id"><code>vacuum_pump_lab</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Sucks air out of a sealed space until there's almost nothing left inside — a vacuum. That low pressure helps you filter liquids, boil things at lower heat, and seal glass tubes.</p>
+</div>
+<div class="station-box__hint">
+<p>Needs a mechanical power input (a spinning shaft).</p>
+</div>
+</div>
+<div class="station-box" id="lead_chamber">
+<div class="station-box__name">Lead Chamber (NOx)</div>
+<div class="station-box__id"><code>lead_chamber</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="battery_bank_lead_acid">
+<div class="station-box__name">Lead-Acid Battery Bank</div>
+<div class="station-box__id"><code>battery_bank_lead_acid</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+</div>
+<div class="station-box" id="debris_shelter_lean_to">
+<div class="station-box__name">Lean-To Shelter</div>
+<div class="station-box__id"><code>debris_shelter_lean_to</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="lever_press">
+<div class="station-box__name">Lever Press</div>
+<div class="station-box__id"><code>lever_press</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="li_acid_roast_kiln">
+<div class="station-box__name">Lithium Acid Roast Kiln</div>
+<div class="station-box__id"><code>li_acid_roast_kiln</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="mg_chloride_chlorinator">
+<div class="station-box__name">Magnesium Chloride Chlorinator</div>
+<div class="station-box__id"><code>mg_chloride_chlorinator</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="mg_electrolysis_cell">
+<div class="station-box__name">Magnesium Electrolysis Cell</div>
+<div class="station-box__id"><code>mg_electrolysis_cell</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="mg_flux_remelt_furnace">
+<div class="station-box__name">Magnesium Flux Remelt Furnace</div>
+<div class="station-box__id"><code>mg_flux_remelt_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="magnetic_separator">
+<div class="station-box__name">Magnetic Separator</div>
+<div class="station-box__id"><code>magnetic_separator</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="mannheim_furnace">
+<div class="station-box__name">Mannheim Furnace</div>
+<div class="station-box__id"><code>mannheim_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="membrane_electrolysis_cell">
+<div class="station-box__name">Membrane Electrolysis Cell</div>
+<div class="station-box__id"><code>membrane_electrolysis_cell</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="rectifier_mercury_arc">
+<div class="station-box__name">Mercury Arc Rectifier</div>
+<div class="station-box__id"><code>rectifier_mercury_arc</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="absorption_tower">
+<div class="station-box__name">Oleum Absorption Tower</div>
+<div class="station-box__id"><code>absorption_tower</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="open_hearth_furnace_basic">
+<div class="station-box__name">Open Hearth Furnace</div>
+<div class="station-box__id"><code>open_hearth_furnace_basic</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="waterwheel_overshot">
+<div class="station-box__name">Overshot Waterwheel</div>
+<div class="station-box__id"><code>waterwheel_overshot</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="pidgeon_retort">
+<div class="station-box__name">Pidgeon Retort</div>
+<div class="station-box__id"><code>pidgeon_retort</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="pit_storage_cache">
+<div class="station-box__name">Pit Storage Cache</div>
+<div class="station-box__id"><code>pit_storage_cache</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span></div>
+</div>
+<div class="station-box" id="post_mill_windmill">
+<div class="station-box__name">Post Mill (Windmill)</div>
+<div class="station-box__id"><code>post_mill_windmill</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="potters_wheel_kick">
+<div class="station-box__name">Potter's Wheel (Kick)</div>
+<div class="station-box__id"><code>potters_wheel_kick</code></div>
+<div class="station-box__slots"><span class="slot in">in ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="powder_press_sinter_furnace">
+<div class="station-box__name">Powder Press and Sinter Furnace</div>
+<div class="station-box__id"><code>powder_press_sinter_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="wood_pole_power">
+<div class="station-box__name">Power Pole</div>
+<div class="station-box__id"><code>wood_pole_power</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>A tall wooden pole that holds electric wires up in the air and out of the way. Line up a row of them to carry power across your base — the simplest way to move electricity around.</p>
+</div>
+<div class="station-box__hint">
+<p>Run wire from the top of one pole to the next.</p>
+</div>
+</div>
+<div class="station-box" id="precipitation_tank">
+<div class="station-box__name">Precipitation Tank</div>
+<div class="station-box__id"><code>precipitation_tank</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="reactor_assembly_bay">
+<div class="station-box__name">Reactor Assembly Bay</div>
+<div class="station-box__id"><code>reactor_assembly_bay</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="reagent_filling_line">
+<div class="station-box__name">Reagent Filling Line</div>
+<div class="station-box__id"><code>reagent_filling_line</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="reverberatory_furnace">
+<div class="station-box__name">Reverberatory Furnace</div>
+<div class="station-box__id"><code>reverberatory_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="boiler_shell_riveted">
+<div class="station-box__name">Riveted Boiler</div>
+<div class="station-box__id"><code>boiler_shell_riveted</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="roasting_pit">
+<div class="station-box__name">Roasting Pit</div>
+<div class="station-box__id"><code>roasting_pit</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="rocker_box">
+<div class="station-box__name">Rocker Box</div>
+<div class="station-box__id"><code>rocker_box</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="rotary_calciner_kiln">
+<div class="station-box__name">Rotary Calciner Kiln</div>
+<div class="station-box__id"><code>rotary_calciner_kiln</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="quern_rotary">
+<div class="station-box__name">Rotary Quern</div>
+<div class="station-box__id"><code>quern_rotary</code></div>
+<div class="station-box__slots"><span class="slot in">in ×2</span> <span class="slot out">out ×1</span></div>
+</div>
+<div class="station-box" id="quern_saddle">
+<div class="station-box__name">Saddle Quern</div>
+<div class="station-box__id"><code>quern_saddle</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="sheet_metal_press">
+<div class="station-box__name">Sheet Metal Press</div>
+<div class="station-box__id"><code>sheet_metal_press</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="debris_shelter_frame">
+<div class="station-box__name">Shelter Frame</div>
+<div class="station-box__id"><code>debris_shelter_frame</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Stand up this wooden frame first, then lean branches and dried grass against it to fill in the walls. It's the skeleton your shelter is built around.</p>
+</div>
+<div class="station-box__hint">
+<p>Add thatch (bundled dried grass) to fill in the walls.</p>
+</div>
+</div>
+<div class="station-box" id="siemens_cvd_reactor">
+<div class="station-box__name">Siemens CVD Reactor</div>
+<div class="station-box__id"><code>siemens_cvd_reactor</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="snare_simple">
+<div class="station-box__name">Simple Snare</div>
+<div class="station-box__id"><code>snare_simple</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="steam_engine_simple">
+<div class="station-box__name">Simple Steam Engine</div>
+<div class="station-box__id"><code>steam_engine_simple</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="sinter_strand">
+<div class="station-box__name">Sinter Strand</div>
+<div class="station-box__id"><code>sinter_strand</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="sluice_box">
+<div class="station-box__name">Sluice Box</div>
+<div class="station-box__id"><code>sluice_box</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="generator_ac_small">
+<div class="station-box__name">Small AC Generator</div>
+<div class="station-box__id"><code>generator_ac_small</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="electric_motor_small_dc">
+<div class="station-box__name">Small DC Motor</div>
+<div class="station-box__id"><code>electric_motor_small_dc</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Feed in steady one-way electricity and this motor spins a shaft, turning that power into motion to run small machines. (Steady one-way current like this is called DC, direct current.)</p>
+</div>
+<div class="station-box__hint">
+<p>Needs a DC (one-way current) supply.</p>
+</div>
+</div>
+<div class="station-box" id="solar_pv_array">
+<div class="station-box__name">Solar PV Array</div>
+<div class="station-box__id"><code>solar_pv_array</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×1</span></div>
+<div class="station-box__desc">
+<p>A field of photovoltaic modules that turns sunlight straight into low-voltage DC, exported from the cable on its underside. No fuel, no moving parts, no emissions -- but it only makes power while the sun is up.</p>
+</div>
+<div class="station-box__hint">
+<p>Wire the DC output into your network. Daylight only.</p>
+</div>
+</div>
+<div class="station-box" id="sx_mixer_settler">
+<div class="station-box__name">Solvent Extraction Mixer-Settler</div>
+<div class="station-box__id"><code>sx_mixer_settler</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="steam_cylinder_cast_iron">
+<div class="station-box__name">Steam Cylinder</div>
+<div class="station-box__id"><code>steam_cylinder_cast_iron</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>A part, not a machine. This is the metal tube that steam pushes inside to drive an engine. Bore it out smooth at the Steam Machine Shop, then use it to build the Simple Steam Engine.</p>
+</div>
+<div class="station-box__hint">
+<p>A part used to build the Simple Steam Engine.</p>
+</div>
+</div>
+<div class="station-box" id="steam_drill">
+<div class="station-box__name">Steam Drill</div>
+<div class="station-box__id"><code>steam_drill</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Steam hammers a hard steel bit into solid rock over and over, punching holes far faster than swinging a hammer by hand. Use it to drill the holes you pack with explosives.</p>
+</div>
+<div class="station-box__hint">
+<p>Needs a steam supply under pressure and a hardened drill bit.</p>
+</div>
+</div>
+<div class="station-box" id="machine_shop_steam">
+<div class="station-box__name">Steam Machine Shop</div>
+<div class="station-box__id"><code>machine_shop_steam</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="steam_reformer">
+<div class="station-box__name">Steam Reformer</div>
+<div class="station-box__id"><code>steam_reformer</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="rolling_mill_steam">
+<div class="station-box__name">Steam Rolling Mill</div>
+<div class="station-box__id"><code>rolling_mill_steam</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="steam_turbine">
+<div class="station-box__name">Steam Turbine</div>
+<div class="station-box__id"><code>steam_turbine</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×1</span></div>
+<div class="station-box__desc">
+<p>Pipe high-pressure steam into the top inlet and it expands through the bladed rotor, spinning the shaft far faster and more efficiently than a piston engine. Couple the shaft to an AC generator to make plant-scale power; the exhaust runs out the side to a condenser.</p>
+</div>
+<div class="station-box__hint">
+<p>Feed it steam; couple its shaft to a generator.</p>
+</div>
+</div>
+<div class="station-box" id="transformer_step_down">
+<div class="station-box__name">Step-Down Transformer</div>
+<div class="station-box__id"><code>transformer_step_down</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="transformer_step_up">
+<div class="station-box__name">Step-Up Transformer</div>
+<div class="station-box__id"><code>transformer_step_up</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="anvil_stone">
+<div class="station-box__name">Stone Anvil</div>
+<div class="station-box__id"><code>anvil_stone</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="fire_ring_stones">
+<div class="station-box__name">Stone Fire Ring</div>
+<div class="station-box__id"><code>fire_ring_stones</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="mortar_stone">
+<div class="station-box__name">Stone Mortar</div>
+<div class="station-box__id"><code>mortar_stone</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="pestle_stone">
+<div class="station-box__name">Stone Pestle</div>
+<div class="station-box__id"><code>pestle_stone</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="bedroll_straw">
+<div class="station-box__name">Straw Bedroll</div>
+<div class="station-box__id"><code>bedroll_straw</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="submerged_arc_furnace">
+<div class="station-box__name">Submerged Arc Furnace</div>
+<div class="station-box__id"><code>submerged_arc_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="sulfur_burner">
+<div class="station-box__name">Sulfur Burner / Pyrite Roaster</div>
+<div class="station-box__id"><code>sulfur_burner</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="campfire_survival">
+<div class="station-box__name">Survival Campfire</div>
+<div class="station-box__id"><code>campfire_survival</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot fuel">fuel ×3</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="tailings_box">
+<div class="station-box__name">Tailings Re-Wash Box</div>
+<div class="station-box__id"><code>tailings_box</code></div>
+<div class="station-box__slots"><span class="slot in">in ×6</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="generator_ac_three_phase">
+<div class="station-box__name">Three-Phase AC Generator</div>
+<div class="station-box__id"><code>generator_ac_three_phase</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="ticl4_distillation_column">
+<div class="station-box__name">TiCl4 Distillation Column</div>
+<div class="station-box__id"><code>ticl4_distillation_column</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="stamp_mill_manual_trip_hammer">
+<div class="station-box__name">Trip Hammer</div>
+<div class="station-box__id"><code>stamp_mill_manual_trip_hammer</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="trophy_bird_hunter">
+<div class="station-box__name">Trophy: Bird Hunter</div>
+<div class="station-box__id"><code>trophy_bird_hunter</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A carved post you put up after hunting 5 birds. It does nothing but look good -- a way to show what you have done and decorate your camp.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for hunting 5 birds.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_builder">
+<div class="station-box__name">Trophy: Builder</div>
+<div class="station-box__id"><code>trophy_builder</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A little plaque you earn for placing 25 stations -- proof you have built up a real working camp. It is for decoration only.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for placing 25 stations.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_deerstalker">
+<div class="station-box__name">Trophy: Deerstalker</div>
+<div class="station-box__id"><code>trophy_deerstalker</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>Mounted antlers on a polished slab, earned by hunting 10 deer. Stand it up to show off -- it is decoration, not a crafting station.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for hunting 10 deer.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_first_iron">
+<div class="station-box__name">Trophy: First Iron</div>
+<div class="station-box__id"><code>trophy_first_iron</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A small plaque marking the very first iron you pulled from your bloomery -- a big jump from stone to metal. A keepsake to show off.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for smelting your first iron.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_lumberjack">
+<div class="station-box__name">Trophy: Lumberjack</div>
+<div class="station-box__id"><code>trophy_lumberjack</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A stump-and-axe display for chopping down 50 trees. Set it up to show you are a full-fledged lumberjack. Decoration only.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for felling 50 trees.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_master_farmer">
+<div class="station-box__name">Trophy: Master Farmer</div>
+<div class="station-box__id"><code>trophy_master_farmer</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A carved wooden bushel (a big harvest basket) celebrating 100 crops gathered. Put it on display to show off your green thumb.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for harvesting 100 crops.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_miner">
+<div class="station-box__name">Trophy: Miner</div>
+<div class="station-box__id"><code>trophy_miner</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A little stack of carved stones (a cairn) marking long hours with a pick and shovel -- 250 blocks of earth dug out. A camp decoration.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for mining 250 blocks of earth.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_wanderer">
+<div class="station-box__name">Trophy: Wanderer</div>
+<div class="station-box__id"><code>trophy_wanderer</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A weathered traveller's marker for walking 5000 studs across the world -- a few hours of unhurried exploring. Stand it up as a memento.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for walking 5000 studs.</p>
+</div>
+</div>
+<div class="station-box" id="trophy_wolfbane">
+<div class="station-box__name">Trophy: Wolfbane</div>
+<div class="station-box__id"><code>trophy_wolfbane</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>A wolf-pelt drum stand earned the hard way, by taking down 3 wolves. A trophy that shows you held your own against the pack.</p>
+</div>
+<div class="station-box__hint">
+<p>Awarded for defeating 3 wolves.</p>
+</div>
+</div>
+<div class="station-box" id="waterwheel_undershot">
+<div class="station-box__name">Undershot Waterwheel</div>
+<div class="station-box__id"><code>waterwheel_undershot</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="uranium_conversion_reactor">
+<div class="station-box__name">Uranium Conversion Reactor</div>
+<div class="station-box__id"><code>uranium_conversion_reactor</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="vacuum_arc_remelt_furnace">
+<div class="station-box__name">Vacuum Arc Remelt Furnace</div>
+<div class="station-box__id"><code>vacuum_arc_remelt_furnace</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="station_vent_stack">
+<div class="station-box__name">Vent Stack</div>
+<div class="station-box__id"><code>station_vent_stack</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>A tall chimney that carries the smoke and hot fumes from your furnaces and boilers up and away, well above where you're working, so you're not breathing them in. (A tall exhaust chimney like this is called a vent stack.)</p>
+</div>
+<div class="station-box__hint">
+<p>Connect it to a furnace or kiln's smoke port (the flue).</p>
+</div>
+</div>
+<div class="station-box" id="wafer_fab_line">
+<div class="station-box__name">Wafer Fab Line</div>
+<div class="station-box__id"><code>wafer_fab_line</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="waste_midden_basic">
+<div class="station-box__name">Waste Midden</div>
+<div class="station-box__id"><code>waste_midden_basic</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>Toss your camp scraps here and they slowly rot away in one spot, instead of piling up and drawing hungry animals to your base. (An old name for a trash heap like this is a midden.)</p>
+</div>
+<div class="station-box__hint">
+<p>Drop guts, failed crafts, and bone meal here.</p>
+</div>
+</div>
+<div class="station-box" id="wattle_screen">
+<div class="station-box__name">Wattle Screen</div>
+<div class="station-box__id"><code>wattle_screen</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Weave thin springy rods over and under each other into a stiff panel you can stand up, like a flat basket. Use it to block wind, screen off an area, or split an animal pen. (This woven-rod panel is called wattle.)</p>
+</div>
+<div class="station-box__hint">
+<p>Place it next to animal pens or open camp edges.</p>
+</div>
+</div>
+<div class="station-box" id="magnetic_separator_whims">
+<div class="station-box__name">Wet High-Intensity Magnetic Separator (WHIMS)</div>
+<div class="station-box__id"><code>magnetic_separator_whims</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×3</span></div>
+</div>
+<div class="station-box" id="wind_turbine_modern">
+<div class="station-box__name">Wind Turbine</div>
+<div class="station-box__id"><code>wind_turbine_modern</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×1</span></div>
+<div class="station-box__desc">
+<p>A tall tower with a three-blade rotor driving an internal gearbox and generator. It feeds bulk AC down the tower into the grid whenever the wind blows -- clean and fuel-free, but only as strong as the breeze.</p>
+</div>
+<div class="station-box__hint">
+<p>Wire the AC output into your network. Windy weather only.</p>
+</div>
+</div>
+<div class="station-box" id="wire_drawing_bench">
+<div class="station-box__name">Wire Drawing Bench</div>
+<div class="station-box__id"><code>wire_drawing_bench</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="storage_chest_wood">
+<div class="station-box__name">Wooden Chest</div>
+<div class="station-box__id"><code>storage_chest_wood</code></div>
+<div class="station-box__slots"><span class="slot in">in ×27</span></div>
+</div>
+<div class="station-box" id="chute_wood">
+<div class="station-box__name">Wooden Chute</div>
+<div class="station-box__id"><code>chute_wood</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+<div class="station-box__desc">
+<p>Drop this wooden slide between two stations that are touching, and items slide from one into the next on their own. Gravity does the carrying, so you never have to move them by hand once it's placed.</p>
+</div>
+<div class="station-box__hint">
+<p>Line up one station's output with the next station's input. Items roll downhill.</p>
+</div>
+</div>
+<div class="station-box" id="cooling_tank_wooden">
+<div class="station-box__name">Wooden Cooling Tank</div>
+<div class="station-box__id"><code>cooling_tank_wooden</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>A part, not a machine. A wooden tank that holds the cool water the condenser needs to chill steam back into water. Used when building the Riveted Boiler — set it near the boiler so the steam plant looks right.</p>
+</div>
+<div class="station-box__hint">
+<p>A part used to build the Riveted Boiler.</p>
+</div>
+</div>
+<div class="station-box" id="switchboard_panel_wooden">
+<div class="station-box__name">Wooden Switchboard</div>
+<div class="station-box__id"><code>switchboard_panel_wooden</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span> <span class="slot out">out ×2</span></div>
+<div class="station-box__desc">
+<p>Flip the switches here to send power from the generator out to whatever you want to run, and the dials show how much current each line is pulling. A fuse cuts a line if it pulls too much and gets dangerous. (The dials that read current are called ammeters.)</p>
+</div>
+<div class="station-box__hint">
+<p>Open it to connect circuits and read the live current.</p>
+</div>
+</div>
+<div class="station-box" id="workbench">
+<div class="station-box__name">Workbench</div>
+<div class="station-box__id"><code>workbench</code></div>
+<div class="station-box__slots"><span class="slot in">in ×9</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="beam_frame_wrought">
+<div class="station-box__name">Wrought Beam Frame</div>
+<div class="station-box__id"><code>beam_frame_wrought</code></div>
+<div class="station-box__slots"><span class="slot in">in ×1</span></div>
+<div class="station-box__desc">
+<p>A part, not a machine. A heavy iron beam that rocks up and down on a pivot like a giant see-saw, passing the engine's push along to the machinery. Used when building the Simple Steam Engine.</p>
+</div>
+<div class="station-box__hint">
+<p>A part used to build the Simple Steam Engine.</p>
+</div>
+</div>
+<div class="station-box" id="line_shaft_wrought">
+<div class="station-box__name">Wrought Line Shaft</div>
+<div class="station-box__id"><code>line_shaft_wrought</code></div>
+<div class="station-box__slots"><span class="slot none">passive</span></div>
+</div>
+<div class="station-box" id="yellowcake_precipitator">
+<div class="station-box__name">Yellowcake Precipitator</div>
+<div class="station-box__id"><code>yellowcake_precipitator</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+<div class="station-box" id="zinc_distillation_retort">
+<div class="station-box__name">Zinc Distillation Retort</div>
+<div class="station-box__id"><code>zinc_distillation_retort</code></div>
+<div class="station-box__slots"><span class="slot in">in ×4</span> <span class="slot out">out ×2</span></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../field-guide/rewards/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tokens &amp; rewards">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Tokens & rewards
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../recipes/" class="md-footer__link md-footer__link--next" aria-label="Next: Recipes">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Recipes
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Conduvia — a field manual for rebuilding the world.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.indexes", "navigation.top", "navigation.tracking", "navigation.footer", "toc.follow", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../assets/js/mathjax-config.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

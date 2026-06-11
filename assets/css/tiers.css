@@ -1,0 +1,33 @@
+/* ===========================================================================
+   Conduvia tier palette
+   Each progression chapter owns an accent pair. Components inside a
+   <div class="tierwrap" data-tier="KEY"> read these custom properties, so the
+   same quest-card / banner / chip markup re-skins itself per tier.
+   Palette source: the field-manual design brief (humanist + technical).
+   ======================================================================== */
+
+:root {
+  --accent:  #5c4733;   /* default = bark */
+  --accent2: #8d8a82;
+  --tier-rgb: 92, 71, 51;
+}
+
+/* Tier 0 — Survival : moss green + bark brown */
+[data-tier="survival"]   { --accent:#6f8f4e; --accent2:#5c4733; --tier-rgb:111,143,78; }
+/* Tier 1 — Stone : ash grey + clay */
+[data-tier="stone"]      { --accent:#8d8a82; --accent2:#b9a78f; --tier-rgb:141,138,130; }
+/* Tier 2 — Metal Ages : copper + bronze */
+[data-tier="metal_ages"] { --accent:#b5713b; --accent2:#9c6b3f; --tier-rgb:181,113,59; }
+/* Tier 3 — Steam : brass + oxblood */
+[data-tier="steam"]      { --accent:#b08d57; --accent2:#6e2e2a; --tier-rgb:176,141,87; }
+/* Tier 4 — Steel & DC : gunmetal + amber */
+[data-tier="steel"]      { --accent:#5a626b; --accent2:#f0a830; --tier-rgb:90,98,107; }
+/* Tier 5 — Electric : arc-blue + cyan */
+[data-tier="electric"]   { --accent:#2f7fd1; --accent2:#38c6e0; --tier-rgb:47,127,209; }
+/* Tier 6 — Solid State : wafer-violet + silicon grey */
+[data-tier="solidstate"] { --accent:#7d5bd6; --accent2:#9aa1ab; --tier-rgb:125,91,214; }
+/* Tier 7 — Space : deep indigo + LOX white */
+[data-tier="space"]      { --accent:#3a3f7a; --accent2:#5566b0; --tier-rgb:58,63,122; }
+
+/* Rungs / cards carry their own data-tier too */
+.rung[data-tier], .item-tier[data-tier] { border-left: 4px solid var(--accent); }
